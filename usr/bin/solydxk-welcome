@@ -1,0 +1,6 @@
+#!/bin/bash
+
+optimize='OO'; case "$*" in *--debug*) unset optimize; esac
+# Launch solydxk-welcome with all passed arguments (future reserved)
+
+python3 -tt${optimize} /usr/lib/solydxk/welcome/main.py $@

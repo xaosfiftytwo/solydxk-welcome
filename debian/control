@@ -1,0 +1,23 @@
+Source: solydxk-welcome
+Section: admin
+Priority: optional
+Maintainer: Arjen Balfoort <arjenbalfoort@solydxk.com>
+Build-Depends: debhelper (>= 9)
+  , python
+  , po4a
+  , intltool
+X-Python-Version: >= 2.7
+Standards-Version: 3.9.5
+Vcs-Git: git://github.com/solydxk/solydxk-welcome.git
+Vcs-Browser: https://github.com/solydxk/solydxk-welcome
+
+Package: solydxk-welcome
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+  , python3
+  , python3-gi
+  , gir1.2-webkit-3.0
+  , gir1.2-gtk-3.0
+Conflicts: solydxk-sws
+Replaces: solydxk-sws
+Description: Welcome screen for SoldyXK

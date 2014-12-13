@@ -1,0 +1,111 @@
+#!/bin/sh
+
+# Fix before continuing
+if [ -f /usr/share/debconf/fix_db.pl ]; then
+  perl /usr/share/debconf/fix_db.pl
+fi
+
+# New password the MySQL "root" user:
+echo "mysql-server-5.5 mysql-server/root_password password solydxk" | debconf-set-selections
+# MySQL application password for phpmyadmin:
+echo "phpmyadmin phpmyadmin/mysql/app-pass password solydxk" | debconf-set-selections
+# Password confirmation:
+echo "dbconfig-common dbconfig-common/app-password-confirm password solydxk" | debconf-set-selections
+# Password of the database's administrative user:
+echo "dbconfig-common dbconfig-common/mysql/admin-pass password solydxk" | debconf-set-selections
+# Password confirmation:
+echo "phpmyadmin phpmyadmin/app-password-confirm password solydxk" | debconf-set-selections
+# Password of the database's administrative user:
+echo "letodms letodms/mysql/admin-pass password solydxk" | debconf-set-selections
+# Password confirmation:
+echo "letodms letodms/app-password-confirm password solydxk" | debconf-set-selections
+# Password of your database's administrative user:
+echo "dbconfig-common dbconfig-common/pgsql/admin-pass password solydxk" | debconf-set-selections
+# Password confirmation:
+echo "dbconfig-common dbconfig-common/password-confirm password solydxk" | debconf-set-selections
+# Password for web-based setup system:
+echo "phpmyadmin phpmyadmin/setup-password password solydxk" | debconf-set-selections
+# MySQL application password for :
+echo "dbconfig-common dbconfig-common/mysql/app-pass password solydxk" | debconf-set-selections
+# Password of the database's administrative user:
+echo "phpmyadmin phpmyadmin/mysql/admin-pass password solydxk" | debconf-set-selections
+# MySQL application password for letodms:
+echo "letodms letodms/mysql/app-pass password solydxk" | debconf-set-selections
+# Password confirmation:
+echo "letodms letodms/password-confirm password solydxk" | debconf-set-selections
+# Password confirmation:
+echo "phpmyadmin phpmyadmin/password-confirm password solydxk" | debconf-set-selections
+# Repeat password for the MySQL "root" user:
+echo "mysql-server-5.5 mysql-server/root_password_again password solydxk" | debconf-set-selections
+# Deconfigure database for  with dbconfig-common?
+echo "dbconfig-common dbconfig-common/dbconfig-remove boolean true" | debconf-set-selections
+# Do you want to purge the database for letodms?
+echo "letodms letodms/purge boolean false" | debconf-set-selections
+# Database type to be used by phpmyadmin:
+# Choices: 
+echo "phpmyadmin phpmyadmin/database-type select mysql" | debconf-set-selections
+# Keep "administrative" database passwords?
+echo "dbconfig-common dbconfig-common/remember-admin-pass boolean true" | debconf-set-selections
+# Deconfigure database for phpmyadmin with dbconfig-common?
+echo "phpmyadmin phpmyadmin/dbconfig-remove boolean true" | debconf-set-selections
+# Connection method for MySQL database of :
+# Choices: unix socket, tcp/ip
+echo "dbconfig-common dbconfig-common/mysql/method select unix socket" | debconf-set-selections
+# Reinstall database for phpmyadmin?
+echo "phpmyadmin phpmyadmin/dbconfig-reinstall boolean false" | debconf-set-selections
+# MySQL username for letodms:
+echo "letodms letodms/db/app-user string letodms" | debconf-set-selections
+# Perform upgrade on database for  with dbconfig-common?
+echo "dbconfig-common dbconfig-common/dbconfig-upgrade boolean true" | debconf-set-selections
+# Do you want to purge the database for phpmyadmin?
+echo "phpmyadmin phpmyadmin/purge boolean false" | debconf-set-selections
+# Name of the database's administrative user:
+echo "phpmyadmin phpmyadmin/mysql/admin-user string root" | debconf-set-selections
+# Deconfigure database for letodms with dbconfig-common?
+echo "letodms letodms/dbconfig-remove boolean true" | debconf-set-selections
+# Configure database for letodms with dbconfig-common?
+echo "letodms letodms/dbconfig-install boolean true" | debconf-set-selections
+# Name of the database's administrative user:
+echo "dbconfig-common dbconfig-common/mysql/admin-user string root" | debconf-set-selections
+# Choices: 
+echo "letodms letodms/database-type select mysql" | debconf-set-selections
+# Connection method for MySQL database of phpmyadmin:
+# Choices: unix socket, tcp/ip
+echo "phpmyadmin phpmyadmin/mysql/method select unix socket" | debconf-set-selections
+# MySQL username for phpmyadmin:
+echo "phpmyadmin phpmyadmin/db/app-user string phpmyadmin" | debconf-set-selections
+# Web server to reconfigure automatically:
+# Choices: apache2, lighttpd
+echo "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2" | debconf-set-selections
+# Configure database for  with dbconfig-common?
+echo "dbconfig-common dbconfig-common/dbconfig-install boolean true" | debconf-set-selections
+# Reinstall database for letodms?
+echo "letodms letodms/dbconfig-reinstall boolean false" | debconf-set-selections
+# Username for web-based setup system:
+echo "phpmyadmin phpmyadmin/setup-username string admin" | debconf-set-selections
+# Start the MySQL server on boot?
+echo "mysql-server-5.5 mysql-server-5.5/start_on_boot boolean true" | debconf-set-selections
+# MySQL database name for phpmyadmin:
+echo "phpmyadmin phpmyadmin/db/dbname string phpmyadmin" | debconf-set-selections
+# MySQL database name for letodms:
+echo "letodms letodms/db/dbname string letodms" | debconf-set-selections
+# Perform upgrade on database for phpmyadmin with dbconfig-common?
+echo "phpmyadmin phpmyadmin/dbconfig-upgrade boolean true" | debconf-set-selections
+# Name of the database's administrative user:
+echo "letodms letodms/mysql/admin-user string root" | debconf-set-selections
+# Configure database for phpmyadmin with dbconfig-common?
+echo "phpmyadmin phpmyadmin/dbconfig-install boolean true" | debconf-set-selections
+# WARNING: include path for php has changed!
+echo "libphp-adodb libphp-adodb/pathmove note " | debconf-set-selections
+
+apt-get update
+apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold --force-yes dolibarr phpmyadmin letodms projectlibre gnucash
+
+IND='/var/www/html/index.html'
+if [ -f $IND ]; then
+  mv $IND $IND.bak
+fi
+
+cp -r /usr/share/solydxk/welcome/html/en /var/www/html/
+cp -r /usr/share/solydxk/welcome/html/link /var/www/html/
+ln -s /var/www/html/en/business.html /var/www/html/index.html

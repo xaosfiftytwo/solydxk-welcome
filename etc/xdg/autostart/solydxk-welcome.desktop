@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SolydXK Welcome
+Name[nl]=SolydXK Welkom
+Comment=SolydXK Welcome Screen
+Comment[nl]=SolydXK Welkom Scherm
+Exec=solydxk-welcome -a
+Terminal=false
+Type=Application

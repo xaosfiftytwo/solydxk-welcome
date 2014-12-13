@@ -1,0 +1,6 @@
+usr
+etc
+po/mo/*  usr/share/locale/
+html/link          usr/share/solydxk/welcome/html/
+html/en            usr/share/solydxk/welcome/html/
+#html/translated/*  usr/share/solydxk/welcome/html/
