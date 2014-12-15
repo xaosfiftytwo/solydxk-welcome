@@ -1,0 +1,17 @@
+#!/bin/bash
+
+AMD64='libdvdcss2 w64codecs'
+I386='libdvdcss2 w32codecs'
+
+# ======================================
+
+PCK=$I386
+if [ "$(uname -m)" == "x86_64" ]; then
+  PCK=$AMD64
+fi
+
+apt-get update
+echo
+echo "Start installing: $PCK"
+apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold --force-yes $PCK
+echo "Done"

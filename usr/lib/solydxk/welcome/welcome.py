@@ -5,7 +5,7 @@
 from gi.repository import Gtk, Gdk, GObject, GLib
 import gettext
 from os.path import join, abspath, dirname, basename, exists
-from utils import isAmd64, ExecuteThreadedCommands, hasInternetConnection
+from utils import ExecuteThreadedCommands, hasInternetConnection
 from simplebrowser import SimpleBrowser
 import os
 from dialogs import MessageDialogSafe
@@ -113,22 +113,17 @@ class SolydXKWelcome(object):
             # Check for installation script
             msg = _("Please enter your password")
             page = self.pages[self.currentPage][1]
-            scriptBase = join(self.scriptDir, "scripts/{}".format(page))
-            scriptExtensions = []
-            scriptExtensions.append('all')
-            if isAmd64():
-                scriptExtensions.append('amd64')
+            script = join(self.scriptDir, "scripts/{}".format(page))
+            if exists(script):
+                if actionNr == 1:
+                    self.exec_command("gksudo -m \"{}\" \"/bin/sh -c {}\"".format(msg, script))
+                elif actionNr == 2:
+                    os.system("/bin/sh -c \"{}\" &".format(script))
+                    self.set_buttons_state(True)
             else:
-                scriptExtensions.append('i386')
-            for ext in scriptExtensions:
-                script = "{}_{}".format(scriptBase, ext)
-                if exists(script):
-                    if actionNr == 1:
-                        self.exec_command("gksudo -m \"{}\" \"/bin/sh -c {}\"".format(msg, script))
-                    elif actionNr == 2:
-                        os.system("/bin/sh -c \"{}\" &".format(script))
-                        self.set_buttons_state(True)
-                    break
+                msg = _("Cannot install the requested software:\n"
+                        "Script not found: {}".format(script))
+                MessageDialogSafe(self.btnInstall.get_label(), detail, Gtk.MessageType.ERROR, self.window).show()
 
     def on_btnQuit_clicked(self, widget):
         self.on_welcomeWindow_destroy(widget)

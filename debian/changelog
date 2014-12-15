@@ -1,3 +1,9 @@
+solydxk-welcome (1.0.1) solydxk; urgency=low
+
+  * Differentiate between SolydX and SolydK packages
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 15 Dec 2014 08:00:00 +0100
+
 solydxk-welcome (1.0.0) solydxk; urgency=low
 
   * Initial release
