@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-04 09:36+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../usr/lib/solydxk/welcome/welcome.py:61
+#: ../usr/lib/solydxk/welcome/main.py:31
+#: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
+#: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
+msgid "SolydXK Welcome"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/welcome.py:62
+msgid "Install"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/welcome.py:63
+msgid "Quit"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/welcome.py:64
+msgid "Next"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/welcome.py:65
+msgid "Previous"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/welcome.py:106
+msgid "No internet connection"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/welcome.py:107
+msgid ""
+"You need an internet connection to install the additional software.\n"
+"Please, connect to the internet and try again."
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/welcome.py:115
+msgid "Please enter your password"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/welcome.py:125
+msgid ""
+"Cannot install the requested software:\n"
+"Script not found: {}"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/welcome.py:179
+msgid ""
+"There was an error during the installation.\n"
+"Please, run 'sudo apt-get -f install' in a terminal.\n"
+"Visit our forum for support: http://forums.solydxk.com"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/welcome.py:187
+msgid "The software has been successfully installed."
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/main.py:32
+msgid ""
+"SolydXK Welcome cannot be started in a live environment\n"
+"You can use the --force argument to start SolydXK Welcome in a live "
+"environment"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/main.py:88
+msgid "Unexpected error"
+msgstr ""
+
+#: ../usr/lib/solydxk/welcome/main.py:89
+msgid ""
+"SolydXK Welcome has failed with the following unexpected error.\n"
+"Please submit a bug report!"
+msgstr ""
+
+#: ../usr/share/applications/solydxk-welcome.desktop.in.h:1
+msgid "Welcome"
+msgstr ""
+
+#: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
+msgid "SolydXK Welcome Screen"
+msgstr ""

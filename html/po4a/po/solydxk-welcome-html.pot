@@ -1,0 +1,456 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-13 15:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.12.0\n"
+
+#: en/business.html+html.body.h1:10
+msgid "Business applications"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:18
+msgid "This is a list of recommended applications suited for businesses."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:19
+#: en/home.html+html.body.div.div.table.tr.td.p:18
+#: en/system.html+html.body.div.div.table.tr.td.p:17
+msgid ""
+"When you click the install button all listed applications are going to be "
+"installed on your system. You can use the software manager to install them "
+"separately."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:22
+msgid "Gnucash"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.br:24
+msgid ""
+"GnuCash is personal and small-business financial-accounting software."
+"<br><br> Designed to be easy to use, yet powerful and flexible, GnuCash "
+"allows you to track bank accounts, stocks, income and expenses. As quick and "
+"intuitive to use as a checkbook register, it is based on professional "
+"accounting principles to ensure balanced books and accurate reports."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:32
+msgid ""
+"Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
+"gnucash.org</a>"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:34
+msgid "Dolibarr"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:37
+msgid ""
+"Dolibarr ERP and CRM is a modern and easy to use web software to manage your "
+"business (contacts, invoices, orders, products, stocks, agenda, emailings, "
+"etc...)."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p.ul.li:38
+msgid ""
+"On first run, final configuration is started. You will need to fill in the "
+"following information: <ul>"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p.ul.li:40
+msgid "Password for Dolibarr database owner: dolibarr"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p.ul.li:41
+msgid "Superuser access: root / your_root_password"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p.ul.li:42
+msgid "Dolibarr admin login : admin / admin"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:49
+msgid ""
+"Homepage: <a href=\"http://www.dolibarr.org/\" target=\"_blank\">http://www."
+"dolibarr.org</a>"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:51
+msgid "Letodms"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:54
+msgid ""
+"LetoDMS is an open-source, web-based document management system (DMS) "
+"written in PHP with a database backend. LetoDMS provides document meta-data, "
+"version control, security and easy access to your documents."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:55
+msgid "Login with: admin / admin"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:56
+msgid ""
+"You can maintain the Dolibarr and Letodms databases with phpMyAdmin (Login: "
+"root / your_root_password)"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:61
+msgid ""
+"Homepage: <a href=\"http://www.letodms.com/\" target=\"_blank\">http://www."
+"letodms.com</a>"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:63
+msgid "ProjectLibre"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:65
+msgid ""
+"ProjectLibre is a project management software system. It intends to be a "
+"complete desktop replacement for Microsoft Project."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:71
+msgid ""
+"Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank\">http://"
+"www.projectlibre.org</a>"
+msgstr ""
+
+#: en/drivers.html+html.body.h1:9
+msgid "Hardware drivers"
+msgstr ""
+
+#: en/drivers.html+html.body.div.div:12
+msgid ""
+"SolydXK comes with a wide variety of drivers pre-installed. For most "
+"purposes these drivers suffice but in some cases better performance is "
+"provided by the proprietary drivers of the manufacturer.<br><br> The install "
+"button will open the Device Driver Manager (DDM). This is a tool to help you "
+"installing these hardware drivers. It will check your hardware and list any "
+"available proprietary drivers you can install. You only need to select the "
+"recommended driver for your hardware and DDM will do the rest.<br><br> "
+"Currently <strong>Nvidia</strong>, <strong>ATI</strong> and "
+"<strong>Broadcom</strong> drivers can be installed and allows to install the "
+"<strong>PAE</strong> kernel for multi-core 32-bit systems."
+msgstr ""
+
+#: en/home.html+html.body.h1:10
+msgid "Home applications"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td.p:17
+msgid "This is a list of recommended applications suited for home users."
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:21
+msgid "Gimp"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td.br:23
+msgid ""
+"GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
+"distributed program for such tasks as photo retouching, image composition "
+"and image authoring.<br><br> It has many capabilities. It can be used as a "
+"simple paint program, an expert quality photo retouching program, an online "
+"batch processing system, a mass production image renderer, an image format "
+"converter, etc."
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:30
+msgid ""
+"Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
+"org</a>"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:32
+msgid "Inkscape"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:34
+msgid ""
+"Inkscape is an open-source vector graphics editor similar to Adobe "
+"Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
+"its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
+"as the native format."
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:41
+msgid ""
+"Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
+"inkscape.org</a>"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:43
+msgid "Shotwell"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td.br:45
+msgid ""
+"Shotwell is an image organizer designed to provide personal photo management."
+"<br><br> Shotwell can import photos and videos from a digital camera "
+"directly. Shotwell automatically groups photos and videos by date, and "
+"supports tagging. Its image editing features allow users to straighten, "
+"crop, eliminate red eye, and adjust levels and color balance."
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:52
+msgid ""
+"Homepage: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target=\"_blank"
+"\">https://wiki.gnome.org/Apps/Shotwell</a>"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:54
+msgid "Clementine"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td.br:56
+msgid ""
+"Clementine is a modern music player and library organizer.<br><br> "
+"Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
+"focusing on a fast and easy-to-use interface for searching and playing your "
+"music."
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:63
+msgid ""
+"Homepage: <a href=\"https://www.clementine-player.org\" target=\"_blank"
+"\">https://www.clementine-player.org</a>"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:65
+msgid "HandBrake"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:67
+msgid ""
+"HandBrake is a tool for converting video from nearly any format to a "
+"selection of modern, widely supported codecs."
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:73
+msgid ""
+"Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
+"handbrake.fr</a>"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:75
+msgid "SoundConverter"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:77
+msgid ""
+"SoundConverter is the leading audio file converter. It reads anything "
+"GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
+"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
+"Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:85
+msgid ""
+"Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
+"soundconverter.org</a>"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:87
+msgid "Pitivi"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:89
+msgid ""
+"Pitivi is a Free video editor with a beautiful and intuitive user interface, "
+"a clean codebase and a fantastic community."
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:95
+msgid ""
+"Homepage: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://www."
+"pitivi.org</a>"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:97
+msgid "Transmission"
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:99
+msgid ""
+"Transmission is a BitTorrent client which features a simple interface on top "
+"of a cross-platform back-end."
+msgstr ""
+
+#: en/home.html+html.body.div.div.table.tr.td:105
+msgid ""
+"Homepage: <a href=\"https://www.transmissionbt.com/\" target=\"_blank"
+"\">https://www.transmissionbt.com</a>"
+msgstr ""
+
+#: en/legal.html+html.body.h1:9
+msgid "Multimedia codecs"
+msgstr ""
+
+#: en/legal.html+html.body.div.div.div.br:13
+msgid ""
+"Legal warning:<br>Check with your local laws to make sure usage of "
+"libdvdcss2 would be legal in your area."
+msgstr ""
+
+#: en/legal.html+html.body.div.div.ul.li:18
+msgid "libdvdcss2"
+msgstr ""
+
+#: en/legal.html+html.body.div.div.ul.li:19
+msgid "w32codecs or w64codecs"
+msgstr ""
+
+#: en/system.html+html.body.h1:10
+msgid "System applications"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:20
+msgid "Gparted"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:22
+msgid ""
+"GParted is a free partition editor for graphically managing your disk "
+"partitions. With GParted you can resize, copy, and move partitions without "
+"data loss."
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:29
+msgid ""
+"Homepage: <a href=\"http://gparted.sourceforge.net/\" target=\"_blank"
+"\">http://gparted.sourceforge.net</a>"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:31
+msgid "VirtualBox"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:33
+msgid ""
+"VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
+"at server, desktop and embedded use. The VirtualBox package installs on an "
+"existing host operating system as an application; this host application "
+"allows additional guest operating systems, each known as a Guest OS, to load "
+"and run, each with its own virtual environment."
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:41
+msgid ""
+"Homepage: <a href=\"https://www.virtualbox.org/\" target=\"_blank\">https://"
+"www.virtualbox.org</a>"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:43
+msgid "FileZilla"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:45
+msgid ""
+"FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
+"client with lots of useful features and an intuitive graphical user "
+"interface."
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:51
+msgid ""
+"Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank"
+"\">https://filezilla-project.org</a>"
+msgstr ""
+
+#: en/welcome.html+html.body.h1:9
+msgid "Welcome to SolydXK"
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.p:13
+msgid ""
+"SolydXK is an open source desktop operating system for businesses, "
+"organizations and home users. Both SolydX and SolydK are based on Debian "
+"stable to ensure the greatest stability and security."
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.p:17
+msgid ""
+"We have created a list of recommended software for businesses and home users "
+"which you can install in the next couple of pages."
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.p:20
+msgid "Click on the <strong>Next</strong> button to get started."
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td:24
+msgid "Software"
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td:26
+msgid ""
+"All software is built, maintained and checked by the community. Software "
+"databases called \"repositories\" are used to offer and maintain over 60,000 "
+"software packages. So, there is no need to download software from dubious "
+"web sites. You simply search and install the software you need with the "
+"Software Manager."
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td:34
+msgid "Support"
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td:36
+msgid ""
+"If you're new to SolydXK or whenever you get stuck, there is the SolydXK "
+"community to help you solve your problem. You can search the forum to find "
+"if your issue has already been solved or start a new topic to get help."
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td:43
+msgid ""
+"Forum: <a href=\"http://forums.solydxk.com/\" target=\"_blank\">http://"
+"forums.solydxk.com</a>"
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td.p:47
+msgid ""
+"The following channels are used to communicate to the SolydX and SolydK "
+"users:"
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:49
+msgid ""
+"E-mail : <a href=\"http://solydxk.com/news\" target=\"_blank\">http://"
+"solydxk.com/news</a>"
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:50
+msgid ""
+"RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
+"com/feed</a>"
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:51
+msgid ""
+"Facebook: <a href=\"http://www.facebook.com/solyd.xk\" target=\"_blank"
+"\">http://www.facebook.com/solyd.xk</a>"
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:52
+msgid ""
+"Twitter: <a href=\"https://twitter.com/solydxk\" target=\"_blank\">https://"
+"twitter.com/solydxk</a>"
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:53
+msgid ""
+"Google+: <a href=\"https://plus.google.com/+Solydxk\" target=\"_blank"
+"\">https://plus.google.com/+Solydxk</a>"
+msgstr ""

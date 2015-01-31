@@ -34,6 +34,7 @@ class SolydXKWelcome(object):
         self.pages.append([1, 'business'])
         self.pages.append([1, 'home'])
         self.pages.append([1, 'system'])
+        self.pages.append([1, 'games'])
         self.pages.append([1, 'legal'])
         self.pages.append([2, 'drivers'])
 

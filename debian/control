@@ -3,10 +3,10 @@ Section: admin
 Priority: optional
 Maintainer: Arjen Balfoort <arjenbalfoort@solydxk.com>
 Build-Depends: debhelper (>= 9)
-  , python
+  , python3 (>= 3.2)
   , po4a
   , intltool
-X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.2
 Standards-Version: 3.9.5
 Vcs-Git: git://github.com/solydxk/solydxk-welcome.git
 Vcs-Browser: https://github.com/solydxk/solydxk-welcome
