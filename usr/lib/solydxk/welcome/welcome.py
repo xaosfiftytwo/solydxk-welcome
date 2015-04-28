@@ -164,15 +164,14 @@ class SolydXKWelcome(object):
         # First test if full locale directory exists, e.g. html/pt_BR,
         # otherwise perhaps at least the language is there, e.g. html/fi
         lang = self.get_current_language()
-        for lang in (lang, lang.split('_')[0]):
-            path = os.path.join(self.htmlDir, lang)
-            if lang and os.path.isdir(path):
-                return path
+        path = os.path.join(self.htmlDir, lang)
+        if os.path.isdir(path) and path != self.htmlDir:
+            return path
         # else, just return English slides
         return os.path.join(self.htmlDir, 'en')
 
     def get_current_language(self):
-        return os.environ.get('LANG', 'US').split('.')[0].split('_')[-1]
+        return os.environ.get('LANG', 'US').split('.')[0].split('_')[-1].lower()
 
     def show_message(self, cmdOutput, onlyOnError=False):
         try:

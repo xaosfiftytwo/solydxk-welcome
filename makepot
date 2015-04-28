@@ -1,8 +1,8 @@
 #!/bin/sh
 
 cd $(dirname $0)/po && make update
-cd ../html
-rm pot/*.pot
-rm po4a/po/solydxk-welcome-html.pot
-html2po -P en pot
-msgcat pot/*.pot > po4a/po/solydxk-welcome-html.pot
+#cd ../html
+#rm pot/*.pot
+#rm po4a/po/solydxk-welcome-html.pot
+#html2po -P en pot
+#msgcat pot/*.pot > po4a/po/solydxk-welcome-html.pot

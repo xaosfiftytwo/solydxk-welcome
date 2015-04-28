@@ -1,0 +1,77 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-28 11:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.12.0\n"
+
+#: en/system.html+html.body.h1:10
+msgid "System applications"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td.p:17
+msgid ""
+"When you click the install button all listed applications are going to be "
+"installed on your system. You can use the software manager to install them "
+"separately."
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:20
+msgid "Gparted"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td.p:23
+msgid ""
+"GParted is a free partition editor for graphically managing your disk "
+"partitions. With GParted you can resize, copy, and move partitions without "
+"data loss."
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:28
+msgid ""
+"Homepage: <a href=\"http://gparted.sourceforge.net/\" target=\"_blank\""
+">http://gparted.sourceforge.net</a>"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:30
+msgid "VirtualBox"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td.p:33
+msgid ""
+"VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted "
+"at server, desktop and embedded use. The VirtualBox package installs on an "
+"existing host operating system as an application; this host application "
+"allows additional guest operating systems, each known as a Guest OS, to load "
+"and run, each with its own virtual environment."
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:38
+msgid ""
+"Homepage: <a href=\"https://www.virtualbox.org/\" target=\"_blank\""
+">https://www.virtualbox.org</a>"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:40
+msgid "FileZilla"
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td.p:43
+msgid ""
+"FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP "
+"client with lots of useful features and an intuitive graphical user "
+"interface."
+msgstr ""
+
+#: en/system.html+html.body.div.div.table.tr.td:48
+msgid ""
+"Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank\">https"
+"://filezilla-project.org</a>"
+msgstr ""

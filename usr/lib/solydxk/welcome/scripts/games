@@ -1,11 +1,20 @@
 #!/bin/bash
 
-PCK='minetest 0ad wesnoth sauerbraten neverball supertuxkart'
+PCK='steam minetest 0ad wesnoth sauerbraten neverball supertuxkart'
 
 # ===============================================================
+
+# Preseeding doesn't seem to work with steam:
+# http://lists.alioth.debian.org/pipermail/pkg-games-devel/2014-December/033140.html
+#echo "Preseeding for steam..."
+#echo "steam steam/question select \"I AGREE\"" | debconf-set-selections
+#echo "steam steam/license note " | debconf-set-selections
+#echo "steam steam/purge note " | debconf-set-selections
+
 
 apt-get update
 echo
 echo "Start installing: $PCK"
+export DEBIAN_FRONTEND=gnome
 apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold --force-yes $PCK
 echo "Done"

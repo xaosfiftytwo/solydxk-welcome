@@ -61,7 +61,7 @@ a
 	vertical-align: bottom;
 }
 
-img {
+.screenshot {
   width: 250px;
   height: Auto;
   -o-object-fit: contain;

@@ -1,0 +1,154 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-28 11:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.12.0\n"
+
+#: en/business.html+html.head.title:4
+msgctxt "en/business.html html.head.title:4"
+msgid "Business applications"
+msgstr ""
+
+#: en/business.html+html.body.h1:11
+msgctxt "en/business.html html.body.h1:11"
+msgid "Business applications"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:19
+msgid "This is a list of recommended applications suited for businesses."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:20
+msgid ""
+"When you click the install button all listed applications are going to be "
+"installed on your system. You can use the software manager to install them "
+"separately."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:23
+msgid "Gnucash"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:26
+msgid "GnuCash is personal and small-business financial-accounting software."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:27
+msgid ""
+"Designed to be easy to use, yet powerful and flexible, GnuCash allows you to "
+"track bank accounts, stocks, income and expenses. As quick and intuitive to "
+"use as a checkbook register, it is based on professional accounting "
+"principles to ensure balanced books and accurate reports."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:29
+msgid "gnucash"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:32
+msgid ""
+"Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\""
+">http://www.gnucash.org</a>"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:34
+msgid "Dolibarr"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:37
+msgid ""
+"Dolibarr ERP and CRM is a modern and easy to use web software to manage your "
+"business (contacts, invoices, orders, products, stocks, agenda, emailings, "
+"etc...)."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:38
+msgid ""
+"On first run, final configuration is started. You will need to fill in the "
+"following information:"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.ul.li:40
+msgid "Password for Dolibarr database owner: dolibarr"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.ul.li:41
+msgid "Superuser access: root / your_root_password"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.ul.li:42
+msgid "Dolibarr admin login : admin / admin"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:44
+msgid "Replace \"your_root_password\" with your root password."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:46
+msgid "dolibarr"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:49
+msgid ""
+"Homepage: <a href=\"http://www.dolibarr.org/\" target=\"_blank\""
+">http://www.dolibarr.org</a>"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:51
+msgid "Letodms"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:54
+msgid ""
+"LetoDMS is an open-source, web-based document management system (DMS) "
+"written in PHP with a database backend. LetoDMS provides document meta-data, "
+"version control, security and easy access to your documents."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:55
+msgid "Login with: admin / admin"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:56
+msgid ""
+"You can maintain the Dolibarr and Letodms databases with phpMyAdmin (Login: "
+"root / your_root_password)"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:58
+msgid "letodms"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:61
+msgid ""
+"Homepage: <a href=\"http://www.letodms.com/\" target=\"_blank\""
+">http://www.letodms.com</a>"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:63
+msgid "ProjectLibre"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td.p:66
+msgid ""
+"ProjectLibre is a project management software system. It intends to be a "
+"complete desktop replacement for Microsoft Project."
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:68
+msgid "projectlibre"
+msgstr ""
+
+#: en/business.html+html.body.div.div.table.tr.td:71
+msgid ""
+"Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank\""
+">http://www.projectlibre.org</a>"
+msgstr ""
