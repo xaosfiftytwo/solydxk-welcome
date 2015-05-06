@@ -6,16 +6,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SolydXK Welcome (1.0.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-28 11:29+0200\n"
-"PO-Revision-Date: 2015-04-28 10:30+0200\n"
-"Last-Translator: root <arjenbalfoort@solydxk.com>\n"
+"POT-Creation-Date: 2015-04-29 14:44+0200\n"
+"PO-Revision-Date: 2015-04-29 13:48+0100\n"
+"Last-Translator: Frank de Bruijn <f.d.de.bruijn@gmail.com>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #: ../usr/lib/solydxk/welcome/welcome.py:61
 #: ../usr/lib/solydxk/welcome/main.py:31
@@ -42,7 +42,7 @@ msgstr "Vorige"
 
 #: ../usr/lib/solydxk/welcome/welcome.py:106
 msgid "No internet connection"
-msgstr "Geen internet connectie"
+msgstr "Geen internetverbinding"
 
 #: ../usr/lib/solydxk/welcome/welcome.py:107
 msgid ""
@@ -121,7 +121,7 @@ msgstr "Bedrijfsapplicaties"
 #: en/business.html+html.body.div.div.table.tr.td.p:19
 msgid "This is a list of recommended applications suited for businesses."
 msgstr ""
-"Dit is een lijst van aanbevolen applicaties geschikt zijn voor bedrijven."
+"Dit is een lijst van aanbevolen applicaties die geschikt zijn voor bedrijven."
 
 #: en/business.html+html.body.div.div.table.tr.td.p:20
 #: en/home.html+html.body.div.div.table.tr.td.p:19
@@ -131,8 +131,8 @@ msgid ""
 "installed on your system. You can use the software manager to install them "
 "separately."
 msgstr ""
-"Wanneer u op de installatieknop klikt, worden alle onderstaande spellen "
-"geïnstalleerd. U kunt de software manager gebruiken om ze afzonderlijk te "
+"Wanneer u op de installatieknop klikt, worden alle onderstaande applicaties "
+"geïnstalleerd. U kunt de softwaremanager gebruiken om ze afzonderlijk te "
 "installeren."
 
 #: en/business.html+html.body.div.div.table.tr.td:23
@@ -142,7 +142,7 @@ msgstr "Gnucash"
 #: en/business.html+html.body.div.div.table.tr.td.p:26
 msgid "GnuCash is personal and small-business financial-accounting software."
 msgstr ""
-"GnuCash is persoonlijk en klein-zakelijke financieel-boekhoudkundige "
+"GnuCash is persoonlijke en klein-zakelijke financieel-boekhoudkundige "
 "software."
 
 #: en/business.html+html.body.div.div.table.tr.td.p:27
@@ -152,8 +152,8 @@ msgid ""
 "use as a checkbook register, it is based on professional accounting "
 "principles to ensure balanced books and accurate reports."
 msgstr ""
-"GnuCash is ontworpen om gemakkelijk, maar ook krachtig en flexibel te zijn, "
-"u kunt uw bankrekeningen, aandelen, inkomsten en uitgaven bijhouden. Het is "
+"GnuCash is ontworpen om gemakkelijk, maar ook krachtig en flexibel te zijn. "
+"U kunt uw bankrekeningen, aandelen, inkomsten en uitgaven bijhouden. Het is "
 "gebaseerd op professionele boekhoudkundige principes om gebalanceerde boeken "
 "en accurate rapporten te verzekeren."
 
@@ -179,9 +179,9 @@ msgid ""
 "business (contacts, invoices, orders, products, stocks, agenda, emailings, "
 "etc...)."
 msgstr ""
-"Dolibarr ERP en CRM is een modern en eenvoudig te gebruiken web-software om "
-"uw bedrijf (contacten, facturen, orders, producten, voorraden, agenda, e-"
-"mailings, enz ...) te beheren."
+"Dolibarr ERP en CRM is een moderne en eenvoudig te gebruiken websoftware om "
+"uw bedrijf te beheren (contacten, facturen, orders, producten, voorraden, "
+"agenda, e-mailings, enz ...)."
 
 #: en/business.html+html.body.div.div.table.tr.td.p:38
 msgid ""
@@ -205,7 +205,7 @@ msgstr "Dolibarr admin login : admin / admin"
 
 #: en/business.html+html.body.div.div.table.tr.td.p:44
 msgid "Replace \"your_root_password\" with your root password."
-msgstr "Vervang \"your_root_password\" met uw root wachtwoord."
+msgstr "Vervang \"your_root_password\" door uw root wachtwoord."
 
 #: en/business.html+html.body.div.div.table.tr.td:46
 msgid "dolibarr"
@@ -231,7 +231,7 @@ msgid ""
 msgstr ""
 "LetoDMS is een open-source webapplicatie. Het is een document management "
 "systeem (DMS) geschreven in PHP met een database backend. LetoDMS biedt "
-"document meta-data, versie controle, veiligheid en eenvoudige toegang tot uw "
+"document meta-data, versiecontrole, veiligheid en makkelijke toegang tot uw "
 "documenten."
 
 #: en/business.html+html.body.div.div.table.tr.td.p:55
@@ -298,10 +298,9 @@ msgid ""
 "purposes these drivers suffice but in some cases better performance is "
 "provided by the proprietary drivers of the manufacturer."
 msgstr ""
-"SolydXK wordt geleverd met een breed scala van vooraf geïnstalleerde "
-"stuurprogramma's. Voor de meeste doeleinden volstaan deze drivers, maar in "
-"sommige gevallen worden betere prestaties geleverd door de gesloten software "
-"van de fabrikant."
+"SolydXK wordt geleverd met een breed scala aan vooraf geïnstalleerde "
+"stuurprogramma's. Deze voldoen meestal, maar in sommige gevallen levert de "
+"gesloten software van de fabrikant betere prestaties."
 
 #: en/drivers.html+html.body.div.div.p:15
 msgid ""
@@ -310,31 +309,31 @@ msgid ""
 "and list any available proprietary drivers you can install. You only need to "
 "select the recommended driver for your hardware and DDM will do the rest."
 msgstr ""
-"De installatieknop zal de Device Driver Manager (DDM) openen. Dit is een "
+"De installatieknop opent de Device Driver Manager (DDM). Dit is een "
 "hulpmiddel om u te helpen bij het installeren van deze hardware drivers. Het "
-"zal je hardware controleren en een lijst van alle beschikbare drivers van de "
+"zal uw hardware controleren en een lijst van alle beschikbare drivers van de "
 "fabrikant tonen. U hoeft alleen de aanbevolen driver voor uw hardware te "
 "selecteren en DDM zal de rest doen."
 
 #: en/drivers.html+html.body.div.div.p:16
 msgid ""
 "Currently <strong>Nvidia</strong>, <strong>ATI</strong> and "
-"<strong>Broadcom</strong> drivers can be installed and allows to install the "
-"<strong>PAE</strong> kernel for multi-core 32-bit systems."
+"<strong>Broadcom</strong> drivers can be installed. DDM also allows to "
+"install the <strong>PAE</strong> kernel for multi-core 32-bit systems."
 msgstr ""
 "Momenteel kunnen <strong>Nvidia</strong>, <strong>ATI</strong> en "
-"<strong>Broadcom</strong> worden geïnstalleerd en maakt het mogelijk om de "
+"<strong>Broadcom</strong> worden geïnstalleerd. Het is ook mogelijk om de "
 "<strong>PAE</strong> kernel te installeren voor multi-core 32 bit systemen."
 
 #: en/games.html+html.head.title:4
 msgctxt "en/games.html html.head.title:4"
 msgid "Games"
-msgstr "Games"
+msgstr "Spellen"
 
 #: en/games.html+html.body.h1:11
 msgctxt "en/games.html html.body.h1:11"
 msgid "Games"
-msgstr "Games"
+msgstr "Spellen"
 
 #: en/games.html+html.body.div.div.table.tr.td.p:18
 msgid "All work and no play..."
@@ -346,7 +345,7 @@ msgid ""
 "on your system. You can use the software manager to install them separately."
 msgstr ""
 "Wanneer u op de installatieknop klikt, worden alle onderstaande spellen "
-"geïnstalleerd. U kunt de software manager gebruiken om ze afzonderlijk te "
+"geïnstalleerd. U kunt de softwaremanager gebruiken om ze afzonderlijk te "
 "installeren."
 
 #: en/games.html+html.body.div.div.table.tr.td:22
@@ -359,8 +358,8 @@ msgid ""
 "(DRM), multiplayer, and social networking platform developed by Valve "
 "Corporation."
 msgstr ""
-"Steam is een internet-baseerde digitale distributie, beheer van digitale "
-"rechten (DRM), multiplayer en sociaal netwerk platform ontwikkeld door de "
+"Steam is een internet-gebaseerd, digitaal gedistribueerd, digitale rechten "
+"(DRM) bewust, multiplayer en sociaal netwerk platform, ontwikkeld door de "
 "Valve Corporation."
 
 #: en/games.html+html.body.div.div.table.tr.td:27
@@ -377,7 +376,7 @@ msgstr ""
 
 #: en/games.html+html.body.div.div.table.tr.td.p:32
 msgid "Installed size: 200 MB (after user installation)"
-msgstr "Geïnstalleerd grootte: 200 MB"
+msgstr "Geïnstalleerde grootte: 200 MB"
 
 #: en/games.html+html.body.div.div.table.tr.td:35
 msgid "Minetest"
@@ -405,7 +404,7 @@ msgstr ""
 
 #: en/games.html+html.body.div.div.table.tr.td.p:45
 msgid "Installed size: 10 MB"
-msgstr "Geïnstalleerd grootte: 10 MB"
+msgstr "Geïnstalleerde grootte: 10 MB"
 
 #: en/games.html+html.body.div.div.table.tr.td:48
 msgid "0 A.D."
@@ -419,10 +418,10 @@ msgid ""
 "civilization, you must gather the resources you need to raise a military "
 "force and dominate your enemies."
 msgstr ""
-"0 A.D. is een gratis, open-source, historische Real Time Strategy (RTS) spel "
-"momenteel in ontwikkeling door Wildfire Games, een wereldwijde groep van "
-"vrijwillige game-ontwikkelaars. Als de leider van een oude beschaving, moet "
-"u de middelen die u nodig hebt verzamelen om uw vijanden te verslaan."
+"0 A.D. is een gratis, open-source, historisch Real Time Strategy (RTS) spel, "
+"ontwikkeld door Wildfire Games, een wereldwijde groep van vrijwillige game-"
+"ontwikkelaars. Als de leider van een oude beschaving, moet u de middelen die "
+"u nodig hebt verzamelen om uw vijanden te verslaan."
 
 #: en/games.html+html.body.div.div.table.tr.td:53
 msgid "0ad"
@@ -438,7 +437,7 @@ msgstr ""
 
 #: en/games.html+html.body.div.div.table.tr.td.p:58
 msgid "Installed size: 1 GB"
-msgstr "Geïnstalleerd grootte: 1 GB"
+msgstr "Geïnstalleerde grootte: 1 GB"
 
 #: en/games.html+html.body.div.div.table.tr.td:61
 msgid "The Battle for Wesnoth"
@@ -449,8 +448,8 @@ msgid ""
 "The Battle for Wesnoth is a turn-based tactical strategy game with a high "
 "fantasy theme."
 msgstr ""
-"De Battle for Wesnoth is een turn-based tactische strategie spel met een "
-"fantasy thema."
+"De Battle for Wesnoth is een tactisch strategie spel met een fantasy thema "
+"waarbij de spelers om beurten spelen."
 
 #: en/games.html+html.body.div.div.table.tr.td.p:65
 msgid ""
@@ -460,11 +459,11 @@ msgid ""
 "specialists, and hand-pick a force with the right strengths to fight well on "
 "different terrains against all manner of opposition."
 msgstr ""
-"Maak een groot leger en leidt uw rekruten op tot geharde veteranen. In "
-"latere spellen roept u uw hardste krijgers terug waar niemand weerstand "
-"tegen kan bieden! Kies eenheden uit een grote verzameling van specialisten, "
-"en maak eenheden met de juiste talenten om op verschillende terreinen en "
-"welke tegenstand dan ook onverslaanbaar te zijn."
+"Maak een groot leger en leid uw rekruten op tot geharde veteranen. In latere "
+"spellen roept u uw hardste krijgers terug en formeer een dodelijk leger waar "
+"niemand weerstand tegen kan bieden! Kies eenheden uit een grote verzameling "
+"van specialisten en maak eenheden met de juiste talenten om op verschillende "
+"terreinen en welke tegenstand dan ook onverslaanbaar te zijn."
 
 #: en/games.html+html.body.div.div.table.tr.td:67
 msgid "wesnoth"
@@ -480,7 +479,7 @@ msgstr ""
 
 #: en/games.html+html.body.div.div.table.tr.td.p:72
 msgid "Installed size: 450 MB"
-msgstr "Geïnstalleerd grootte: 450 MB"
+msgstr "Geïnstalleerde grootte: 450 MB"
 
 #: en/games.html+html.body.div.div.table.tr.td:75
 msgid "Sauerbraten"
@@ -517,7 +516,7 @@ msgstr ""
 
 #: en/games.html+html.body.div.div.table.tr.td.p:86
 msgid "Installed size: 650 MB"
-msgstr "Geïnstalleerd grootte: 650 MB"
+msgstr "Geïnstalleerde grootte: 650 MB"
 
 #: en/games.html+html.body.div.div.table.tr.td:89
 msgid "Neverball"
@@ -530,7 +529,7 @@ msgid ""
 "skill."
 msgstr ""
 "Kantel de vloer om een bal door een hindernisbaan te rollen voordat de tijd "
-"om is. Neverball is zowel een puzzel spel, actiespel, maar vooral een test "
+"om is. Neverball is deels puzzelspel, deels actiespel, maar vooral een test "
 "van bekwaamheid."
 
 #: en/games.html+html.body.div.div.table.tr.td:94
@@ -547,7 +546,7 @@ msgstr ""
 
 #: en/games.html+html.body.div.div.table.tr.td.p:99
 msgid "Installed size: 150 MB"
-msgstr "Geïnstalleerd grootte: 150 MB"
+msgstr "Geïnstalleerde grootte: 150 MB"
 
 #: en/games.html+html.body.div.div.table.tr.td:102
 msgid "Super Tux Kart"
@@ -575,7 +574,7 @@ msgstr ""
 
 #: en/games.html+html.body.div.div.table.tr.td.p:112
 msgid "Installed size: 350 MB"
-msgstr "Geïnstalleerd grootte: 350 MB"
+msgstr "Geïnstalleerde grootte: 350 MB"
 
 #: en/home.html+html.head.title:4
 msgctxt "en/home.html html.head.title:4"
@@ -590,7 +589,7 @@ msgstr "Thuisapplicaties"
 #: en/home.html+html.body.div.div.table.tr.td.p:18
 msgid "This is a list of recommended applications suited for home users."
 msgstr ""
-"Dit is een lijst van aanbevolen applicaties geschikt zijn voor "
+"Dit is een lijst van aanbevolen applicaties die geschikt zijn voor "
 "thuisgebruikers."
 
 #: en/home.html+html.body.div.div.table.tr.td:22
@@ -603,9 +602,9 @@ msgid ""
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
-"GIMP is een acroniem voor GNU Image Manipulation Program. GIMP is een "
+"GIMP is een acroniem voor GNU Image Manipulation Program. Het is een "
 "grafisch programma voor het bewerken van foto's en andere digitale "
-"beeldbewerking op de computer."
+"beeldbewerking."
 
 #: en/home.html+html.body.div.div.table.tr.td.p:26
 msgid ""
@@ -641,9 +640,9 @@ msgid ""
 "as the native format."
 msgstr ""
 "Inkscape is een open-source vector graphics editor vergelijkbaar met Adobe "
-"Illustrator, Corel Draw, Freehand, of Xara X. Inkscape onderscheidt zich "
-"door het gebruik van Scalable Vector Graphics (SVG), een open XML-gebaseerde "
-"W3C-standaard."
+"Illustrator, Corel Draw, Freehand of Xara X. Inkscape onderscheidt zich door "
+"het gebruik van Scalable Vector Graphics (SVG), een open XML-gebaseerde W3C-"
+"standaard."
 
 #: en/home.html+html.body.div.div.table.tr.td:38
 msgid "inkscape"
@@ -674,9 +673,9 @@ msgid ""
 "eliminate red eye, and adjust levels and color balance."
 msgstr ""
 "Shotwell kan foto's en video's van een digitale camera importeren. Shotwell "
-"groepeert automatisch foto's en video's op datum, en ondersteunt tagging. De "
-"beeldbewerking functies stellen gebruikers in staat om foto's recht te "
-"zetten, bij te snijden, rode ogen te verwijderen, en het niveau en de "
+"groepeert automatisch foto's en video's op datum en ondersteunt tagging. De "
+"beeldbewerkingsfuncties stellen gebruikers in staat om foto's recht te "
+"zetten, bij te snijden, rode ogen te verwijderen en het niveau en de "
 "kleurbalans aan te passen."
 
 #: en/home.html+html.body.div.div.table.tr.td.p:48
@@ -720,9 +719,9 @@ msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr ""
-"Clementine is een vrije muziekspeler geïnspireerd op Amarok 1.4, gericht op "
-"een snelle en makkelijk te gebruiken interface voor het zoeken en afspelen "
-"van uw muziek."
+"Clementine is een vrije muziekspeler geïnspireerd door Amarok 1.4, gericht "
+"op een snelle en makkelijk te gebruiken interface voor het zoeken en "
+"afspelen van uw muziek."
 
 #: en/home.html+html.body.div.div.table.tr.td.p:63
 msgid ""
@@ -787,8 +786,8 @@ msgid ""
 msgstr ""
 "SoundConverter converteert audiobestanden. Het leest alles wat GStreamer kan "
 "lezen (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, AC3, DTS, ALAC, "
-"MPC, verkorten, APE, SID, MOD, XM, S3M, etc ... ), en schrijft naar Opus, "
-"Ogg Vorbis, FLAC, WAV, AAC en MP3 bestanden."
+"MPC, Shorten, APE, SID, MOD, XM, S3M, enz... ) en schrijft naar Opus, Ogg "
+"Vorbis, FLAC, WAV, AAC en MP3 bestanden."
 
 #: en/home.html+html.body.div.div.table.tr.td:88
 msgid "soundconverter"
@@ -901,7 +900,7 @@ msgid ""
 "in your area."
 msgstr ""
 "Controleer uw lokale wetten om er zeker van te zijn dat het gebruik van "
-"libdvdcss2 legaal is."
+"libdvdcss2 voor u legaal is."
 
 #: en/legal.html+html.body.div.div.p:17
 msgid ""
@@ -949,9 +948,10 @@ msgid ""
 "partitions. With GParted you can resize, copy, and move partitions without "
 "data loss."
 msgstr ""
-"GParted is een programma om partities op de harde schijf te creëren, "
-"verwijderen, formatteren, verplaatsen, verkleinen en vergroten, controleren "
-"en kopiëren, met als doel het reorganiseren van een harde schijf."
+"GParted is een gratis partitiebewerker om via een grafische interface uw "
+"schijfpartities te beheren. U kunt partities maken, formatteren, controleren "
+"en verwijderen en bovendien verkleinen en vergroten, kopiëren of verplaatsen "
+"zonder verlies van gegevens."
 
 #: en/system.html+html.body.div.div.table.tr.td:28
 msgid ""
@@ -973,8 +973,8 @@ msgid ""
 "allows additional guest operating systems, each known as a Guest OS, to load "
 "and run, each with its own virtual environment."
 msgstr ""
-"VirtualBox is een vrij computerprogramma om besturingssystemen te draaien "
-"binnen een (ander) besturingssysteem. Dit gebeurt op basis van virtualisatie."
+"VirtualBox is een virtualisatieprogramma voor x86 hardware om "
+"besturingssystemen te draaien binnen een ander besturingssysteem."
 
 #: en/system.html+html.body.div.div.table.tr.td:38
 msgid ""
@@ -1023,7 +1023,7 @@ msgid ""
 "stable to ensure the greatest stability and security."
 msgstr ""
 "SolydXK is een open source besturingssysteem voor bedrijven, organisaties en "
-"thuisgebruikers. Zowel SolydX en SolydK zijn gebaseerd op Debian Stable om "
+"thuisgebruikers. Zowel SolydX als SolydK zijn gebaseerd op Debian Stable om "
 "de grootste stabiliteit en veiligheid te waarborgen."
 
 #: en/welcome.html+html.body.div.div.p.table.tr.td.p:18
@@ -1032,7 +1032,7 @@ msgid ""
 "appreciated, and ensures that we can continue improving SolydXK."
 msgstr ""
 "SolydXK is geheel gratis te gebruiken. Uw donatie wordt echter zeer "
-"gewaardeerd, en zorgt ervoor dat we SolydXK kunnen blijven verbeteren."
+"gewaardeerd en zorgt ervoor dat we SolydXK kunnen blijven verbeteren."
 
 #: en/welcome.html+html.body.div.div.p:23
 msgid ""
@@ -1059,7 +1059,7 @@ msgid ""
 "Software Manager."
 msgstr ""
 "Alle software is gebouwd, onderhouden en gecontroleerd door de gemeenschap. "
-"Software databases genaamd \"repositories\" worden gebruikt om meer dan "
+"Softwaredatabases genaamd \"repositories\" worden gebruikt om meer dan "
 "60.000 softwarepakketten aan te bieden en te onderhouden. Er is dus geen "
 "noodzaak om software te downloaden van dubieuze websites. U hoeft alleen de "
 "software die u nodig hebt met de Software Manager te zoeken en te "
@@ -1082,7 +1082,7 @@ msgstr ""
 "Als u nieuw bent bij SolydXK of wanneer u niet meer verder komt, is er de "
 "SolydXK gemeenschap om u te helpen uw probleem op te lossen. U kunt zoeken "
 "op het forum om uit te vinden of het probleem al is opgelost of u start een "
-"nieuw onderwerp om hulp te krijgen."
+"nieuw topic om hulp te krijgen."
 
 #: en/welcome.html+html.body.div.div.table.tr.td:37
 msgid "forum"

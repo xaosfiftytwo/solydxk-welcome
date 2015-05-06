@@ -1,9 +1,12 @@
 [Desktop Entry]
 Name=Welcome
+Name[ca]=Benvinguts 
 Name[nl]=Welkom
 GenericName=SolydXK Welcome
+GenericName[ca]=SolydXK Welcome
 GenericName[nl]=SolydXK Welkom
 Comment=SolydXK Welcome
+Comment[ca]=SolydXK Welcome
 Comment[nl]=SolydXK Welkom
 Exec=solydxk-welcome
 Icon=solydxk
