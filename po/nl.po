@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SolydXK Welcome (1.0.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 14:44+0200\n"
+"POT-Creation-Date: 2015-06-22 10:39+0200\n"
 "PO-Revision-Date: 2015-04-29 13:48+0100\n"
 "Last-Translator: Frank de Bruijn <f.d.de.bruijn@gmail.com>\n"
 "Language-Team: none\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Poedit 1.6.10\n"
 
 #: ../usr/lib/solydxk/welcome/welcome.py:61
-#: ../usr/lib/solydxk/welcome/main.py:31
+#: ../usr/lib/solydxk/welcome/main.py:35
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
@@ -64,7 +64,7 @@ msgstr ""
 "Kan de gevraagde software niet installeren:\n"
 "Script niet gevonden: {}"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:178
+#: ../usr/lib/solydxk/welcome/welcome.py:180
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -74,11 +74,11 @@ msgstr ""
 "Voer de volgende opdracht uit in een terminal: 'sudo apt-get -f install'.\n"
 "Bezoek ons forum wanneer u hulp nodig heeft: http://forums.solydxk.com"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:186
+#: ../usr/lib/solydxk/welcome/welcome.py:188
 msgid "The software has been successfully installed."
 msgstr "De software is succesvol geïnstalleerd."
 
-#: ../usr/lib/solydxk/welcome/main.py:32
+#: ../usr/lib/solydxk/welcome/main.py:36
 msgid ""
 "SolydXK Welcome cannot be started in a live environment\n"
 "You can use the --force argument to start SolydXK Welcome in a live "
@@ -88,11 +88,11 @@ msgstr ""
 "U kunt het --force argument gebruiken om SolydXK in een live omgeving te "
 "starten"
 
-#: ../usr/lib/solydxk/welcome/main.py:88
+#: ../usr/lib/solydxk/welcome/main.py:92
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
 
-#: ../usr/lib/solydxk/welcome/main.py:89
+#: ../usr/lib/solydxk/welcome/main.py:93
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"

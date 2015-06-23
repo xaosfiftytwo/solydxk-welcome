@@ -1,5 +1,4 @@
-#!/usr/bin/python -OO
-#-*- coding: utf-8 -*-
+#! /usr/bin/env python3 -OO
 
 import sys
 sys.path.insert(1, '/usr/lib/solydxk/welcome')
@@ -8,6 +7,11 @@ from welcome import SolydXKWelcome
 from utils import getoutput
 import os
 import getopt
+
+# i18n: http://docs.python.org/3/library/gettext.html
+import gettext
+from gettext import gettext as _
+gettext.textdomain('solydxk-welcome')
 
 # Handle arguments
 try:

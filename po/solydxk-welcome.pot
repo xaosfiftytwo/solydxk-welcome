@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 14:44+0200\n"
+"POT-Creation-Date: 2015-06-22 10:39+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../usr/lib/solydxk/welcome/welcome.py:61
-#: ../usr/lib/solydxk/welcome/main.py:31
+#: ../usr/lib/solydxk/welcome/main.py:35
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
@@ -60,29 +60,29 @@ msgid ""
 "Script not found: {}"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:178
+#: ../usr/lib/solydxk/welcome/welcome.py:180
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
 "Visit our forum for support: http://forums.solydxk.com"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:186
+#: ../usr/lib/solydxk/welcome/welcome.py:188
 msgid "The software has been successfully installed."
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/main.py:32
+#: ../usr/lib/solydxk/welcome/main.py:36
 msgid ""
 "SolydXK Welcome cannot be started in a live environment\n"
 "You can use the --force argument to start SolydXK Welcome in a live "
 "environment"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/main.py:88
+#: ../usr/lib/solydxk/welcome/main.py:92
 msgid "Unexpected error"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/main.py:89
+#: ../usr/lib/solydxk/welcome/main.py:93
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"

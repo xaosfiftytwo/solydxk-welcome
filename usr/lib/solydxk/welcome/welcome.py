@@ -1,9 +1,7 @@
 #! /usr/bin/env python3
-#-*- coding: utf-8 -*-
 
 # from gi.repository import Gtk, GdkPixbuf, GObject, Pango, Gdk, GLib
 from gi.repository import Gtk, Gdk, GObject, GLib
-import gettext
 from os.path import join, abspath, dirname, basename, exists
 from utils import ExecuteThreadedCommands, hasInternetConnection
 from simplebrowser import SimpleBrowser
@@ -11,8 +9,10 @@ import os
 from dialogs import MessageDialogSafe
 from queue import Queue
 
-# i18n: http://docs.python.org/2/library/gettext.html
-gettext.install("solydxk-welcome", "/usr/share/locale")
+# i18n: http://docs.python.org/3/library/gettext.html
+import gettext
+from gettext import gettext as _
+gettext.textdomain('solydxk-welcome')
 
 # Need to initiate threads for Gtk
 GObject.threads_init()
@@ -124,7 +124,7 @@ class SolydXKWelcome(object):
             else:
                 msg = _("Cannot install the requested software:\n"
                         "Script not found: {}".format(script))
-                MessageDialogSafe(self.btnInstall.get_label(), detail, Gtk.MessageType.ERROR, self.window).show()
+                MessageDialogSafe(self.btnInstall.get_label(), msg, Gtk.MessageType.ERROR, self.window).show()
 
     def on_btnQuit_clicked(self, widget):
         self.on_welcomeWindow_destroy(widget)
@@ -162,16 +162,18 @@ class SolydXKWelcome(object):
 
     def get_language_dir(self):
         # First test if full locale directory exists, e.g. html/pt_BR,
-        # otherwise perhaps at least the language is there, e.g. html/fi
+        # otherwise perhaps at least the language is there, e.g. html/pt
         lang = self.get_current_language()
         path = os.path.join(self.htmlDir, lang)
-        if os.path.isdir(path) and path != self.htmlDir:
+        if path != self.htmlDir:
+            if not os.path.isdir(path):
+                path = os.path.join(self.htmlDir, lang.split('_')[0].lower())
             return path
         # else, just return English slides
         return os.path.join(self.htmlDir, 'en')
 
     def get_current_language(self):
-        return os.environ.get('LANG', 'US').split('.')[0].split('_')[-1].lower()
+        return os.environ.get('LANG', 'US').split('.')[0]
 
     def show_message(self, cmdOutput, onlyOnError=False):
         try:

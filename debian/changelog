@@ -1,3 +1,9 @@
+solydxk-welcome (1.0.7) solydxk; urgency=low
+
+  * Now translations are actually working
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 21 Jun 2015 11:00:00 +0100
+
 solydxk-welcome (1.0.6) solydxk; urgency=low
 
   * Integrated HTML translations into .pot file

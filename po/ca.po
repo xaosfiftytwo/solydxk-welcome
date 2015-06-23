@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 14:44+0200\n"
+"POT-Creation-Date: 2015-06-22 10:39+0200\n"
 "PO-Revision-Date: 2015-04-29 13:37+0100\n"
 "Last-Translator: Eduard Selma <selma@tinet.cat>\n"
 "Language-Team: Catalan <admin@solydxk.com>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: ../usr/lib/solydxk/welcome/welcome.py:61
-#: ../usr/lib/solydxk/welcome/main.py:31
+#: ../usr/lib/solydxk/welcome/main.py:35
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
@@ -66,7 +66,7 @@ msgstr ""
 "No es pot instal·lar el programari demanat:\n"
 "No es troba l'script: {} "
 
-#: ../usr/lib/solydxk/welcome/welcome.py:178
+#: ../usr/lib/solydxk/welcome/welcome.py:180
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -76,11 +76,11 @@ msgstr ""
 "Executeu 'sudo apt-get -f install' en un terminal.\n"
 "Trobareu ajuda al nostre fòrum: http://forums.solydxk.com  "
 
-#: ../usr/lib/solydxk/welcome/welcome.py:186
+#: ../usr/lib/solydxk/welcome/welcome.py:188
 msgid "The software has been successfully installed."
 msgstr "El programari s'ha instal·lat amb èxit. "
 
-#: ../usr/lib/solydxk/welcome/main.py:32
+#: ../usr/lib/solydxk/welcome/main.py:36
 msgid ""
 "SolydXK Welcome cannot be started in a live environment\n"
 "You can use the --force argument to start SolydXK Welcome in a live "
@@ -89,11 +89,11 @@ msgstr ""
 "No es pot engegar SolydXK Welcome en un entorn autònom\n"
 "Podeu usar l'argument --force per engegar-lo dins d'un entorn autònom."
 
-#: ../usr/lib/solydxk/welcome/main.py:88
+#: ../usr/lib/solydxk/welcome/main.py:92
 msgid "Unexpected error"
 msgstr "Error inesperat "
 
-#: ../usr/lib/solydxk/welcome/main.py:89
+#: ../usr/lib/solydxk/welcome/main.py:93
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"
