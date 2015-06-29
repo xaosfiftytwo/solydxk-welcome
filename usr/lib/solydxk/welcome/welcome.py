@@ -168,6 +168,8 @@ class SolydXKWelcome(object):
         if path != self.htmlDir:
             if not os.path.isdir(path):
                 path = os.path.join(self.htmlDir, lang.split('_')[0].lower())
+                if not os.path.isdir(path):
+                    return os.path.join(self.htmlDir, 'en')
             return path
         # else, just return English slides
         return os.path.join(self.htmlDir, 'en')

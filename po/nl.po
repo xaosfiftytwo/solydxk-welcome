@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: SolydXK Welcome (1.0.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-22 10:39+0200\n"
+"POT-Creation-Date: 2015-06-29 12:55+0200\n"
 "PO-Revision-Date: 2015-04-29 13:48+0100\n"
 "Last-Translator: Frank de Bruijn <f.d.de.bruijn@gmail.com>\n"
 "Language-Team: none\n"
@@ -64,7 +64,7 @@ msgstr ""
 "Kan de gevraagde software niet installeren:\n"
 "Script niet gevonden: {}"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:180
+#: ../usr/lib/solydxk/welcome/welcome.py:182
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -74,7 +74,7 @@ msgstr ""
 "Voer de volgende opdracht uit in een terminal: 'sudo apt-get -f install'.\n"
 "Bezoek ons forum wanneer u hulp nodig heeft: http://forums.solydxk.com"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:188
+#: ../usr/lib/solydxk/welcome/welcome.py:190
 msgid "The software has been successfully installed."
 msgstr "De software is succesvol geïnstalleerd."
 

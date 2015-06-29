@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-22 10:39+0200\n"
+"POT-Creation-Date: 2015-06-29 12:55+0200\n"
 "PO-Revision-Date: 2015-04-29 13:37+0100\n"
 "Last-Translator: Eduard Selma <selma@tinet.cat>\n"
 "Language-Team: Catalan <admin@solydxk.com>\n"
@@ -66,7 +66,7 @@ msgstr ""
 "No es pot instal·lar el programari demanat:\n"
 "No es troba l'script: {} "
 
-#: ../usr/lib/solydxk/welcome/welcome.py:180
+#: ../usr/lib/solydxk/welcome/welcome.py:182
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -76,7 +76,7 @@ msgstr ""
 "Executeu 'sudo apt-get -f install' en un terminal.\n"
 "Trobareu ajuda al nostre fòrum: http://forums.solydxk.com  "
 
-#: ../usr/lib/solydxk/welcome/welcome.py:188
+#: ../usr/lib/solydxk/welcome/welcome.py:190
 msgid "The software has been successfully installed."
 msgstr "El programari s'ha instal·lat amb èxit. "
 

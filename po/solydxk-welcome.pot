@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-22 10:39+0200\n"
+"POT-Creation-Date: 2015-06-29 12:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,14 +60,14 @@ msgid ""
 "Script not found: {}"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:180
+#: ../usr/lib/solydxk/welcome/welcome.py:182
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
 "Visit our forum for support: http://forums.solydxk.com"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:188
+#: ../usr/lib/solydxk/welcome/welcome.py:190
 msgid "The software has been successfully installed."
 msgstr ""
 
