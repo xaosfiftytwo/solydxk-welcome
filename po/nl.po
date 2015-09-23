@@ -1,50 +1,51 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# root <arjenbalfoort@solydxk.com>, 2014, 2015.
+# Translators:
+# root <arjenbalfoort@solydxk.com>, 2014-2015
 msgid ""
 msgstr ""
-"Project-Id-Version: SolydXK Welcome (1.0.0)\n"
+"Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 12:55+0200\n"
-"PO-Revision-Date: 2015-04-29 13:48+0100\n"
-"Last-Translator: Frank de Bruijn <f.d.de.bruijn@gmail.com>\n"
+"POT-Creation-Date: 2015-09-23 10:30+0200\n"
+"PO-Revision-Date: 2015-09-23 10:28+0200\n"
+"Last-Translator: root <arjenbalfoort@solydxk.com>\n"
 "Language-Team: none\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Virtaal 0.7.1\n"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:61
+#: ../usr/lib/solydxk/welcome/welcome.py:64
 #: ../usr/lib/solydxk/welcome/main.py:35
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
 msgstr "SolydXK Welkom"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:62
+#: ../usr/lib/solydxk/welcome/welcome.py:65
 msgid "Install"
 msgstr "Installeren"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:63
+#: ../usr/lib/solydxk/welcome/welcome.py:66
 msgid "Quit"
 msgstr "Afsluiten"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:64
+#: ../usr/lib/solydxk/welcome/welcome.py:67
 msgid "Next"
 msgstr "Volgende"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:65
+#: ../usr/lib/solydxk/welcome/welcome.py:68
 msgid "Previous"
 msgstr "Vorige"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:106
+#: ../usr/lib/solydxk/welcome/welcome.py:117
 msgid "No internet connection"
 msgstr "Geen internetverbinding"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:107
+#: ../usr/lib/solydxk/welcome/welcome.py:118
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -52,11 +53,11 @@ msgstr ""
 "U hebt een internetverbinding nodig om de extra software te installeren.\n"
 "Maak verbinding met het internet en probeer het opnieuw."
 
-#: ../usr/lib/solydxk/welcome/welcome.py:115
+#: ../usr/lib/solydxk/welcome/welcome.py:126
 msgid "Please enter your password"
 msgstr "Vul uw wachtwoord in"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:125
+#: ../usr/lib/solydxk/welcome/welcome.py:136
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -64,7 +65,7 @@ msgstr ""
 "Kan de gevraagde software niet installeren:\n"
 "Script niet gevonden: {}"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:182
+#: ../usr/lib/solydxk/welcome/welcome.py:202
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -74,7 +75,7 @@ msgstr ""
 "Voer de volgende opdracht uit in een terminal: 'sudo apt-get -f install'.\n"
 "Bezoek ons forum wanneer u hulp nodig heeft: http://forums.solydxk.com"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:190
+#: ../usr/lib/solydxk/welcome/welcome.py:210
 msgid "The software has been successfully installed."
 msgstr "De software is succesvol geïnstalleerd."
 
@@ -108,24 +109,20 @@ msgstr "Welkom"
 msgid "SolydXK Welcome Screen"
 msgstr "SolydXK Welkom Scherm"
 
-#: en/business.html+html.head.title:4
-msgctxt "en/business.html html.head.title:4"
+#: en/business.html+html.body.h1:10
 msgid "Business applications"
 msgstr "Bedrijfsapplicaties"
 
-#: en/business.html+html.body.h1:11
-msgctxt "en/business.html html.body.h1:11"
-msgid "Business applications"
-msgstr "Bedrijfsapplicaties"
-
-#: en/business.html+html.body.div.div.table.tr.td.p:19
+#: en/business.html+html.body.div.div.table.tr.td.p:18
 msgid "This is a list of recommended applications suited for businesses."
 msgstr ""
 "Dit is een lijst van aanbevolen applicaties die geschikt zijn voor bedrijven."
 
-#: en/business.html+html.body.div.div.table.tr.td.p:20
-#: en/home.html+html.body.div.div.table.tr.td.p:19
+#: en/business.html+html.body.div.div.table.tr.td.p:19
+#: en/home.html+html.body.div.div.table.tr.td.p:18
+#: en/libreoffice.html+html.body.div.div.table.tr.td.p:17
 #: en/system.html+html.body.div.div.table.tr.td.p:17
+#: en/wine.html+html.body.div.div.table.tr.td.p:17
 msgid ""
 "When you click the install button all listed applications are going to be "
 "installed on your system. You can use the software manager to install them "
@@ -135,17 +132,17 @@ msgstr ""
 "geïnstalleerd. U kunt de softwaremanager gebruiken om ze afzonderlijk te "
 "installeren."
 
-#: en/business.html+html.body.div.div.table.tr.td:23
+#: en/business.html+html.body.div.div.table.tr.td:22
 msgid "Gnucash"
 msgstr "Gnucash"
 
-#: en/business.html+html.body.div.div.table.tr.td.p:26
+#: en/business.html+html.body.div.div.table.tr.td.p:25
 msgid "GnuCash is personal and small-business financial-accounting software."
 msgstr ""
 "GnuCash is persoonlijke en klein-zakelijke financieel-boekhoudkundige "
 "software."
 
-#: en/business.html+html.body.div.div.table.tr.td.p:27
+#: en/business.html+html.body.div.div.table.tr.td.p:26
 msgid ""
 "Designed to be easy to use, yet powerful and flexible, GnuCash allows you to "
 "track bank accounts, stocks, income and expenses. As quick and intuitive to "
@@ -157,11 +154,11 @@ msgstr ""
 "gebaseerd op professionele boekhoudkundige principes om gebalanceerde boeken "
 "en accurate rapporten te verzekeren."
 
-#: en/business.html+html.body.div.div.table.tr.td:29
+#: en/business.html+html.body.div.div.table.tr.td:28
 msgid "gnucash"
 msgstr "gnucash"
 
-#: en/business.html+html.body.div.div.table.tr.td:32
+#: en/business.html+html.body.div.div.table.tr.td:31
 msgid ""
 "Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
 "gnucash.org</a>"
@@ -169,11 +166,11 @@ msgstr ""
 "Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\">http://www."
 "gnucash.org</a>"
 
-#: en/business.html+html.body.div.div.table.tr.td:34
+#: en/business.html+html.body.div.div.table.tr.td:33
 msgid "Dolibarr"
 msgstr "Dolibarr"
 
-#: en/business.html+html.body.div.div.table.tr.td.p:37
+#: en/business.html+html.body.div.div.table.tr.td.p:36
 msgid ""
 "Dolibarr ERP and CRM is a modern and easy to use web software to manage your "
 "business (contacts, invoices, orders, products, stocks, agenda, emailings, "
@@ -183,7 +180,7 @@ msgstr ""
 "uw bedrijf te beheren (contacten, facturen, orders, producten, voorraden, "
 "agenda, e-mailings, enz ...)."
 
-#: en/business.html+html.body.div.div.table.tr.td.p:38
+#: en/business.html+html.body.div.div.table.tr.td.p:37
 msgid ""
 "On first run, final configuration is started. You will need to fill in the "
 "following information:"
@@ -191,27 +188,27 @@ msgstr ""
 "Tijdens de eerste start, wordt de definitieve configuratie gestart. U dient "
 "de volgende informatie in te vullen:"
 
-#: en/business.html+html.body.div.div.table.tr.td.ul.li:40
+#: en/business.html+html.body.div.div.table.tr.td.ul.li:39
 msgid "Password for Dolibarr database owner: dolibarr"
 msgstr "Wachtwoord voor Dolibarr database-eigenaar: dolibarr"
 
-#: en/business.html+html.body.div.div.table.tr.td.ul.li:41
+#: en/business.html+html.body.div.div.table.tr.td.ul.li:40
 msgid "Superuser access: root / your_root_password"
 msgstr "Superuser toegang: root / your_root_password"
 
-#: en/business.html+html.body.div.div.table.tr.td.ul.li:42
+#: en/business.html+html.body.div.div.table.tr.td.ul.li:41
 msgid "Dolibarr admin login : admin / admin"
 msgstr "Dolibarr admin login : admin / admin"
 
-#: en/business.html+html.body.div.div.table.tr.td.p:44
+#: en/business.html+html.body.div.div.table.tr.td.p:43
 msgid "Replace \"your_root_password\" with your root password."
 msgstr "Vervang \"your_root_password\" door uw root wachtwoord."
 
-#: en/business.html+html.body.div.div.table.tr.td:46
+#: en/business.html+html.body.div.div.table.tr.td:45
 msgid "dolibarr"
 msgstr "dolibarr"
 
-#: en/business.html+html.body.div.div.table.tr.td:49
+#: en/business.html+html.body.div.div.table.tr.td:48
 msgid ""
 "Homepage: <a href=\"http://www.dolibarr.org/\" target=\"_blank\">http://www."
 "dolibarr.org</a>"
@@ -219,11 +216,11 @@ msgstr ""
 "Homepage: <a href=\"http://www.dolibarr.org/\" target=\"_blank\">http://www."
 "dolibarr.org</a>"
 
-#: en/business.html+html.body.div.div.table.tr.td:51
+#: en/business.html+html.body.div.div.table.tr.td:50
 msgid "Letodms"
 msgstr "Letodms"
 
-#: en/business.html+html.body.div.div.table.tr.td.p:54
+#: en/business.html+html.body.div.div.table.tr.td.p:53
 msgid ""
 "LetoDMS is an open-source, web-based document management system (DMS) "
 "written in PHP with a database backend. LetoDMS provides document meta-data, "
@@ -234,11 +231,11 @@ msgstr ""
 "document meta-data, versiecontrole, veiligheid en makkelijke toegang tot uw "
 "documenten."
 
-#: en/business.html+html.body.div.div.table.tr.td.p:55
+#: en/business.html+html.body.div.div.table.tr.td.p:54
 msgid "Login with: admin / admin"
 msgstr "Login met: admin / admin"
 
-#: en/business.html+html.body.div.div.table.tr.td.p:56
+#: en/business.html+html.body.div.div.table.tr.td.p:55
 msgid ""
 "You can maintain the Dolibarr and Letodms databases with phpMyAdmin (Login: "
 "root / your_root_password)"
@@ -246,11 +243,11 @@ msgstr ""
 "U kunt de Dolibarr en Letodms databases onderhouden met phpMyAdmin (Login: "
 "root / your_root_password)"
 
-#: en/business.html+html.body.div.div.table.tr.td:58
+#: en/business.html+html.body.div.div.table.tr.td:57
 msgid "letodms"
 msgstr "letodms"
 
-#: en/business.html+html.body.div.div.table.tr.td:61
+#: en/business.html+html.body.div.div.table.tr.td:60
 msgid ""
 "Homepage: <a href=\"http://www.letodms.com/\" target=\"_blank\">http://www."
 "letodms.com</a>"
@@ -258,11 +255,11 @@ msgstr ""
 "Homepage: <a href=\"http://www.letodms.com/\" target=\"_blank\">http://www."
 "letodms.com</a>"
 
-#: en/business.html+html.body.div.div.table.tr.td:63
+#: en/business.html+html.body.div.div.table.tr.td:62
 msgid "ProjectLibre"
 msgstr "ProjectLibre"
 
-#: en/business.html+html.body.div.div.table.tr.td.p:66
+#: en/business.html+html.body.div.div.table.tr.td.p:65
 msgid ""
 "ProjectLibre is a project management software system. It intends to be a "
 "complete desktop replacement for Microsoft Project."
@@ -270,11 +267,11 @@ msgstr ""
 "ProjectLibre is een project management software systeem. Het streeft ernaar "
 "een complete vervanger te zijn voor Microsoft Project."
 
-#: en/business.html+html.body.div.div.table.tr.td:68
+#: en/business.html+html.body.div.div.table.tr.td:67
 msgid "projectlibre"
 msgstr "projectlibre"
 
-#: en/business.html+html.body.div.div.table.tr.td:71
+#: en/business.html+html.body.div.div.table.tr.td:70
 msgid ""
 "Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank\">http://"
 "www.projectlibre.org</a>"
@@ -282,17 +279,11 @@ msgstr ""
 "Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank\">http://"
 "www.projectlibre.org</a>"
 
-#: en/drivers.html+html.head.title:4
-msgctxt "en/drivers.html html.head.title:4"
+#: en/drivers.html+html.body.h1:9
 msgid "Hardware drivers"
 msgstr "Hardware drivers"
 
-#: en/drivers.html+html.body.h1:10
-msgctxt "en/drivers.html html.body.h1:10"
-msgid "Hardware drivers"
-msgstr "Hardware drivers"
-
-#: en/drivers.html+html.body.div.div.p:14
+#: en/drivers.html+html.body.div.div.p:13
 msgid ""
 "SolydXK comes with a wide variety of drivers pre-installed. For most "
 "purposes these drivers suffice but in some cases better performance is "
@@ -302,7 +293,7 @@ msgstr ""
 "stuurprogramma's. Deze voldoen meestal, maar in sommige gevallen levert de "
 "gesloten software van de fabrikant betere prestaties."
 
-#: en/drivers.html+html.body.div.div.p:15
+#: en/drivers.html+html.body.div.div.p:14
 msgid ""
 "The install button will open the Device Driver Manager (DDM). This is a tool "
 "to help you installing these hardware drivers. It will check your hardware "
@@ -315,7 +306,7 @@ msgstr ""
 "fabrikant tonen. U hoeft alleen de aanbevolen driver voor uw hardware te "
 "selecteren en DDM zal de rest doen."
 
-#: en/drivers.html+html.body.div.div.p:16
+#: en/drivers.html+html.body.div.div.p:15
 msgid ""
 "Currently <strong>Nvidia</strong>, <strong>ATI</strong> and "
 "<strong>Broadcom</strong> drivers can be installed. DDM also allows to "
@@ -325,21 +316,15 @@ msgstr ""
 "<strong>Broadcom</strong> worden geïnstalleerd. Het is ook mogelijk om de "
 "<strong>PAE</strong> kernel te installeren voor multi-core 32 bit systemen."
 
-#: en/games.html+html.head.title:4
-msgctxt "en/games.html html.head.title:4"
+#: en/games.html+html.body.h1:10
 msgid "Games"
 msgstr "Spellen"
 
-#: en/games.html+html.body.h1:11
-msgctxt "en/games.html html.body.h1:11"
-msgid "Games"
-msgstr "Spellen"
-
-#: en/games.html+html.body.div.div.table.tr.td.p:18
+#: en/games.html+html.body.div.div.table.tr.td.p:17
 msgid "All work and no play..."
 msgstr "Na een dag noeste arbeid is het tijd voor ontspanning..."
 
-#: en/games.html+html.body.div.div.table.tr.td.p:19
+#: en/games.html+html.body.div.div.table.tr.td.p:18
 msgid ""
 "When you click the install button all listed games are going to be installed "
 "on your system. You can use the software manager to install them separately."
@@ -348,11 +333,11 @@ msgstr ""
 "geïnstalleerd. U kunt de softwaremanager gebruiken om ze afzonderlijk te "
 "installeren."
 
-#: en/games.html+html.body.div.div.table.tr.td:22
+#: en/games.html+html.body.div.div.table.tr.td:21
 msgid "Steam"
 msgstr "Steam"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:25
+#: en/games.html+html.body.div.div.table.tr.td.p:24
 msgid ""
 "Steam is an internet-based digital distribution, digital rights management "
 "(DRM), multiplayer, and social networking platform developed by Valve "
@@ -362,11 +347,11 @@ msgstr ""
 "(DRM) bewust, multiplayer en sociaal netwerk platform, ontwikkeld door de "
 "Valve Corporation."
 
-#: en/games.html+html.body.div.div.table.tr.td:27
+#: en/games.html+html.body.div.div.table.tr.td:26
 msgid "steam"
 msgstr "steam"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:31
+#: en/games.html+html.body.div.div.table.tr.td.p:30
 msgid ""
 "Homepage: <a href=\"http://store.steampowered.com/\" target=\"_blank"
 "\">http://store.steampowered.com</a>"
@@ -374,15 +359,15 @@ msgstr ""
 "Homepage: <a href=\"http://store.steampowered.com/\" target=\"_blank"
 "\">http://store.steampowered.com</a>"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:32
+#: en/games.html+html.body.div.div.table.tr.td.p:31
 msgid "Installed size: 200 MB (after user installation)"
 msgstr "Geïnstalleerde grootte: 200 MB"
 
-#: en/games.html+html.body.div.div.table.tr.td:35
+#: en/games.html+html.body.div.div.table.tr.td:34
 msgid "Minetest"
 msgstr "Minetest"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:38
+#: en/games.html+html.body.div.div.table.tr.td.p:37
 msgid ""
 "Minetest is an infinite-world block sandbox game and a game engine, inspired "
 "by InfiniMiner, Minecraft and the like."
@@ -390,11 +375,11 @@ msgstr ""
 "Minetest is een sandbox game en een game engine, geïnspireerd door "
 "InfiniMiner, Minecraft en dergelijke spellen."
 
-#: en/games.html+html.body.div.div.table.tr.td:40
+#: en/games.html+html.body.div.div.table.tr.td:39
 msgid "minetest"
 msgstr "minetest"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:44
+#: en/games.html+html.body.div.div.table.tr.td.p:43
 msgid ""
 "Homepage: <a href=\"http://minetest.net\" target=\"_blank\">http://minetest."
 "net</a>"
@@ -402,15 +387,15 @@ msgstr ""
 "Homepage: <a href=\"http://minetest.net\" target=\"_blank\">http://minetest."
 "net</a>"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:45
+#: en/games.html+html.body.div.div.table.tr.td.p:44
 msgid "Installed size: 10 MB"
 msgstr "Geïnstalleerde grootte: 10 MB"
 
-#: en/games.html+html.body.div.div.table.tr.td:48
+#: en/games.html+html.body.div.div.table.tr.td:47
 msgid "0 A.D."
 msgstr "0 A.D."
 
-#: en/games.html+html.body.div.div.table.tr.td.p:51
+#: en/games.html+html.body.div.div.table.tr.td.p:50
 msgid ""
 "0 A.D. (pronounced “zero-ey-dee”) is a free, open-source, historical Real "
 "Time Strategy (RTS) game currently under development by Wildfire Games, a "
@@ -423,11 +408,11 @@ msgstr ""
 "ontwikkelaars. Als de leider van een oude beschaving, moet u de middelen die "
 "u nodig hebt verzamelen om uw vijanden te verslaan."
 
-#: en/games.html+html.body.div.div.table.tr.td:53
+#: en/games.html+html.body.div.div.table.tr.td:52
 msgid "0ad"
 msgstr "0ad"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:57
+#: en/games.html+html.body.div.div.table.tr.td.p:56
 msgid ""
 "Homepage: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
 "com</a>"
@@ -435,15 +420,15 @@ msgstr ""
 "Homepage: <a href=\"http://play0ad.com\" target=\"_blank\">http://play0ad."
 "com</a>"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:58
+#: en/games.html+html.body.div.div.table.tr.td.p:57
 msgid "Installed size: 1 GB"
 msgstr "Geïnstalleerde grootte: 1 GB"
 
-#: en/games.html+html.body.div.div.table.tr.td:61
+#: en/games.html+html.body.div.div.table.tr.td:60
 msgid "The Battle for Wesnoth"
 msgstr "De Battle for Wesnoth"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:64
+#: en/games.html+html.body.div.div.table.tr.td.p:63
 msgid ""
 "The Battle for Wesnoth is a turn-based tactical strategy game with a high "
 "fantasy theme."
@@ -451,7 +436,7 @@ msgstr ""
 "De Battle for Wesnoth is een tactisch strategie spel met een fantasy thema "
 "waarbij de spelers om beurten spelen."
 
-#: en/games.html+html.body.div.div.table.tr.td.p:65
+#: en/games.html+html.body.div.div.table.tr.td.p:64
 msgid ""
 "Build up a great army, gradually turning raw recruits into hardened "
 "veterans. In later games, recall your toughest warriors and form a deadly "
@@ -465,11 +450,11 @@ msgstr ""
 "van specialisten en maak eenheden met de juiste talenten om op verschillende "
 "terreinen en welke tegenstand dan ook onverslaanbaar te zijn."
 
-#: en/games.html+html.body.div.div.table.tr.td:67
+#: en/games.html+html.body.div.div.table.tr.td:66
 msgid "wesnoth"
 msgstr "wesnoth"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:71
+#: en/games.html+html.body.div.div.table.tr.td.p:70
 msgid ""
 "Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://www."
 "wesnoth.org</a>"
@@ -477,15 +462,15 @@ msgstr ""
 "Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\">http://www."
 "wesnoth.org</a>"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:72
+#: en/games.html+html.body.div.div.table.tr.td.p:71
 msgid "Installed size: 450 MB"
 msgstr "Geïnstalleerde grootte: 450 MB"
 
-#: en/games.html+html.body.div.div.table.tr.td:75
+#: en/games.html+html.body.div.div.table.tr.td:74
 msgid "Sauerbraten"
 msgstr "Sauerbraten"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:78
+#: en/games.html+html.body.div.div.table.tr.td.p:77
 msgid ""
 "Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
 "successor of the Cube FPS."
@@ -493,7 +478,7 @@ msgstr ""
 "Sauerbraten is een gratis multiplayer en singleplayer eerste person shooter, "
 "de opvolger van de Cube FPS."
 
-#: en/games.html+html.body.div.div.table.tr.td.p:79
+#: en/games.html+html.body.div.div.table.tr.td.p:78
 msgid ""
 "Much like the original Cube, the aim of this game is fun, old school "
 "deathmatch gameplay and also to allow map/geometry editing to be done "
@@ -502,11 +487,11 @@ msgstr ""
 "Net als de originele Cube is het doel van dit spel plezier te hebben met "
 "ouderwetse deathmatch. Je kunt ook gezamenlijk de kaart in het spel bewerken."
 
-#: en/games.html+html.body.div.div.table.tr.td:81
+#: en/games.html+html.body.div.div.table.tr.td:80
 msgid "sauerbraten"
 msgstr "sauerbraten"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:85
+#: en/games.html+html.body.div.div.table.tr.td.p:84
 msgid ""
 "Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
 "sauerbraten.org</a>"
@@ -514,15 +499,15 @@ msgstr ""
 "Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\">http://"
 "sauerbraten.org</a>"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:86
+#: en/games.html+html.body.div.div.table.tr.td.p:85
 msgid "Installed size: 650 MB"
 msgstr "Geïnstalleerde grootte: 650 MB"
 
-#: en/games.html+html.body.div.div.table.tr.td:89
+#: en/games.html+html.body.div.div.table.tr.td:88
 msgid "Neverball"
 msgstr "Neverball"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:92
+#: en/games.html+html.body.div.div.table.tr.td.p:91
 msgid ""
 "Tilt the floor to roll a ball through an obstacle course before time runs "
 "out. Neverball is part puzzle game, part action game, and entirely a test of "
@@ -532,11 +517,11 @@ msgstr ""
 "om is. Neverball is deels puzzelspel, deels actiespel, maar vooral een test "
 "van bekwaamheid."
 
-#: en/games.html+html.body.div.div.table.tr.td:94
+#: en/games.html+html.body.div.div.table.tr.td:93
 msgid "neverball"
 msgstr "neverball"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:98
+#: en/games.html+html.body.div.div.table.tr.td.p:97
 msgid ""
 "Homepage: <a href=\"http://neverball.org\" target=\"_blank\">http://"
 "neverball.org</a>"
@@ -544,15 +529,15 @@ msgstr ""
 "Homepage: <a href=\"http://neverball.org\" target=\"_blank\">http://"
 "neverball.org</a>"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:99
+#: en/games.html+html.body.div.div.table.tr.td.p:98
 msgid "Installed size: 150 MB"
 msgstr "Geïnstalleerde grootte: 150 MB"
 
-#: en/games.html+html.body.div.div.table.tr.td:102
+#: en/games.html+html.body.div.div.table.tr.td:101
 msgid "Super Tux Kart"
 msgstr "Super Tux Kart"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:105
+#: en/games.html+html.body.div.div.table.tr.td.p:104
 msgid ""
 "SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
 "items for you to try. Have fun!"
@@ -560,11 +545,11 @@ msgstr ""
 "SuperTuxKart is een gratis 3D kart race spel, met veel tracks, personages en "
 "items om uit te proberen. Veel plezier!"
 
-#: en/games.html+html.body.div.div.table.tr.td:107
+#: en/games.html+html.body.div.div.table.tr.td:106
 msgid "supertuxkart"
 msgstr "supertuxkart"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:111
+#: en/games.html+html.body.div.div.table.tr.td.p:110
 msgid ""
 "Homepage: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank"
 "\">http://supertuxkart.sourceforge.net</a>"
@@ -572,31 +557,25 @@ msgstr ""
 "Homepage: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank"
 "\">http://supertuxkart.sourceforge.net</a>"
 
-#: en/games.html+html.body.div.div.table.tr.td.p:112
+#: en/games.html+html.body.div.div.table.tr.td.p:111
 msgid "Installed size: 350 MB"
 msgstr "Geïnstalleerde grootte: 350 MB"
 
-#: en/home.html+html.head.title:4
-msgctxt "en/home.html html.head.title:4"
+#: en/home.html+html.body.h1:10
 msgid "Home applications"
 msgstr "Thuisapplicaties"
 
-#: en/home.html+html.body.h1:11
-msgctxt "en/home.html html.body.h1:11"
-msgid "Home applications"
-msgstr "Thuisapplicaties"
-
-#: en/home.html+html.body.div.div.table.tr.td.p:18
+#: en/home.html+html.body.div.div.table.tr.td.p:17
 msgid "This is a list of recommended applications suited for home users."
 msgstr ""
 "Dit is een lijst van aanbevolen applicaties die geschikt zijn voor "
 "thuisgebruikers."
 
-#: en/home.html+html.body.div.div.table.tr.td:22
+#: en/home.html+html.body.div.div.table.tr.td:21
 msgid "Gimp"
 msgstr "Gimp"
 
-#: en/home.html+html.body.div.div.table.tr.td.p:25
+#: en/home.html+html.body.div.div.table.tr.td.p:24
 msgid ""
 "GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
@@ -606,7 +585,7 @@ msgstr ""
 "grafisch programma voor het bewerken van foto's en andere digitale "
 "beeldbewerking."
 
-#: en/home.html+html.body.div.div.table.tr.td.p:26
+#: en/home.html+html.body.div.div.table.tr.td.p:25
 msgid ""
 "It has many capabilities. It can be used as a simple paint program, an "
 "expert quality photo retouching program, an online batch processing system, "
@@ -616,11 +595,11 @@ msgstr ""
 "tekenprogramma, fotoretouchesoftware, een online batch processing systeem, "
 "een massa-beeldproductie renderer en veel meer."
 
-#: en/home.html+html.body.div.div.table.tr.td:28
+#: en/home.html+html.body.div.div.table.tr.td:27
 msgid "gimp"
 msgstr "gimp"
 
-#: en/home.html+html.body.div.div.table.tr.td:31
+#: en/home.html+html.body.div.div.table.tr.td:30
 msgid ""
 "Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
 "org</a>"
@@ -628,11 +607,11 @@ msgstr ""
 "Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\">http://www.gimp."
 "org</a>"
 
-#: en/home.html+html.body.div.div.table.tr.td:33
+#: en/home.html+html.body.div.div.table.tr.td:32
 msgid "Inkscape"
 msgstr "Inkscape"
 
-#: en/home.html+html.body.div.div.table.tr.td.p:36
+#: en/home.html+html.body.div.div.table.tr.td.p:35
 msgid ""
 "Inkscape is an open-source vector graphics editor similar to Adobe "
 "Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
@@ -644,11 +623,11 @@ msgstr ""
 "het gebruik van Scalable Vector Graphics (SVG), een open XML-gebaseerde W3C-"
 "standaard."
 
-#: en/home.html+html.body.div.div.table.tr.td:38
+#: en/home.html+html.body.div.div.table.tr.td:37
 msgid "inkscape"
 msgstr "inkscape"
 
-#: en/home.html+html.body.div.div.table.tr.td:41
+#: en/home.html+html.body.div.div.table.tr.td:40
 msgid ""
 "Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
 "inkscape.org</a>"
@@ -656,16 +635,16 @@ msgstr ""
 "Homepage: <a href=\"https://inkscape.org\" target=\"_blank\">https://"
 "inkscape.org</a>"
 
-#: en/home.html+html.body.div.div.table.tr.td:43
+#: en/home.html+html.body.div.div.table.tr.td:42
 msgid "Shotwell / Digikam"
 msgstr "Shotwell / Digikam"
 
-#: en/home.html+html.body.div.div.table.tr.td.p:46
+#: en/home.html+html.body.div.div.table.tr.td.p:45
 msgid ""
 "Shotwell is an image organizer designed to provide personal photo management."
 msgstr "Shotwell is een programma om uw foto's te beheren."
 
-#: en/home.html+html.body.div.div.table.tr.td.p:47
+#: en/home.html+html.body.div.div.table.tr.td.p:46
 msgid ""
 "Shotwell can import photos and videos from a digital camera directly. "
 "Shotwell automatically groups photos and videos by date, and supports "
@@ -678,18 +657,18 @@ msgstr ""
 "zetten, bij te snijden, rode ogen te verwijderen en het niveau en de "
 "kleurbalans aan te passen."
 
-#: en/home.html+html.body.div.div.table.tr.td.p:48
+#: en/home.html+html.body.div.div.table.tr.td.p:47
 msgid ""
 "For SolydK Digikam is installed. It has the same functionality as Shotwell"
 msgstr ""
 "Voor SolydK wordt Digikam geïnstalleerd. Het heeft dezelfde functionaliteit "
 "als Shotwell."
 
-#: en/home.html+html.body.div.div.table.tr.td:50
+#: en/home.html+html.body.div.div.table.tr.td:49
 msgid "shotwell"
 msgstr "shotwell"
 
-#: en/home.html+html.body.div.div.table.tr.td.p:54
+#: en/home.html+html.body.div.div.table.tr.td.p:53
 msgid ""
 "Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
 "\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
@@ -697,7 +676,7 @@ msgstr ""
 "Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
 "\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
 
-#: en/home.html+html.body.div.div.table.tr.td.p:55
+#: en/home.html+html.body.div.div.table.tr.td.p:54
 msgid ""
 "Homepage Digikamm: <a href=\"https://www.digikam.org/\" target=\"_blank"
 "\">https://www.digikam.org</a>"
@@ -705,15 +684,15 @@ msgstr ""
 "Homepage Digikam: <a href=\"https://www.digikam.org/\" target=\"_blank"
 "\">https://www.digikam.org</a>"
 
-#: en/home.html+html.body.div.div.table.tr.td:58
+#: en/home.html+html.body.div.div.table.tr.td:57
 msgid "Clementine / Amarok"
 msgstr "Clementine / Amarok"
 
-#: en/home.html+html.body.div.div.table.tr.td.p:61
+#: en/home.html+html.body.div.div.table.tr.td.p:60
 msgid "Clementine is a modern music player and library organizer."
 msgstr "Clementine is een muziekspeler en organiseert uw muziekverzameling."
 
-#: en/home.html+html.body.div.div.table.tr.td.p:62
+#: en/home.html+html.body.div.div.table.tr.td.p:61
 msgid ""
 "Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
 "focusing on a fast and easy-to-use interface for searching and playing your "
@@ -723,49 +702,49 @@ msgstr ""
 "op een snelle en makkelijk te gebruiken interface voor het zoeken en "
 "afspelen van uw muziek."
 
-#: en/home.html+html.body.div.div.table.tr.td.p:63
+#: en/home.html+html.body.div.div.table.tr.td.p:62
 msgid ""
 "For SolydK Amarok is installed. It has the same functionality as Clementine"
 msgstr ""
 "Voor SolydK wordt Amarok geïnstalleerd. Het heeft dezelfde functionaliteit "
 "als Clementine."
 
-#: en/home.html+html.body.div.div.table.tr.td:65
+#: en/home.html+html.body.div.div.table.tr.td:64
 msgid "clementine"
 msgstr "clementine"
 
+#: en/home.html+html.body.div.div.table.tr.td.p:68
+msgid ""
+"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
+"\"_blank\">https://www.clementine-player.org</a>"
+msgstr ""
+"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
+"\"_blank\">https://www.clementine-player.org</a>"
+
 #: en/home.html+html.body.div.div.table.tr.td.p:69
 msgid ""
-"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
-"\"_blank\">https://www.clementine-player.org</a>"
-msgstr ""
-"Homepage Clementine: <a href=\"https://www.clementine-player.org\" target="
-"\"_blank\">https://www.clementine-player.org</a>"
-
-#: en/home.html+html.body.div.div.table.tr.td.p:70
-msgid ""
 "Homepage Amarok: <a href=\"https://amarok.kde.org\" target=\"_blank"
 "\">https://amarok.kde.org</a>"
 msgstr ""
 "Homepage Amarok: <a href=\"https://amarok.kde.org\" target=\"_blank"
 "\">https://amarok.kde.org</a>"
 
-#: en/home.html+html.body.div.div.table.tr.td:73
+#: en/home.html+html.body.div.div.table.tr.td:72
 msgid "HandBrake"
 msgstr "HandBrake"
 
-#: en/home.html+html.body.div.div.table.tr.td.p:76
+#: en/home.html+html.body.div.div.table.tr.td.p:75
 msgid ""
 "HandBrake is a tool for converting video from nearly any format to a "
 "selection of modern, widely supported codecs."
 msgstr ""
 "HandBrake is een tool voor het omzetten van video van bijna elk formaat."
 
-#: en/home.html+html.body.div.div.table.tr.td:78
+#: en/home.html+html.body.div.div.table.tr.td:77
 msgid "handbrake"
 msgstr "handbrake"
 
-#: en/home.html+html.body.div.div.table.tr.td:81
+#: en/home.html+html.body.div.div.table.tr.td:80
 msgid ""
 "Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
 "handbrake.fr</a>"
@@ -773,11 +752,11 @@ msgstr ""
 "Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\">https://"
 "handbrake.fr</a>"
 
-#: en/home.html+html.body.div.div.table.tr.td:83
+#: en/home.html+html.body.div.div.table.tr.td:82
 msgid "SoundConverter"
 msgstr "SoundConverter"
 
-#: en/home.html+html.body.div.div.table.tr.td.p:86
+#: en/home.html+html.body.div.div.table.tr.td.p:85
 msgid ""
 "SoundConverter is the leading audio file converter. It reads anything "
 "GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
@@ -789,11 +768,11 @@ msgstr ""
 "MPC, Shorten, APE, SID, MOD, XM, S3M, enz... ) en schrijft naar Opus, Ogg "
 "Vorbis, FLAC, WAV, AAC en MP3 bestanden."
 
-#: en/home.html+html.body.div.div.table.tr.td:88
+#: en/home.html+html.body.div.div.table.tr.td:87
 msgid "soundconverter"
 msgstr "soundconverter"
 
-#: en/home.html+html.body.div.div.table.tr.td:91
+#: en/home.html+html.body.div.div.table.tr.td:90
 msgid ""
 "Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
 "soundconverter.org</a>"
@@ -801,11 +780,11 @@ msgstr ""
 "Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\">http://"
 "soundconverter.org</a>"
 
-#: en/home.html+html.body.div.div.table.tr.td:93
+#: en/home.html+html.body.div.div.table.tr.td:92
 msgid "Pitivi / Kdenlive"
 msgstr "Pitivi / Kdenlive"
 
-#: en/home.html+html.body.div.div.table.tr.td.p:96
+#: en/home.html+html.body.div.div.table.tr.td.p:95
 msgid ""
 "Pitivi is a Free video editor with a beautiful and intuitive user interface, "
 "a clean codebase and a fantastic community."
@@ -813,38 +792,38 @@ msgstr ""
 "Pitivi is een gratis video-editor met een mooie en intuïtieve "
 "gebruikersinterface en een fantastische gemeenschap."
 
-#: en/home.html+html.body.div.div.table.tr.td.p:97
+#: en/home.html+html.body.div.div.table.tr.td.p:96
 msgid ""
 "For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
 msgstr ""
 "Voor SolydK wordt Kdenlive geïnstalleerd. Het heeft dezelfde functionaliteit "
 "als Pitivi."
 
-#: en/home.html+html.body.div.div.table.tr.td:99
+#: en/home.html+html.body.div.div.table.tr.td:98
 msgid "pitivi"
 msgstr "pitivi"
 
+#: en/home.html+html.body.div.div.table.tr.td.p:102
+msgid ""
+"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
+"www.pitivi.org</a>"
+msgstr ""
+"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
+"www.pitivi.org</a>"
+
 #: en/home.html+html.body.div.div.table.tr.td.p:103
 msgid ""
-"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
-"www.pitivi.org</a>"
-msgstr ""
-"Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\">http://"
-"www.pitivi.org</a>"
-
-#: en/home.html+html.body.div.div.table.tr.td.p:104
-msgid ""
 "Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
 "\">https://kdenlive.org</a>"
 msgstr ""
 "Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank"
 "\">https://kdenlive.org</a>"
 
-#: en/home.html+html.body.div.div.table.tr.td:107
+#: en/home.html+html.body.div.div.table.tr.td:106
 msgid "Transmission / Ktorrent"
 msgstr "Transmission / Ktorrent"
 
-#: en/home.html+html.body.div.div.table.tr.td.p:110
+#: en/home.html+html.body.div.div.table.tr.td.p:109
 msgid ""
 "Transmission is a BitTorrent client which features a simple interface on top "
 "of a cross-platform back-end."
@@ -852,7 +831,7 @@ msgstr ""
 "Transmission is een BitTorrent client met een eenvoudige interface bovenop "
 "een cross-platform back-end."
 
-#: en/home.html+html.body.div.div.table.tr.td.p:111
+#: en/home.html+html.body.div.div.table.tr.td.p:110
 msgid ""
 "For SolydK Ktorrent is installed. It has the same functionality as "
 "Transmission"
@@ -860,49 +839,99 @@ msgstr ""
 "Voor SolydK wordt KTorrent geïnstalleerd. Het heeft dezelfde functionaliteit "
 "als Transmission."
 
-#: en/home.html+html.body.div.div.table.tr.td:113
+#: en/home.html+html.body.div.div.table.tr.td:112
 msgid "transmission"
 msgstr "transmission"
 
+#: en/home.html+html.body.div.div.table.tr.td.p:116
+msgid ""
+"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
+"\"_blank\">https://www.transmissionbt.com</a>"
+msgstr ""
+"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
+"\"_blank\">https://www.transmissionbt.com</a>"
+
 #: en/home.html+html.body.div.div.table.tr.td.p:117
 msgid ""
-"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
-"\"_blank\">https://www.transmissionbt.com</a>"
-msgstr ""
-"Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target="
-"\"_blank\">https://www.transmissionbt.com</a>"
-
-#: en/home.html+html.body.div.div.table.tr.td.p:118
-msgid ""
 "Homepage Ktorrent: <a href=\"http://www.ktorrent.org/\" target=\"_blank"
 "\">http://www.ktorrent.org</a>"
 msgstr ""
 "Homepage Ktorrent: <a href=\"http://www.ktorrent.org/\" target=\"_blank"
 "\">http://www.ktorrent.org</a>"
 
-#: en/legal.html+html.head.title:4
-msgctxt "en/legal.html html.head.title:4"
-msgid "Multimedia codecs"
-msgstr "Multimedia codecs"
-
-#: en/legal.html+html.body.h1:10
-msgctxt "en/legal.html html.body.h1:10"
-msgid "Multimedia codecs"
-msgstr "Multimedia codecs"
-
-#: en/legal.html+html.body.div.div.div.p:14
-msgid "Legal warning:"
-msgstr "Wettelijke waarschuwing:"
-
-#: en/legal.html+html.body.div.div.div.p:15
-msgid ""
-"Check with your local laws to make sure usage of libdvdcss2 would be legal "
-"in your area."
+#: en/libreoffice.html+html.body.h1:10
+msgid "LibreOffice (Backports)"
 msgstr ""
-"Controleer uw lokale wetten om er zeker van te zijn dat het gebruik van "
-"libdvdcss2 voor u legaal is."
 
-#: en/legal.html+html.body.div.div.p:17
+#: en/libreoffice.html+html.body.div.div.table.tr.td:20
+msgid "LibreOffice"
+msgstr ""
+
+#: en/libreoffice.html+html.body.div.div.table.tr.td.p:23
+msgid ""
+"SolydXK comes with the LibreOffice suite pre-installed. Its stability and "
+"features works great for most people and especially for businesses. However, "
+"if you are missing some features or you want LibreOffice to stay updated you "
+"can install LibreOffice from the backports repository."
+msgstr ""
+
+#: en/libreoffice.html+html.body.div.div.table.tr.td.p:24
+msgid ""
+"Backports are recompiled new packages for the current stable environment. "
+"So, they will run without new libraries."
+msgstr ""
+
+#: en/libreoffice.html+html.body.div.div.table.tr.td.p:25
+msgid ""
+"Although you can run more up to date software using the backports "
+"repository, you introduce a greater risk of breakage doing so."
+msgstr ""
+
+#: en/libreoffice.html+html.body.div.div.table.tr.td:30
+msgid ""
+"Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank\">https://"
+"www.libreoffice.org</a>"
+msgstr ""
+"Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank\">https://"
+"www.libreoffice.org</a>"
+
+#: en/multimedia.html+html.body.h1:9
+msgid "Multimedia codecs"
+msgstr "Multimedia codecs"
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:15
+msgid ""
+"These multimedia codecs are not included by default for legal or security "
+"reasons."
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td:18
+msgid "Flash"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:21
+msgid "HTML5 is the default media player in Firefox."
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:22
+msgid ""
+"Youtube and other sites are already providing their content using HTML5. "
+"However, there are still sites using Flash."
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.div.p:28
+msgid "Warning:"
+msgstr "Waarschuwing:"
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.div.p:29
+msgid "Some Flash content may harm your system."
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td:33
+msgid "CSS"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:36
 msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
@@ -910,15 +939,15 @@ msgstr ""
 "De meeste commerciële dvd's zijn gecodeerd met CSS (Content Scramble "
 "System), dat probeert de software die een DVD kan spelen te beperken."
 
-#: en/legal.html+html.body.div.div.p:18
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:37
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
-"these encrypted DVDs."
+"these encrypted DVDs"
 msgstr ""
 "SolydXK heeft niet de nodige pakketten vooraf geïnstalleerd om deze "
 "versleutelde dvd's af te kunnen spelen."
 
-#: en/legal.html+html.body.div.div.p:19
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:38
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
@@ -926,13 +955,25 @@ msgstr ""
 "Door op de installatieknop te klikken, worden de volgende pakketten "
 "geïnstalleerd:"
 
-#: en/legal.html+html.body.div.div.ul.li:21
+#: en/multimedia.html+html.body.div.div.table.tr.td.ul.li:40
 msgid "libdvdcss2"
 msgstr "libdvdcss2"
 
-#: en/legal.html+html.body.div.div.ul.li:22
+#: en/multimedia.html+html.body.div.div.table.tr.td.ul.li:41
 msgid "w32codecs or w64codecs"
 msgstr "w32codecs of w64codecs"
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.div.p:48
+msgid "Legal warning:"
+msgstr "Wettelijke waarschuwing:"
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.div.p:49
+msgid ""
+"Check with your local laws to make sure usage of libdvdcss2 would be legal "
+"in your area."
+msgstr ""
+"Controleer uw lokale wetten om er zeker van te zijn dat het gebruik van "
+"libdvdcss2 voor u legaal is."
 
 #: en/system.html+html.body.h1:10
 msgid "System applications"
@@ -1006,17 +1047,11 @@ msgstr ""
 "Homepage: <a href=\"https://filezilla-project.org/\" target=\"_blank"
 "\">https://filezilla-project.org</a>"
 
-#: en/welcome.html+html.head.title:4
-msgctxt "en/welcome.html html.head.title:4"
+#: en/welcome.html+html.body.h1:9
 msgid "Welcome to SolydXK"
 msgstr "Welkom bij SolydXK"
 
-#: en/welcome.html+html.body.h1:10
-msgctxt "en/welcome.html html.body.h1:10"
-msgid "Welcome to SolydXK"
-msgstr "Welkom bij SolydXK"
-
-#: en/welcome.html+html.body.div.div.p:14
+#: en/welcome.html+html.body.div.div.p:13
 msgid ""
 "SolydXK is an open source desktop operating system for businesses, "
 "organizations and home users. Both SolydX and SolydK are based on Debian "
@@ -1026,7 +1061,7 @@ msgstr ""
 "thuisgebruikers. Zowel SolydX als SolydK zijn gebaseerd op Debian Stable om "
 "de grootste stabiliteit en veiligheid te waarborgen."
 
-#: en/welcome.html+html.body.div.div.p.table.tr.td.p:18
+#: en/welcome.html+html.body.div.div.p.table.tr.td.p:17
 msgid ""
 "SolydXK is absolutely free to use. However, your donation is very much "
 "appreciated, and ensures that we can continue improving SolydXK."
@@ -1034,7 +1069,7 @@ msgstr ""
 "SolydXK is geheel gratis te gebruiken. Uw donatie wordt echter zeer "
 "gewaardeerd en zorgt ervoor dat we SolydXK kunnen blijven verbeteren."
 
-#: en/welcome.html+html.body.div.div.p:23
+#: en/welcome.html+html.body.div.div.p:22
 msgid ""
 "We have created a list of recommended software for businesses and home users "
 "which you can install in the next couple of pages."
@@ -1042,15 +1077,15 @@ msgstr ""
 "We hebben een lijst met aanbevolen software voor bedrijven en "
 "thuisgebruikers gemaakt. Deze kunt u in de volgende pagina's installeren."
 
-#: en/welcome.html+html.body.div.div.p:24
+#: en/welcome.html+html.body.div.div.p:23
 msgid "Click on the <strong>Next</strong> button to get started."
 msgstr "Klik op de <strong>Volgende</strong> knop om verder te gaan."
 
-#: en/welcome.html+html.body.div.div.table.tr.td:26
+#: en/welcome.html+html.body.div.div.table.tr.td:25
 msgid "Software"
 msgstr "Software"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.p:28
+#: en/welcome.html+html.body.div.div.table.tr.td.p:27
 msgid ""
 "All software is built, maintained and checked by the community. Software "
 "databases called \"repositories\" are used to offer and maintain over 60,000 "
@@ -1065,15 +1100,15 @@ msgstr ""
 "software die u nodig hebt met de Software Manager te zoeken en te "
 "installeren."
 
-#: en/welcome.html+html.body.div.div.table.tr.td:29
+#: en/welcome.html+html.body.div.div.table.tr.td:28
 msgid "softwaremanager"
 msgstr "softwaremanager"
 
-#: en/welcome.html+html.body.div.div.table.tr.td:34
+#: en/welcome.html+html.body.div.div.table.tr.td:33
 msgid "Support"
 msgstr "Ondersteuning"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.p:36
+#: en/welcome.html+html.body.div.div.table.tr.td.p:35
 msgid ""
 "If you're new to SolydXK or whenever you get stuck, there is the SolydXK "
 "community to help you solve your problem. You can search the forum to find "
@@ -1084,11 +1119,11 @@ msgstr ""
 "op het forum om uit te vinden of het probleem al is opgelost of u start een "
 "nieuw topic om hulp te krijgen."
 
-#: en/welcome.html+html.body.div.div.table.tr.td:37
+#: en/welcome.html+html.body.div.div.table.tr.td:36
 msgid "forum"
 msgstr "forum"
 
-#: en/welcome.html+html.body.div.div.table.tr.td:40
+#: en/welcome.html+html.body.div.div.table.tr.td:39
 msgid ""
 "Forum: <a href=\"http://forums.solydxk.com/\" target=\"_blank\">http://"
 "forums.solydxk.com</a>"
@@ -1096,7 +1131,7 @@ msgstr ""
 "Forum: <a href=\"http://forums.solydxk.com/\" target=\"_blank\">http://"
 "forums.solydxk.com</a>"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.p:44
+#: en/welcome.html+html.body.div.div.table.tr.td.p:43
 msgid ""
 "The following channels are used to communicate to the SolydX and SolydK "
 "users:"
@@ -1104,42 +1139,131 @@ msgstr ""
 "De volgende kanalen worden gebruikt om met de SolydX en SolydK gebruikers te "
 "communiceren:"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:46
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:45
 msgid ""
 "E-mail : <a href=\"http://solydxk.com/news\" target=\"_blank\">http://"
 "solydxk.com/news</a>"
 msgstr ""
 "E-mail : <a href=\"http://solydxk.com/news\" target=\"_blank\">http://"
 "solydxk.com/news</a>"
+
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:46
+msgid ""
+"RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
+"com/feed</a>"
+msgstr ""
+"RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
+"com/feed</a>"
 
 #: en/welcome.html+html.body.div.div.table.tr.td.ul.li:47
 msgid ""
-"RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
-"com/feed</a>"
+"Facebook: <a href=\"http://www.facebook.com/solyd.xk\" target=\"_blank"
+"\">http://www.facebook.com/solyd.xk</a>"
 msgstr ""
-"RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
-"com/feed</a>"
+"Facebook: <a href=\"http://www.facebook.com/solyd.xk\" target=\"_blank"
+"\">http://www.facebook.com/solyd.xk</a>"
 
 #: en/welcome.html+html.body.div.div.table.tr.td.ul.li:48
 msgid ""
-"Facebook: <a href=\"http://www.facebook.com/solyd.xk\" target=\"_blank"
-"\">http://www.facebook.com/solyd.xk</a>"
+"Twitter: <a href=\"https://twitter.com/solydxk\" target=\"_blank\">https://"
+"twitter.com/solydxk</a>"
 msgstr ""
-"Facebook: <a href=\"http://www.facebook.com/solyd.xk\" target=\"_blank"
-"\">http://www.facebook.com/solyd.xk</a>"
+"Twitter: <a href=\"https://twitter.com/solydxk\" target=\"_blank\">https://"
+"twitter.com/solydxk</a>"
 
 #: en/welcome.html+html.body.div.div.table.tr.td.ul.li:49
 msgid ""
-"Twitter: <a href=\"https://twitter.com/solydxk\" target=\"_blank\">https://"
-"twitter.com/solydxk</a>"
+"Google+: <a href=\"https://plus.google.com/+Solydxk\" target=\"_blank"
+"\">https://plus.google.com/+Solydxk</a>"
 msgstr ""
-"Twitter: <a href=\"https://twitter.com/solydxk\" target=\"_blank\">https://"
-"twitter.com/solydxk</a>"
+"Google+: <a href=\"https://plus.google.com/+Solydxk\" target=\"_blank"
+"\">https://plus.google.com/+Solydxk</a>"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:50
+#: en/wine.html+html.body.h1:10
+#, fuzzy
+#| msgctxt "en/wine.html html.body.h1:10"
+#| msgid "PlayOnLinux"
+msgctxt "en/wine.html html.body.h1:10"
+msgid "PlayOnLinux"
+msgstr "PlayOnLinux"
+
+#: en/wine.html+html.body.div.div.table.tr.td:20
+msgctxt "en/wine.html html.body.div.div.table.tr.td:20"
+msgid "PlayOnLinux"
+msgstr "PlayOnLinux"
+
+#: en/wine.html+html.body.div.div.table.tr.td.p:23
 msgid ""
-"Google+: <a href=\"https://plus.google.com/+Solydxk\" target=\"_blank"
-"\">https://plus.google.com/+Solydxk</a>"
+"SolydXK comes with a wide variety of software. However, if you cannot find "
+"the right software in our repository and you need to use MS Windows "
+"software, you can install it using PlayOnLinux. Not all software can run "
+"this way, but a large number of software is already supported."
 msgstr ""
-"Google+: <a href=\"https://plus.google.com/+Solydxk\" target=\"_blank"
-"\">https://plus.google.com/+Solydxk</a>"
+
+#: en/wine.html+html.body.div.div.table.tr.td.p:24
+msgid ""
+"You can see a tutorial on <a href=\"http://solydxk.com/get-support/tutorials/"
+"#msoffice\" target=\"_blank\">installing MS Office 2010 with PlayOnLinux</a> "
+"on our web site."
+msgstr ""
+
+#: en/wine.html+html.body.div.div.table.tr.td.div.p:26
+msgid ""
+"By using this software you may make your system vulnerable to MS Windows "
+"viruses and malware."
+msgstr ""
+
+#: en/wine.html+html.body.div.div.table.tr.td.div.p:27
+msgid "Make sure you install software from trusted parties only."
+msgstr ""
+
+#: en/wine.html+html.body.div.div.table.tr.td.div.p:28
+msgid ""
+"Read about the <a href=\"http://wiki.winehq.org/"
+"FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risk on using Wine</a>"
+msgstr ""
+
+#: en/wine.html+html.body.div.div.table.tr.td:35
+#, fuzzy
+#| msgid ""
+#| "Homepage: <a href=\"http://www.letodms.com/\" target=\"_blank\">http://"
+#| "www.letodms.com</a>"
+msgid ""
+"Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
+"www.playonlinux.com</a>"
+msgstr ""
+"Homepage: <a href=\"http://www.letodms.com/\" target=\"_blank\">http://www."
+"letodms.com</a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://"
+#~| "solydxk.com/feed</a>"
+#~ msgid "<a href=\"http://solydxk.com/contribute/donate/\" target=\"_blank\">"
+#~ msgstr ""
+#~ "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
+#~ "com/feed</a>"
+
+#~ msgctxt "en/business.html html.body.h1:11"
+#~ msgid "Business applications"
+#~ msgstr "Bedrijfsapplicaties"
+
+#~ msgctxt "en/drivers.html html.body.h1:10"
+#~ msgid "Hardware drivers"
+#~ msgstr "Hardware drivers"
+
+#~ msgctxt "en/games.html html.body.h1:11"
+#~ msgid "Games"
+#~ msgstr "Spellen"
+
+#~ msgctxt "en/home.html html.body.h1:11"
+#~ msgid "Home applications"
+#~ msgstr "Thuisapplicaties"
+
+#~ msgctxt "en/legal.html html.body.h1:10"
+#~ msgid "Multimedia codecs"
+#~ msgstr "Multimedia codecs"
+
+#~ msgctxt "en/welcome.html html.body.h1:10"
+#~ msgid "Welcome to SolydXK"
+#~ msgstr "Welkom bij SolydXK"

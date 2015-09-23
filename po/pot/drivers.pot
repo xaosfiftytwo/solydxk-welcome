@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 12:55+0200\n"
+"POT-Creation-Date: 2015-09-23 10:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,24 +12,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.12.0\n"
 
-#: en/drivers.html+html.head.title:4
-msgctxt "en/drivers.html html.head.title:4"
+#: en/drivers.html+html.body.h1:9
 msgid "Hardware drivers"
 msgstr ""
 
-#: en/drivers.html+html.body.h1:10
-msgctxt "en/drivers.html html.body.h1:10"
-msgid "Hardware drivers"
-msgstr ""
-
-#: en/drivers.html+html.body.div.div.p:14
+#: en/drivers.html+html.body.div.div.p:13
 msgid ""
 "SolydXK comes with a wide variety of drivers pre-installed. For most "
 "purposes these drivers suffice but in some cases better performance is "
 "provided by the proprietary drivers of the manufacturer."
 msgstr ""
 
-#: en/drivers.html+html.body.div.div.p:15
+#: en/drivers.html+html.body.div.div.p:14
 msgid ""
 "The install button will open the Device Driver Manager (DDM). This is a tool "
 "to help you installing these hardware drivers. It will check your hardware "
@@ -37,7 +31,7 @@ msgid ""
 "select the recommended driver for your hardware and DDM will do the rest."
 msgstr ""
 
-#: en/drivers.html+html.body.div.div.p:16
+#: en/drivers.html+html.body.div.div.p:15
 msgid ""
 "Currently <strong>Nvidia</strong>, <strong>ATI</strong> and "
 "<strong>Broadcom</strong> drivers can be installed. DDM also allows to "

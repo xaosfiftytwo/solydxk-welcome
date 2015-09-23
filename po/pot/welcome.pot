@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 12:55+0200\n"
+"POT-Creation-Date: 2015-09-23 10:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,44 +12,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.12.0\n"
 
-#: en/welcome.html+html.head.title:4
-msgctxt "en/welcome.html html.head.title:4"
+#: en/welcome.html+html.body.h1:9
 msgid "Welcome to SolydXK"
 msgstr ""
 
-#: en/welcome.html+html.body.h1:10
-msgctxt "en/welcome.html html.body.h1:10"
-msgid "Welcome to SolydXK"
-msgstr ""
-
-#: en/welcome.html+html.body.div.div.p:14
+#: en/welcome.html+html.body.div.div.p:13
 msgid ""
 "SolydXK is an open source desktop operating system for businesses, "
 "organizations and home users. Both SolydX and SolydK are based on Debian "
 "stable to ensure the greatest stability and security."
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.p.table.tr.td.p:18
+#: en/welcome.html+html.body.div.div.p.table.tr.td.p:17
 msgid ""
 "SolydXK is absolutely free to use. However, your donation is very much "
 "appreciated, and ensures that we can continue improving SolydXK."
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.p:23
+#: en/welcome.html+html.body.div.div.p:22
 msgid ""
 "We have created a list of recommended software for businesses and home users "
 "which you can install in the next couple of pages."
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.p:24
+#: en/welcome.html+html.body.div.div.p:23
 msgid "Click on the <strong>Next</strong> button to get started."
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td:26
+#: en/welcome.html+html.body.div.div.table.tr.td:25
 msgid "Software"
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td.p:28
+#: en/welcome.html+html.body.div.div.table.tr.td.p:27
 msgid ""
 "All software is built, maintained and checked by the community. Software "
 "databases called \"repositories\" are used to offer and maintain over 60,000 "
@@ -58,62 +52,62 @@ msgid ""
 "Software Manager."
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td:29
+#: en/welcome.html+html.body.div.div.table.tr.td:28
 msgid "softwaremanager"
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td:34
+#: en/welcome.html+html.body.div.div.table.tr.td:33
 msgid "Support"
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td.p:36
+#: en/welcome.html+html.body.div.div.table.tr.td.p:35
 msgid ""
 "If you're new to SolydXK or whenever you get stuck, there is the SolydXK "
 "community to help you solve your problem. You can search the forum to find "
 "if your issue has already been solved or start a new topic to get help."
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td:37
+#: en/welcome.html+html.body.div.div.table.tr.td:36
 msgid "forum"
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td:40
+#: en/welcome.html+html.body.div.div.table.tr.td:39
 msgid ""
 "Forum: <a href=\"http://forums.solydxk.com/\" target=\"_blank\""
 ">http://forums.solydxk.com</a>"
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td.p:44
+#: en/welcome.html+html.body.div.div.table.tr.td.p:43
 msgid ""
 "The following channels are used to communicate to the SolydX and SolydK "
 "users:"
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:46
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:45
 msgid ""
 "E-mail : <a href=\"http://solydxk.com/news\" target=\"_blank\""
 ">http://solydxk.com/news</a>"
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:47
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:46
 msgid ""
 "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\""
 ">http://solydxk.com/feed</a>"
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:48
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:47
 msgid ""
 "Facebook: <a href=\"http://www.facebook.com/solyd.xk\" target=\"_blank\""
 ">http://www.facebook.com/solyd.xk</a>"
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:49
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:48
 msgid ""
 "Twitter: <a href=\"https://twitter.com/solydxk\" target=\"_blank\""
 ">https://twitter.com/solydxk</a>"
 msgstr ""
 
-#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:50
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:49
 msgid ""
 "Google+: <a href=\"https://plus.google.com/+Solydxk\" target=\"_blank\""
 ">https://plus.google.com/+Solydxk</a>"

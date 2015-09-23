@@ -1,0 +1,85 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-23 10:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.12.0\n"
+
+#: en/multimedia.html+html.body.h1:9
+msgid "Multimedia codecs"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:15
+msgid ""
+"These multimedia codecs are not included by default for legal or security "
+"reasons."
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td:18
+msgid "Flash"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:21
+msgid "HTML5 is the default media player in Firefox."
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:22
+msgid ""
+"Youtube and other sites are already providing their content using HTML5. "
+"However, there are still sites using Flash."
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.div.p:28
+msgid "Warning:"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.div.p:29
+msgid "Some Flash content may harm your system."
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td:33
+msgid "CSS"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:36
+msgid ""
+"Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
+"which attempts to restrict the software that can play a DVD."
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:37
+msgid ""
+"SolydXK does not come with the necessary packages pre-installed to play "
+"these encrypted DVDs"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.p:38
+msgid ""
+"By clicking the install button below the following packages will be "
+"installed on your system:"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.ul.li:40
+msgid "libdvdcss2"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.ul.li:41
+msgid "w32codecs or w64codecs"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.div.p:48
+msgid "Legal warning:"
+msgstr ""
+
+#: en/multimedia.html+html.body.div.div.table.tr.td.div.p:49
+msgid ""
+"Check with your local laws to make sure usage of libdvdcss2 would be legal "
+"in your area."
+msgstr ""

@@ -40,7 +40,7 @@ msg = _("SolydXK Welcome cannot be started in a live environment\n"
 def isRunningLive():
     if force:
         return False
-    liveDirs = ['/live', '/lib/live', '/rofs']
+    liveDirs = ['/live', '/lib/live/mount', '/rofs']
     for ld in liveDirs:
         if os.path.exists(ld):
             return True

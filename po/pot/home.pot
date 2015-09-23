@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 12:55+0200\n"
+"POT-Creation-Date: 2015-09-23 10:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,60 +12,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.12.0\n"
 
-#: en/home.html+html.head.title:4
-msgctxt "en/home.html html.head.title:4"
+#: en/home.html+html.body.h1:10
 msgid "Home applications"
 msgstr ""
 
-#: en/home.html+html.body.h1:11
-msgctxt "en/home.html html.body.h1:11"
-msgid "Home applications"
-msgstr ""
-
-#: en/home.html+html.body.div.div.table.tr.td.p:18
+#: en/home.html+html.body.div.div.table.tr.td.p:17
 msgid "This is a list of recommended applications suited for home users."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:19
+#: en/home.html+html.body.div.div.table.tr.td.p:18
 msgid ""
 "When you click the install button all listed applications are going to be "
 "installed on your system. You can use the software manager to install them "
 "separately."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:22
+#: en/home.html+html.body.div.div.table.tr.td:21
 msgid "Gimp"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:25
+#: en/home.html+html.body.div.div.table.tr.td.p:24
 msgid ""
 "GIMP is an acronym for GNU Image Manipulation Program. It is a freely "
 "distributed program for such tasks as photo retouching, image composition "
 "and image authoring."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:26
+#: en/home.html+html.body.div.div.table.tr.td.p:25
 msgid ""
 "It has many capabilities. It can be used as a simple paint program, an "
 "expert quality photo retouching program, an online batch processing system, "
 "a mass production image renderer, an image format converter, etc."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:28
+#: en/home.html+html.body.div.div.table.tr.td:27
 msgid "gimp"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:31
+#: en/home.html+html.body.div.div.table.tr.td:30
 msgid ""
 "Homepage: <a href=\"http://www.gimp.org\" target=\"_blank\""
 ">http://www.gimp.org</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:33
+#: en/home.html+html.body.div.div.table.tr.td:32
 msgid "Inkscape"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:36
+#: en/home.html+html.body.div.div.table.tr.td.p:35
 msgid ""
 "Inkscape is an open-source vector graphics editor similar to Adobe "
 "Illustrator, Corel Draw, Freehand, or Xara X. What sets Inkscape apart is "
@@ -73,26 +67,26 @@ msgid ""
 "as the native format."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:38
+#: en/home.html+html.body.div.div.table.tr.td:37
 msgid "inkscape"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:41
+#: en/home.html+html.body.div.div.table.tr.td:40
 msgid ""
 "Homepage: <a href=\"https://inkscape.org\" target=\"_blank\""
 ">https://inkscape.org</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:43
+#: en/home.html+html.body.div.div.table.tr.td:42
 msgid "Shotwell / Digikam"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:46
+#: en/home.html+html.body.div.div.table.tr.td.p:45
 msgid ""
 "Shotwell is an image organizer designed to provide personal photo management."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:47
+#: en/home.html+html.body.div.div.table.tr.td.p:46
 msgid ""
 "Shotwell can import photos and videos from a digital camera directly. "
 "Shotwell automatically groups photos and videos by date, and supports "
@@ -100,88 +94,88 @@ msgid ""
 "eliminate red eye, and adjust levels and color balance."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:48
+#: en/home.html+html.body.div.div.table.tr.td.p:47
 msgid ""
 "For SolydK Digikam is installed. It has the same functionality as Shotwell"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:50
+#: en/home.html+html.body.div.div.table.tr.td:49
 msgid "shotwell"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:54
+#: en/home.html+html.body.div.div.table.tr.td.p:53
 msgid ""
 "Homepage Shotwell: <a href=\"https://wiki.gnome.org/Apps/Shotwell/\" target="
 "\"_blank\">https://wiki.gnome.org/Apps/Shotwell</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:55
+#: en/home.html+html.body.div.div.table.tr.td.p:54
 msgid ""
 "Homepage Digikamm: <a href=\"https://www.digikam.org/\" target=\"_blank\""
 ">https://www.digikam.org</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:58
+#: en/home.html+html.body.div.div.table.tr.td:57
 msgid "Clementine / Amarok"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:61
+#: en/home.html+html.body.div.div.table.tr.td.p:60
 msgid "Clementine is a modern music player and library organizer."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:62
+#: en/home.html+html.body.div.div.table.tr.td.p:61
 msgid ""
 "Clementine is a multiplatform music player. It is inspired by Amarok 1.4, "
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:63
+#: en/home.html+html.body.div.div.table.tr.td.p:62
 msgid ""
 "For SolydK Amarok is installed. It has the same functionality as Clementine"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:65
+#: en/home.html+html.body.div.div.table.tr.td:64
 msgid "clementine"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:69
+#: en/home.html+html.body.div.div.table.tr.td.p:68
 msgid ""
 "Homepage Clementine: <a href=\"https://www.clementine-player.org\" target=\""
 "_blank\">https://www.clementine-player.org</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:70
+#: en/home.html+html.body.div.div.table.tr.td.p:69
 msgid ""
 "Homepage Amarok: <a href=\"https://amarok.kde.org\" target=\"_blank\""
 ">https://amarok.kde.org</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:73
+#: en/home.html+html.body.div.div.table.tr.td:72
 msgid "HandBrake"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:76
+#: en/home.html+html.body.div.div.table.tr.td.p:75
 msgid ""
 "HandBrake is a tool for converting video from nearly any format to a "
 "selection of modern, widely supported codecs."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:78
+#: en/home.html+html.body.div.div.table.tr.td:77
 msgid "handbrake"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:81
+#: en/home.html+html.body.div.div.table.tr.td:80
 msgid ""
 "Homepage: <a href=\"https://handbrake.fr\" target=\"_blank\""
 ">https://handbrake.fr</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:83
+#: en/home.html+html.body.div.div.table.tr.td:82
 msgid "SoundConverter"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:86
+#: en/home.html+html.body.div.div.table.tr.td.p:85
 msgid ""
 "SoundConverter is the leading audio file converter. It reads anything "
 "GStreamer can read (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
@@ -189,74 +183,74 @@ msgid ""
 "Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:88
+#: en/home.html+html.body.div.div.table.tr.td:87
 msgid "soundconverter"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:91
+#: en/home.html+html.body.div.div.table.tr.td:90
 msgid ""
 "Homepage: <a href=\"http://soundconverter.org\" target=\"_blank\""
 ">http://soundconverter.org</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:93
+#: en/home.html+html.body.div.div.table.tr.td:92
 msgid "Pitivi / Kdenlive"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:96
+#: en/home.html+html.body.div.div.table.tr.td.p:95
 msgid ""
 "Pitivi is a Free video editor with a beautiful and intuitive user interface, "
 "a clean codebase and a fantastic community."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:97
+#: en/home.html+html.body.div.div.table.tr.td.p:96
 msgid ""
 "For SolydK Kdenlive is installed. It has the same functionality as Pitivi"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:99
+#: en/home.html+html.body.div.div.table.tr.td:98
 msgid "pitivi"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:103
+#: en/home.html+html.body.div.div.table.tr.td.p:102
 msgid ""
 "Homepage Pitivi: <a href=\"http://www.pitivi.org\" target=\"_blank\""
 ">http://www.pitivi.org</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:104
+#: en/home.html+html.body.div.div.table.tr.td.p:103
 msgid ""
 "Homepage Kdenlive: <a href=\"https://kdenlive.org/\" target=\"_blank\""
 ">https://kdenlive.org</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:107
+#: en/home.html+html.body.div.div.table.tr.td:106
 msgid "Transmission / Ktorrent"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:110
+#: en/home.html+html.body.div.div.table.tr.td.p:109
 msgid ""
 "Transmission is a BitTorrent client which features a simple interface on top "
 "of a cross-platform back-end."
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:111
+#: en/home.html+html.body.div.div.table.tr.td.p:110
 msgid ""
 "For SolydK Ktorrent is installed. It has the same functionality as "
 "Transmission"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td:113
+#: en/home.html+html.body.div.div.table.tr.td:112
 msgid "transmission"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:117
+#: en/home.html+html.body.div.div.table.tr.td.p:116
 msgid ""
 "Homepage Transmission: <a href=\"https://www.transmissionbt.com/\" target=\""
 "_blank\">https://www.transmissionbt.com</a>"
 msgstr ""
 
-#: en/home.html+html.body.div.div.table.tr.td.p:118
+#: en/home.html+html.body.div.div.table.tr.td.p:117
 msgid ""
 "Homepage Ktorrent: <a href=\"http://www.ktorrent.org/\" target=\"_blank\""
 ">http://www.ktorrent.org</a>"

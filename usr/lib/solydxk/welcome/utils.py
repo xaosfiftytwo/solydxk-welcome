@@ -21,7 +21,10 @@ def shell_exec(command):
 
 def getoutput(command):
     #return shell_exec(command).stdout.read().strip()
-    output = subprocess.check_output(command, shell=True).decode('utf-8').strip().split('\n')
+    try:
+        output = subprocess.check_output(command, stderr=subprocess.STDOUT, shell=True).decode('utf-8').strip().split('\n')
+    except:
+        output = ['']
     if len(output) == 1:
         # Single line: return as string
         output = output[0]
@@ -104,6 +107,7 @@ def isAmd64():
 
 # Need to initiate threads for Gtk
 GObject.threads_init()
+
 
 # Class to run commands in a thread and return the output in a queue
 class ExecuteThreadedCommands(threading.Thread):

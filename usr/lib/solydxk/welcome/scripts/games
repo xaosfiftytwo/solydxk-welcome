@@ -2,6 +2,10 @@
 
 PCK='steam minetest 0ad wesnoth sauerbraten neverball supertuxkart'
 
+if [ "$(uname -m)" == "x86_64" ]; then
+  PCK="$PCK libgl1-mesa-glx:i386"
+fi
+
 # ===============================================================
 
 # Preseeding doesn't seem to work with steam:

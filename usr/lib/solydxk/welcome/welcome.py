@@ -3,7 +3,7 @@
 # from gi.repository import Gtk, GdkPixbuf, GObject, Pango, Gdk, GLib
 from gi.repository import Gtk, Gdk, GObject, GLib
 from os.path import join, abspath, dirname, basename, exists
-from utils import ExecuteThreadedCommands, hasInternetConnection
+from utils import ExecuteThreadedCommands, hasInternetConnection, getoutput
 from simplebrowser import SimpleBrowser
 import os
 from dialogs import MessageDialogSafe
@@ -29,14 +29,17 @@ class SolydXKWelcome(object):
         # 0 = no action (just show)
         # 1 = apt install
         # 2 = open external application
+        # 3 = backports
         self.pages = []
         self.pages.append([0, 'welcome'])
+        self.pages.append([2, 'drivers'])
+        self.pages.append([1, 'multimedia'])
+        self.pages.append([3, 'libreoffice'])
         self.pages.append([1, 'business'])
         self.pages.append([1, 'home'])
         self.pages.append([1, 'system'])
         self.pages.append([1, 'games'])
-        self.pages.append([1, 'legal'])
-        self.pages.append([2, 'drivers'])
+        self.pages.append([1, 'wine'])
 
         # ================================
 
@@ -87,6 +90,14 @@ class SolydXKWelcome(object):
         self.nextSavedState = True
         self.prevSavedState = False
 
+        # Check for backports
+        self.isBackportsEnabled = False
+        bp = getoutput("grep backports /etc/apt/sources.list | grep -v ^#")
+        if bp.strip() == "":
+            bp = getoutput("grep backports /etc/apt/sources.list.d/*.list | grep -v ^#")
+        if bp.strip() != "":
+            self.isBackportsEnabled = True
+
         # Load first HTML page
         self.loadHtml(self.pages[0][1])
 
@@ -116,7 +127,7 @@ class SolydXKWelcome(object):
             page = self.pages[self.currentPage][1]
             script = join(self.scriptDir, "scripts/{}".format(page))
             if exists(script):
-                if actionNr == 1:
+                if actionNr == 1 or actionNr == 3:
                     self.exec_command("gksudo -m \"{}\" \"/bin/sh -c {}\"".format(msg, script))
                 elif actionNr == 2:
                     os.system("/bin/sh -c \"{}\" &".format(script))
@@ -137,6 +148,15 @@ class SolydXKWelcome(object):
 
     def switchPage(self, count):
         self.currentPage += count
+
+        # Skip backport page if system is not enabled for backports
+        if self.pages[self.currentPage][0] == 3 and not self.isBackportsEnabled:
+            if count > 0:
+                self.switchPage(1)
+            else:
+                self.switchPage(-1)
+            return
+
         self.btnInstall.set_sensitive(self.pages[self.currentPage][0])
         self.btnPrevious.set_sensitive(self.currentPage)
         self.btnNext.set_sensitive(self.currentPage - self.lastPage)
@@ -250,7 +270,7 @@ class SolydXKWelcome(object):
     # Close the gui
     def on_welcomeWindow_destroy(self, widget):
         # Create flag file
-        print('touch {}'.format(self.flagPath))
+        print(('touch {}'.format(self.flagPath)))
         os.system('touch {}'.format(self.flagPath))
         # Close the app
         Gtk.main_quit()

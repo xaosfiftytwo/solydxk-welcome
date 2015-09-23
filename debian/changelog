@@ -1,3 +1,16 @@
+solydxk-welcome (1.1.0) solydxk; urgency=low
+
+  * Added install page for PlayOnLinux
+  * Added Flash to Multimedia Codecs page
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 23 Sep 2015 11:00:00 +0100
+
+solydxk-welcome (1.0.9) solydxk; urgency=low
+
+  * Added install page for LibreOffice Backports
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 06 Sep 2015 11:00:00 +0100
+
 solydxk-welcome (1.0.8) solydxk; urgency=low
 
   * Fixed bug not showing English pages when translated language does not exist

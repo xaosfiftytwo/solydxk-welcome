@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 12:55+0200\n"
+"POT-Creation-Date: 2015-09-23 10:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,80 +12,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.12.0\n"
 
-#: en/games.html+html.head.title:4
-msgctxt "en/games.html html.head.title:4"
+#: en/games.html+html.body.h1:10
 msgid "Games"
 msgstr ""
 
-#: en/games.html+html.body.h1:11
-msgctxt "en/games.html html.body.h1:11"
-msgid "Games"
-msgstr ""
-
-#: en/games.html+html.body.div.div.table.tr.td.p:18
+#: en/games.html+html.body.div.div.table.tr.td.p:17
 msgid "All work and no play..."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:19
+#: en/games.html+html.body.div.div.table.tr.td.p:18
 msgid ""
 "When you click the install button all listed games are going to be installed "
 "on your system. You can use the software manager to install them separately."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:22
+#: en/games.html+html.body.div.div.table.tr.td:21
 msgid "Steam"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:25
+#: en/games.html+html.body.div.div.table.tr.td.p:24
 msgid ""
 "Steam is an internet-based digital distribution, digital rights management "
 "(DRM), multiplayer, and social networking platform developed by Valve "
 "Corporation."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:27
+#: en/games.html+html.body.div.div.table.tr.td:26
 msgid "steam"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:31
+#: en/games.html+html.body.div.div.table.tr.td.p:30
 msgid ""
 "Homepage: <a href=\"http://store.steampowered.com/\" target=\"_blank\""
 ">http://store.steampowered.com</a>"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:32
+#: en/games.html+html.body.div.div.table.tr.td.p:31
 msgid "Installed size: 200 MB (after user installation)"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:35
+#: en/games.html+html.body.div.div.table.tr.td:34
 msgid "Minetest"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:38
+#: en/games.html+html.body.div.div.table.tr.td.p:37
 msgid ""
 "Minetest is an infinite-world block sandbox game and a game engine, inspired "
 "by InfiniMiner, Minecraft and the like."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:40
+#: en/games.html+html.body.div.div.table.tr.td:39
 msgid "minetest"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:44
+#: en/games.html+html.body.div.div.table.tr.td.p:43
 msgid ""
 "Homepage: <a href=\"http://minetest.net\" target=\"_blank\""
 ">http://minetest.net</a>"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:45
+#: en/games.html+html.body.div.div.table.tr.td.p:44
 msgid "Installed size: 10 MB"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:48
+#: en/games.html+html.body.div.div.table.tr.td:47
 msgid "0 A.D."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:51
+#: en/games.html+html.body.div.div.table.tr.td.p:50
 msgid ""
 "0 A.D. (pronounced “zero-ey-dee”) is a free, open-source, historical Real "
 "Time Strategy (RTS) game currently under development by Wildfire Games, a "
@@ -94,31 +88,31 @@ msgid ""
 "force and dominate your enemies."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:53
+#: en/games.html+html.body.div.div.table.tr.td:52
 msgid "0ad"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:57
+#: en/games.html+html.body.div.div.table.tr.td.p:56
 msgid ""
 "Homepage: <a href=\"http://play0ad.com\" target=\"_blank\""
 ">http://play0ad.com</a>"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:58
+#: en/games.html+html.body.div.div.table.tr.td.p:57
 msgid "Installed size: 1 GB"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:61
+#: en/games.html+html.body.div.div.table.tr.td:60
 msgid "The Battle for Wesnoth"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:64
+#: en/games.html+html.body.div.div.table.tr.td.p:63
 msgid ""
 "The Battle for Wesnoth is a turn-based tactical strategy game with a high "
 "fantasy theme."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:65
+#: en/games.html+html.body.div.div.table.tr.td.p:64
 msgid ""
 "Build up a great army, gradually turning raw recruits into hardened "
 "veterans. In later games, recall your toughest warriors and form a deadly "
@@ -127,96 +121,96 @@ msgid ""
 "different terrains against all manner of opposition."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:67
+#: en/games.html+html.body.div.div.table.tr.td:66
 msgid "wesnoth"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:71
+#: en/games.html+html.body.div.div.table.tr.td.p:70
 msgid ""
 "Homepage: <a href=\"http://www.wesnoth.org/\" target=\"_blank\""
 ">http://www.wesnoth.org</a>"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:72
+#: en/games.html+html.body.div.div.table.tr.td.p:71
 msgid "Installed size: 450 MB"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:75
+#: en/games.html+html.body.div.div.table.tr.td:74
 msgid "Sauerbraten"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:78
+#: en/games.html+html.body.div.div.table.tr.td.p:77
 msgid ""
 "Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
 "successor of the Cube FPS."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:79
+#: en/games.html+html.body.div.div.table.tr.td.p:78
 msgid ""
 "Much like the original Cube, the aim of this game is fun, old school "
 "deathmatch gameplay and also to allow map/geometry editing to be done "
 "cooperatively in-game."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:81
+#: en/games.html+html.body.div.div.table.tr.td:80
 msgid "sauerbraten"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:85
+#: en/games.html+html.body.div.div.table.tr.td.p:84
 msgid ""
 "Homepage: <a href=\"http://sauerbraten.org/\" target=\"_blank\""
 ">http://sauerbraten.org</a>"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:86
+#: en/games.html+html.body.div.div.table.tr.td.p:85
 msgid "Installed size: 650 MB"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:89
+#: en/games.html+html.body.div.div.table.tr.td:88
 msgid "Neverball"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:92
+#: en/games.html+html.body.div.div.table.tr.td.p:91
 msgid ""
 "Tilt the floor to roll a ball through an obstacle course before time runs "
 "out. Neverball is part puzzle game, part action game, and entirely a test of "
 "skill."
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:94
+#: en/games.html+html.body.div.div.table.tr.td:93
 msgid "neverball"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:98
+#: en/games.html+html.body.div.div.table.tr.td.p:97
 msgid ""
 "Homepage: <a href=\"http://neverball.org\" target=\"_blank\""
 ">http://neverball.org</a>"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:99
+#: en/games.html+html.body.div.div.table.tr.td.p:98
 msgid "Installed size: 150 MB"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:102
+#: en/games.html+html.body.div.div.table.tr.td:101
 msgid "Super Tux Kart"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:105
+#: en/games.html+html.body.div.div.table.tr.td.p:104
 msgid ""
 "SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
 "items for you to try. Have fun!"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td:107
+#: en/games.html+html.body.div.div.table.tr.td:106
 msgid "supertuxkart"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:111
+#: en/games.html+html.body.div.div.table.tr.td.p:110
 msgid ""
 "Homepage: <a href=\"http://supertuxkart.sourceforge.net/\" target=\"_blank\""
 ">http://supertuxkart.sourceforge.net</a>"
 msgstr ""
 
-#: en/games.html+html.body.div.div.table.tr.td.p:112
+#: en/games.html+html.body.div.div.table.tr.td.p:111
 msgid "Installed size: 350 MB"
 msgstr ""

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-29 12:55+0200\n"
+"POT-Creation-Date: 2015-09-23 10:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,36 +12,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.12.0\n"
 
-#: en/business.html+html.head.title:4
-msgctxt "en/business.html html.head.title:4"
+#: en/business.html+html.body.h1:10
 msgid "Business applications"
 msgstr ""
 
-#: en/business.html+html.body.h1:11
-msgctxt "en/business.html html.body.h1:11"
-msgid "Business applications"
-msgstr ""
-
-#: en/business.html+html.body.div.div.table.tr.td.p:19
+#: en/business.html+html.body.div.div.table.tr.td.p:18
 msgid "This is a list of recommended applications suited for businesses."
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.p:20
+#: en/business.html+html.body.div.div.table.tr.td.p:19
 msgid ""
 "When you click the install button all listed applications are going to be "
 "installed on your system. You can use the software manager to install them "
 "separately."
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:23
+#: en/business.html+html.body.div.div.table.tr.td:22
 msgid "Gnucash"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.p:26
+#: en/business.html+html.body.div.div.table.tr.td.p:25
 msgid "GnuCash is personal and small-business financial-accounting software."
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.p:27
+#: en/business.html+html.body.div.div.table.tr.td.p:26
 msgid ""
 "Designed to be easy to use, yet powerful and flexible, GnuCash allows you to "
 "track bank accounts, stocks, income and expenses. As quick and intuitive to "
@@ -49,105 +43,105 @@ msgid ""
 "principles to ensure balanced books and accurate reports."
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:29
+#: en/business.html+html.body.div.div.table.tr.td:28
 msgid "gnucash"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:32
+#: en/business.html+html.body.div.div.table.tr.td:31
 msgid ""
 "Homepage: <a href=\"http://www.gnucash.org/\" target=\"_blank\""
 ">http://www.gnucash.org</a>"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:34
+#: en/business.html+html.body.div.div.table.tr.td:33
 msgid "Dolibarr"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.p:37
+#: en/business.html+html.body.div.div.table.tr.td.p:36
 msgid ""
 "Dolibarr ERP and CRM is a modern and easy to use web software to manage your "
 "business (contacts, invoices, orders, products, stocks, agenda, emailings, "
 "etc...)."
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.p:38
+#: en/business.html+html.body.div.div.table.tr.td.p:37
 msgid ""
 "On first run, final configuration is started. You will need to fill in the "
 "following information:"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.ul.li:40
+#: en/business.html+html.body.div.div.table.tr.td.ul.li:39
 msgid "Password for Dolibarr database owner: dolibarr"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.ul.li:41
+#: en/business.html+html.body.div.div.table.tr.td.ul.li:40
 msgid "Superuser access: root / your_root_password"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.ul.li:42
+#: en/business.html+html.body.div.div.table.tr.td.ul.li:41
 msgid "Dolibarr admin login : admin / admin"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.p:44
+#: en/business.html+html.body.div.div.table.tr.td.p:43
 msgid "Replace \"your_root_password\" with your root password."
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:46
+#: en/business.html+html.body.div.div.table.tr.td:45
 msgid "dolibarr"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:49
+#: en/business.html+html.body.div.div.table.tr.td:48
 msgid ""
 "Homepage: <a href=\"http://www.dolibarr.org/\" target=\"_blank\""
 ">http://www.dolibarr.org</a>"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:51
+#: en/business.html+html.body.div.div.table.tr.td:50
 msgid "Letodms"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.p:54
+#: en/business.html+html.body.div.div.table.tr.td.p:53
 msgid ""
 "LetoDMS is an open-source, web-based document management system (DMS) "
 "written in PHP with a database backend. LetoDMS provides document meta-data, "
 "version control, security and easy access to your documents."
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.p:55
+#: en/business.html+html.body.div.div.table.tr.td.p:54
 msgid "Login with: admin / admin"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.p:56
+#: en/business.html+html.body.div.div.table.tr.td.p:55
 msgid ""
 "You can maintain the Dolibarr and Letodms databases with phpMyAdmin (Login: "
 "root / your_root_password)"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:58
+#: en/business.html+html.body.div.div.table.tr.td:57
 msgid "letodms"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:61
+#: en/business.html+html.body.div.div.table.tr.td:60
 msgid ""
 "Homepage: <a href=\"http://www.letodms.com/\" target=\"_blank\""
 ">http://www.letodms.com</a>"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:63
+#: en/business.html+html.body.div.div.table.tr.td:62
 msgid "ProjectLibre"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td.p:66
+#: en/business.html+html.body.div.div.table.tr.td.p:65
 msgid ""
 "ProjectLibre is a project management software system. It intends to be a "
 "complete desktop replacement for Microsoft Project."
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:68
+#: en/business.html+html.body.div.div.table.tr.td:67
 msgid "projectlibre"
 msgstr ""
 
-#: en/business.html+html.body.div.div.table.tr.td:71
+#: en/business.html+html.body.div.div.table.tr.td:70
 msgid ""
 "Homepage: <a href=\"http://www.projectlibre.org/\" target=\"_blank\""
 ">http://www.projectlibre.org</a>"

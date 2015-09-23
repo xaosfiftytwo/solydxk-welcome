@@ -1,0 +1,18 @@
+#!/bin/bash
+
+AMD64='playonlinux wine32 libasound2-plugins:i386 libgl1-mesa-glx:i386'
+I386='playonlinux wine32 libasound2-plugins libgl1-mesa-glx'
+
+PCK=$I386
+if [ "$(uname -m)" == "x86_64" ]; then
+  PCK=$AMD64
+fi
+
+# ===============================================================
+
+apt-get update
+echo
+echo "Start installing: $PCK"
+export DEBIAN_FRONTEND=gnome
+apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold --force-yes --no-install-recommends $PCK
+echo "Done"

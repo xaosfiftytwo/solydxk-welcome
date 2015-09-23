@@ -1,7 +1,7 @@
 #!/bin/bash
 
-AMD64='libdvdcss2 w64codecs'
-I386='libdvdcss2 w32codecs'
+AMD64='libdvdcss2 w64codecs solydxk-flashplugin-11'
+I386='libdvdcss2 w32codecs solydxk-flashplugin-11'
 
 # ======================================
 
