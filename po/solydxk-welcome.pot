@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-23 10:30+0200\n"
+"POT-Creation-Date: 2015-09-24 17:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -764,7 +764,9 @@ msgid "Warning:"
 msgstr ""
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.div.p:29
-msgid "Some Flash content may harm your system."
+msgid ""
+"Be aware that Flash is not Open Source. Some Flash content may harm your "
+"system."
 msgstr ""
 
 #: en/multimedia.html+html.body.div.div.table.tr.td:33
@@ -780,7 +782,7 @@ msgstr ""
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:37
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
-"these encrypted DVDs"
+"these encrypted DVDs."
 msgstr ""
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:38
@@ -993,7 +995,8 @@ msgstr ""
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:26
 msgid ""
 "By using this software you may make your system vulnerable to MS Windows "
-"viruses and malware."
+"viruses and malware. The risk of infection is not higher than under native "
+"MS Windows."
 msgstr ""
 
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:27
