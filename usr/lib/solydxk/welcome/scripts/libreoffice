@@ -5,18 +5,18 @@ PCK='libreoffice'
 # ===============================================================
 
 # Check if backports is enabled
-BP=$(grep backports /etc/apt/sources.list | grep -v ^#)
+BP=$(grep backports /etc/apt/sources.list | grep -v ^# | awk '{print $3}')
 if [ "$BP" == "" ]; then
-  BP=$(grep backports /etc/apt/sources.list.d/*.list | grep -v ^#)
-  if [ "$BP" == "" ]; then
-    echo "Backports is not enabled: exiting."
-    exit
-  fi
+  BP=$(grep backports /etc/apt/sources.list.d/*.list | grep -v ^# | awk '{print $3}')
+fi
+if [ "$BP" == "" ]; then
+  echo "Backports is not enabled: exiting."
+  exit
 fi
 
 apt-get update
 echo
 echo "Start installing: $PCK"
 export DEBIAN_FRONTEND=gnome
-apt-get install -t jessie-backports --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold --force-yes $PCK
+apt-get install -t $BP --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold --force-yes $PCK
 echo "Done"

@@ -1,3 +1,9 @@
+solydxk-welcome (1.1.1) solydxk; urgency=low
+
+  * Updated translations
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 03 Nov 2015 17:00:00 +0100
+
 solydxk-welcome (1.1.0) solydxk; urgency=low
 
   * Added install page for PlayOnLinux

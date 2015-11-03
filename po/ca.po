@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Eduard Selma <selma@tinet.cat>, 2015
 # root <arjenbalfoort@solydxk.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-23 10:30+0200\n"
-"PO-Revision-Date: 2015-09-22 13:25+0000\n"
-"Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
+"POT-Creation-Date: 2015-11-03 16:54+0100\n"
+"PO-Revision-Date: 2015-10-22 21:25+0000\n"
+"Last-Translator: Eduard Selma <selma@tinet.cat>\n"
 "Language-Team: Catalan (http://www.transifex.com/solydxk/solydxk-welcome/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -51,8 +52,8 @@ msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
-"Cal una connexió a internet per instal·lar programari addicional.\n"
-"Si us plau, connecteu-vos a internet i torneu-ho a provar."
+"Cal una connexió a Internet per instal·lar programari addicional.\n"
+"Si us plau, connecteu-vos a Internet i torneu-ho a provar."
 
 #: ../usr/lib/solydxk/welcome/welcome.py:126
 msgid "Please enter your password"
@@ -110,9 +111,6 @@ msgid "SolydXK Welcome Screen"
 msgstr "Pantalla de Benvinguda de SolydXK"
 
 #: en/business.html+html.body.h1:10
-#, fuzzy
-#| msgctxt "en/business.html html.head.title:4"
-#| msgid "Business applications"
 msgid "Business applications"
 msgstr "Aplicacions d'Empresa"
 
@@ -140,7 +138,8 @@ msgstr "Gnucash"
 
 #: en/business.html+html.body.div.div.table.tr.td.p:25
 msgid "GnuCash is personal and small-business financial-accounting software."
-msgstr "GnuCash és un programari lliure de comptabilitat per petites empreses."
+msgstr ""
+"GnuCash és un programari lliure de comptabilitat per a petites empreses."
 
 #: en/business.html+html.body.div.div.table.tr.td.p:26
 msgid ""
@@ -268,8 +267,8 @@ msgid ""
 "ProjectLibre is a project management software system. It intends to be a "
 "complete desktop replacement for Microsoft Project."
 msgstr ""
-"ProjectLibre és un programari de Gestió de Projectes. Està orientat com una "
-"alternativa completa a Microsoft Project."
+"ProjectLibre és un programari de Gestió de Projectes. Està pensat per a ser "
+"una alternativa completa a Microsoft Project."
 
 #: en/business.html+html.body.div.div.table.tr.td:67
 msgid "projectlibre"
@@ -284,9 +283,6 @@ msgstr ""
 "\">http://www.projectlibre.org</a>"
 
 #: en/drivers.html+html.body.h1:9
-#, fuzzy
-#| msgctxt "en/drivers.html html.head.title:4"
-#| msgid "Hardware drivers"
 msgid "Hardware drivers"
 msgstr "Controladors de Maquinari"
 
@@ -307,7 +303,7 @@ msgid ""
 "and list any available proprietary drivers you can install. You only need to "
 "select the recommended driver for your hardware and DDM will do the rest."
 msgstr ""
-"El botó d'instal·lació obrirà el Device Driver manager (DDM). És una eina "
+"El botó d'instal·lació obrirà el Device Driver Manager (DDM). És una eina "
 "que us ajudarà a instal·lar aquests controladors. Comprovara el maquinari "
 "instal·lat i us oferirà una llista amb els possibles controladors que podeu "
 "instal·lar. Cal seleccionar el controlador recomanat per al vostre maquinari "
@@ -321,13 +317,9 @@ msgid ""
 msgstr ""
 "Actualment es poden instal·lar els controladors <strong>Nvidia</strong>, "
 "<strong>ATI</strong> i <strong>Broadcom</strong>. També us permet instal·lar "
-"el nucli (kernel) <strong>PAE</strong> per sistemes de 32-bit amb nucli "
-"múltiple."
+"el kernel <strong>PAE</strong> per sistemes de 32-bit amb nucli múltiple."
 
 #: en/games.html+html.body.h1:10
-#, fuzzy
-#| msgctxt "en/games.html html.head.title:4"
-#| msgid "Games"
 msgid "Games"
 msgstr "Jocs"
 
@@ -354,7 +346,7 @@ msgid ""
 "(DRM), multiplayer, and social networking platform developed by Valve "
 "Corporation."
 msgstr ""
-"Steam és una plataforma digital basada en internet, amb Gestió de Drets "
+"Steam és una plataforma digital basada en Internet, amb Gestió de Drets "
 "Digitals (DRM), multi jugador i de xarxa social, desenvolupada per Valve "
 "Corporation."
 
@@ -487,7 +479,7 @@ msgid ""
 "Sauerbraten is a free multiplayer and singleplayer first person shooter, the "
 "successor of the Cube FPS."
 msgstr ""
-"Sauerbraten és un joc lliure multi i uni-jugador de trets en primera "
+"Sauerbraten és un joc lliure multi- i uni-jugador de trets en primera "
 "persona, el successor de Cube FPS."
 
 #: en/games.html+html.body.div.div.table.tr.td.p:78
@@ -497,7 +489,7 @@ msgid ""
 "cooperatively in-game."
 msgstr ""
 "De manera semblant al Cube original, el propòsit d'aquest joc és passar-ho "
-"bé amb un joc mortal de la vella escola, que també permet l'edició "
+"bé amb un joc mortífer de la vella escola, que també permet l'edició "
 "cooperativa del mapa i la geometria."
 
 #: en/games.html+html.body.div.div.table.tr.td:80
@@ -575,9 +567,6 @@ msgid "Installed size: 350 MB"
 msgstr "Mida instal·lat: 350 MB"
 
 #: en/home.html+html.body.h1:10
-#, fuzzy
-#| msgctxt "en/home.html html.head.title:4"
-#| msgid "Home applications"
 msgid "Home applications"
 msgstr "Aplicacions domèstiques"
 
@@ -877,11 +866,11 @@ msgstr ""
 
 #: en/libreoffice.html+html.body.h1:10
 msgid "LibreOffice (Backports)"
-msgstr ""
+msgstr "LibreOffice (Backports)"
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td:20
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td.p:23
 msgid ""
@@ -890,71 +879,80 @@ msgid ""
 "if you are missing some features or you want LibreOffice to stay updated you "
 "can install LibreOffice from the backports repository."
 msgstr ""
+"La suite ofimàtica LibreOffice ja està preinstal·lada a SolydXK. La seva "
+"capacitat i estabilitat la fan molt recomanable, especialment per empreses. "
+"Tot i això, si necessiteu les darreres característiques o voleu mantenir "
+"LibreOffice actualitzat a la darrera versió, podeu instal·lar LibreOffice "
+"des del dipòsit de Backports. "
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td.p:24
 msgid ""
 "Backports are recompiled new packages for the current stable environment. "
 "So, they will run without new libraries."
 msgstr ""
+"Backports conté paquets nous recompilats per a la darrera versió estable. "
+"D'aquesta manera es poden executar aplicacions sense instal·lar biblioteques "
+"noves. "
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td.p:25
 msgid ""
 "Although you can run more up to date software using the backports "
 "repository, you introduce a greater risk of breakage doing so."
 msgstr ""
+"Podeu executar aplicacions més actualitzades bo i usant el dipòsit de "
+"Backports. Tanmateix, introduïu un cert risc d'inestabilitats fent-ho. "
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td:30
-#, fuzzy
-#| msgid ""
-#| "Homepage: <a href=\"http://www.dolibarr.org/\" target=\"_blank\">http://"
-#| "www.dolibarr.org</a>"
 msgid ""
 "Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank\">https://"
 "www.libreoffice.org</a>"
 msgstr ""
-"Pàgina Web: <a href=\"http://www.dolibarr.org/\" target=\"_blank\">http://"
-"www.dolibarr.org</a>"
+"Homepage: <a href=\"https://www.libreoffice.org/\" target=\"_blank\">https://"
+"www.libreoffice.org</a>"
 
 #: en/multimedia.html+html.body.h1:9
-#, fuzzy
-#| msgctxt "en/legal.html html.head.title:4"
-#| msgid "Multimedia codecs"
 msgid "Multimedia codecs"
-msgstr "Còdecs Multimèdia"
+msgstr "Còdecs Multimèdia "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:15
 msgid ""
 "These multimedia codecs are not included by default for legal or security "
 "reasons."
 msgstr ""
+"Aquests còdecs multimèdia no estan inclosos per omissió per raons legals o "
+"de seguretat. "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td:18
 msgid "Flash"
-msgstr ""
+msgstr "Flash "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:21
 msgid "HTML5 is the default media player in Firefox."
-msgstr ""
+msgstr "El reproductor multimèdia per omissió a Firefox es HTML5 "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:22
 msgid ""
 "Youtube and other sites are already providing their content using HTML5. "
 "However, there are still sites using Flash."
 msgstr ""
+"Youtube i altres llocs ja faciliten el seu contingut usant HTML5. Tot i "
+"això, encara hi ha alguns llocs que usen Flash. "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.div.p:28
-#, fuzzy
-#| msgid "Legal warning:"
 msgid "Warning:"
-msgstr "Avís legal:"
+msgstr "Atenció: "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.div.p:29
-msgid "Some Flash content may harm your system."
+msgid ""
+"Be aware that Flash is not Open Source. Some Flash content may harm your "
+"system."
 msgstr ""
+"Tingueu en compte que Flash no és de Codi Obert. Algun contingut de Flash "
+"pot perjudicar el vostre sistema. "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td:33
 msgid "CSS"
-msgstr ""
+msgstr "CSS "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:36
 msgid ""
@@ -965,16 +963,12 @@ msgstr ""
 "que limita el programari que pot reproduir un DVD."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:37
-#, fuzzy
-#| msgid ""
-#| "SolydXK does not come with the necessary packages pre-installed to play "
-#| "these encrypted DVDs."
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
-"these encrypted DVDs"
+"these encrypted DVDs."
 msgstr ""
-"SolydXK no ve equipat d'origen amb els paquets necessaris per reproduir "
-"aquests DVD encriptats."
+"SolydXK no incorpora per omissió els paquets necessaris preinstal·lats per "
+"reproduir aquests DVDs encriptats. "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:38
 msgid ""
@@ -982,7 +976,7 @@ msgid ""
 "installed on your system:"
 msgstr ""
 "Bo i clicant el botó d'instal·lació de sota s'instal·laran aquests paquets "
-"al vostre sistema:"
+"al vostre sistema: "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.ul.li:40
 msgid "libdvdcss2"
@@ -994,7 +988,7 @@ msgstr "w32codecs o w64codecs"
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.div.p:48
 msgid "Legal warning:"
-msgstr "Avís legal:"
+msgstr "Avís legal: "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.div.p:49
 msgid ""
@@ -1002,11 +996,11 @@ msgid ""
 "in your area."
 msgstr ""
 "Consulteu les lleis del vostre país per assegurar-vos que podeu usar "
-"legalment lidvdcss2."
+"legalment lidvdcss2. "
 
 #: en/system.html+html.body.h1:10
 msgid "System applications"
-msgstr "Aplicacions del Sistema"
+msgstr "Aplicacions del Sistema "
 
 #: en/system.html+html.body.div.div.table.tr.td:20
 msgid "Gparted"
@@ -1078,11 +1072,8 @@ msgstr ""
 "\">https://filezilla-project.org</a>"
 
 #: en/welcome.html+html.body.h1:9
-#, fuzzy
-#| msgctxt "en/welcome.html html.head.title:4"
-#| msgid "Welcome to SolydXK"
 msgid "Welcome to SolydXK"
-msgstr "Benvinguts a SolydXK"
+msgstr "Benvinguts a SolydXK "
 
 #: en/welcome.html+html.body.div.div.p:13
 msgid ""
@@ -1091,7 +1082,7 @@ msgid ""
 "stable to ensure the greatest stability and security."
 msgstr ""
 "SolydXK és un Sistema Operatiu de codi obert per a empreses, organitzacions "
-"i ús domèstic. Tant SolydX com SolydK estan basats en Debian Stable per "
+"i ús domèstic. Tant SolydX com SolydK estan basats en Debian Estable per "
 "assegurar la màxima estabilitat i seguretat."
 
 #: en/welcome.html+html.body.div.div.p.table.tr.td.p:17
@@ -1214,12 +1205,12 @@ msgstr ""
 #: en/wine.html+html.body.h1:10
 msgctxt "en/wine.html html.body.h1:10"
 msgid "PlayOnLinux"
-msgstr ""
+msgstr "PlayOnLinux "
 
 #: en/wine.html+html.body.div.div.table.tr.td:20
 msgctxt "en/wine.html html.body.div.div.table.tr.td:20"
 msgid "PlayOnLinux"
-msgstr ""
+msgstr "PlayOnLinux "
 
 #: en/wine.html+html.body.div.div.table.tr.td.p:23
 msgid ""
@@ -1228,6 +1219,10 @@ msgid ""
 "software, you can install it using PlayOnLinux. Not all software can run "
 "this way, but a large number of software is already supported."
 msgstr ""
+"SolydXK incorpora una àmplia varietat de programari. Tanmateix, si no podeu "
+"trobar el programari adient al nostre repositori i necessiteu usar "
+"aplicacions per MS Windows, podeu instal·lar PlayOnLinux. No es pot executar "
+"tot el programari, però n'hi ha molts que ja en són compatibles. "
 
 #: en/wine.html+html.body.div.div.table.tr.td.p:24
 msgid ""
@@ -1235,64 +1230,37 @@ msgid ""
 "#msoffice\" target=\"_blank\">installing MS Office 2010 with PlayOnLinux</a> "
 "on our web site."
 msgstr ""
+"Podeu veure un programa d'aprenentatge a <a href=\"http://solydxk.com/get-"
+"support/tutorials/#msoffice\" target=\"_blank\">instal·lant MS Office 2010 "
+"amb PlayOnLinux</a> al nostre lloc web."
 
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:26
 msgid ""
 "By using this software you may make your system vulnerable to MS Windows "
-"viruses and malware."
+"viruses and malware. The risk of infection is not higher than under native "
+"MS Windows."
 msgstr ""
+"El fet d'usar aquest programari pot fer el vostre sistema vulnerable als "
+"virus de MS Windows i altre programari maliciós. El risc d'infecció, "
+"evidentment, no és més gran que al propi MS Windows. "
 
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:27
 msgid "Make sure you install software from trusted parties only."
 msgstr ""
+"Assegureu-vos d'instal·lar programari només des de llocs de confiança. "
 
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:28
 msgid ""
 "Read about the <a href=\"http://wiki.winehq.org/"
 "FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risk on using Wine</a>"
 msgstr ""
+"llegiu més sobre <a href=\"http://wiki.winehq.org/"
+"FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">el risc d'usar Wine</a>"
 
 #: en/wine.html+html.body.div.div.table.tr.td:35
-#, fuzzy
-#| msgid ""
-#| "Homepage: <a href=\"http://www.letodms.com/\" target=\"_blank\">http://"
-#| "www.letodms.com</a>"
 msgid ""
 "Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
 "www.playonlinux.com</a>"
 msgstr ""
-"Pàgina Web: <a href=\"http://www.letodms.com/\" target=\"_blank\">http://www."
-"letodms.com</a>"
-
-#, fuzzy
-#~| msgid ""
-#~| "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://"
-#~| "solydxk.com/feed</a>"
-#~ msgid "<a href=\"http://solydxk.com/contribute/donate/\" target=\"_blank\">"
-#~ msgstr ""
-#~ "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
-#~ "com/feed</a>"
-
-#~ msgctxt "en/business.html html.body.h1:11"
-#~ msgid "Business applications"
-#~ msgstr "Aplicacions d'Empresa"
-
-#~ msgctxt "en/drivers.html html.body.h1:10"
-#~ msgid "Hardware drivers"
-#~ msgstr "Controladors de Maquinari"
-
-#~ msgctxt "en/games.html html.body.h1:11"
-#~ msgid "Games"
-#~ msgstr "Jocs"
-
-#~ msgctxt "en/home.html html.body.h1:11"
-#~ msgid "Home applications"
-#~ msgstr "Aplicacions domèstiques"
-
-#~ msgctxt "en/legal.html html.body.h1:10"
-#~ msgid "Multimedia codecs"
-#~ msgstr "Còdecs Multimèdia"
-
-#~ msgctxt "en/welcome.html html.body.h1:10"
-#~ msgid "Welcome to SolydXK"
-#~ msgstr "Benvinguts a SolydXK"
+"Pàgina web: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
+"www.playonlinux.com</a>"

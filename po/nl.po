@@ -1,22 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+#
 # Translators:
+# Arjen Balfoort <schoelje@solydxk.com>, 2015
 # root <arjenbalfoort@solydxk.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-09-23 10:30+0200\n"
-"PO-Revision-Date: 2015-09-23 10:28+0200\n"
-"Last-Translator: root <arjenbalfoort@solydxk.com>\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2015-11-03 16:54+0100\n"
+"PO-Revision-Date: 2015-10-22 05:34+0000\n"
+"Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/solydxk/solydxk-welcome/"
+"language/nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
 
 #: ../usr/lib/solydxk/welcome/welcome.py:64
 #: ../usr/lib/solydxk/welcome/main.py:35
@@ -861,11 +863,11 @@ msgstr ""
 
 #: en/libreoffice.html+html.body.h1:10
 msgid "LibreOffice (Backports)"
-msgstr ""
+msgstr "LibreOffice (Backports)"
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td:20
 msgid "LibreOffice"
-msgstr ""
+msgstr "LibreOffice"
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td.p:23
 msgid ""
@@ -874,18 +876,27 @@ msgid ""
 "if you are missing some features or you want LibreOffice to stay updated you "
 "can install LibreOffice from the backports repository."
 msgstr ""
+"LibreOffice is voorgeïnstalleerd op SolydXK. De stabiliteit en features van "
+"LibreOffice is voor de meesten en vooral voor bedrijven meer dan voldoende. "
+"Echter, wanneer u bepaalde features mist of u wilt een meer up-to-date "
+"LibreOffice dan kunt u deze van de backports repository installeren."
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td.p:24
 msgid ""
 "Backports are recompiled new packages for the current stable environment. "
 "So, they will run without new libraries."
 msgstr ""
+"Backports zijn speciaal voor uw huidig stabiele systeem hergecompileerde "
+"pakketten. Deze pakketten hebben geen nieuwe libraries nodig."
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td.p:25
 msgid ""
 "Although you can run more up to date software using the backports "
 "repository, you introduce a greater risk of breakage doing so."
 msgstr ""
+"Hoewel u meer up-to-date software van de backports repository kunt "
+"gebruiken, introduceert u hiermee een groter risico tot instabiliteit van uw "
+"systeem."
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td:30
 msgid ""
@@ -904,32 +915,39 @@ msgid ""
 "These multimedia codecs are not included by default for legal or security "
 "reasons."
 msgstr ""
+"Deze multimedia-codecs worden door juridische of veiligheidsredenen niet "
+"standaard opgenomen."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td:18
 msgid "Flash"
-msgstr ""
+msgstr "Flash"
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:21
 msgid "HTML5 is the default media player in Firefox."
-msgstr ""
+msgstr "HTML5 is de standaard media speler in Firefox."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:22
 msgid ""
 "Youtube and other sites are already providing their content using HTML5. "
 "However, there are still sites using Flash."
 msgstr ""
+"YouTube en andere sites verstrekken reeds hun inhoud met behulp van HTML5. "
+"Echter, er zijn nog steeds websites die Flash gebruiken."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.div.p:28
 msgid "Warning:"
 msgstr "Waarschuwing:"
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.div.p:29
-msgid "Some Flash content may harm your system."
+msgid ""
+"Be aware that Flash is not Open Source. Some Flash content may harm your "
+"system."
 msgstr ""
+"Flash is niet Open Source. Sommige Flash sites kunnen uw systeem beschadigen."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td:33
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:36
 msgid ""
@@ -942,7 +960,7 @@ msgstr ""
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:37
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
-"these encrypted DVDs"
+"these encrypted DVDs."
 msgstr ""
 "SolydXK heeft niet de nodige pakketten vooraf geïnstalleerd om deze "
 "versleutelde dvd's af te kunnen spelen."
@@ -1180,9 +1198,6 @@ msgstr ""
 "\">https://plus.google.com/+Solydxk</a>"
 
 #: en/wine.html+html.body.h1:10
-#, fuzzy
-#| msgctxt "en/wine.html html.body.h1:10"
-#| msgid "PlayOnLinux"
 msgctxt "en/wine.html html.body.h1:10"
 msgid "PlayOnLinux"
 msgstr "PlayOnLinux"
@@ -1199,6 +1214,11 @@ msgid ""
 "software, you can install it using PlayOnLinux. Not all software can run "
 "this way, but a large number of software is already supported."
 msgstr ""
+"SolydXK wordt geleverd met een breed scala aan software. Echter, als u de "
+"juiste software in onze repository niet kunt vinden en u moet toch MS "
+"Windows software gebruiken, kunt u deze installeren met behulp PlayOnLinux. "
+"Niet alle software kan op deze manier gebruikt worden, maar een grote "
+"hoeveelheid software wordt al ondersteund."
 
 #: en/wine.html+html.body.div.div.table.tr.td.p:24
 msgid ""
@@ -1206,64 +1226,37 @@ msgid ""
 "#msoffice\" target=\"_blank\">installing MS Office 2010 with PlayOnLinux</a> "
 "on our web site."
 msgstr ""
+"U kunt op onze site een tutorial bekijken over het <a href=\"http://solydxk."
+"com/get-support/tutorials/#msoffice\" target=\"_blank\"> installeren van MS "
+"Office 2010 met PlayOnLinux </a>."
 
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:26
 msgid ""
 "By using this software you may make your system vulnerable to MS Windows "
-"viruses and malware."
+"viruses and malware. The risk of infection is not higher than under native "
+"MS Windows."
 msgstr ""
+"Door deze software te gebruiken, kunt u uw systeem kwetsbaar maken voor MS "
+"Windows virussen en malware. Het risico van infectie is niet hoger dan onder "
+"MS Windows zelf."
 
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:27
 msgid "Make sure you install software from trusted parties only."
-msgstr ""
+msgstr "Zorg ervoor dat u alleen software van vertrouwde partijen installeert."
 
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:28
 msgid ""
 "Read about the <a href=\"http://wiki.winehq.org/"
 "FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risk on using Wine</a>"
 msgstr ""
+"Lees over de <a href=\"http://wiki.winehq.org/"
+"FAQ#head-1c91cac836dd52754c846d2ef62be4f346eebe87\">risico van het gebruik "
+"van Wine</a>"
 
 #: en/wine.html+html.body.div.div.table.tr.td:35
-#, fuzzy
-#| msgid ""
-#| "Homepage: <a href=\"http://www.letodms.com/\" target=\"_blank\">http://"
-#| "www.letodms.com</a>"
 msgid ""
 "Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
 "www.playonlinux.com</a>"
 msgstr ""
-"Homepage: <a href=\"http://www.letodms.com/\" target=\"_blank\">http://www."
-"letodms.com</a>"
-
-#, fuzzy
-#~| msgid ""
-#~| "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://"
-#~| "solydxk.com/feed</a>"
-#~ msgid "<a href=\"http://solydxk.com/contribute/donate/\" target=\"_blank\">"
-#~ msgstr ""
-#~ "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
-#~ "com/feed</a>"
-
-#~ msgctxt "en/business.html html.body.h1:11"
-#~ msgid "Business applications"
-#~ msgstr "Bedrijfsapplicaties"
-
-#~ msgctxt "en/drivers.html html.body.h1:10"
-#~ msgid "Hardware drivers"
-#~ msgstr "Hardware drivers"
-
-#~ msgctxt "en/games.html html.body.h1:11"
-#~ msgid "Games"
-#~ msgstr "Spellen"
-
-#~ msgctxt "en/home.html html.body.h1:11"
-#~ msgid "Home applications"
-#~ msgstr "Thuisapplicaties"
-
-#~ msgctxt "en/legal.html html.body.h1:10"
-#~ msgid "Multimedia codecs"
-#~ msgstr "Multimedia codecs"
-
-#~ msgctxt "en/welcome.html html.body.h1:10"
-#~ msgid "Welcome to SolydXK"
-#~ msgstr "Welkom bij SolydXK"
+"Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
+"www.playonlinux.com</a>"
