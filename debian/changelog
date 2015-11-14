@@ -1,3 +1,9 @@
+solydxk-welcome (1.1.2) solydxk; urgency=low
+
+  * Improved visibility of the donation button
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 13 Nov 2015 10:00:00 +0100
+
 solydxk-welcome (1.1.1) solydxk; urgency=low
 
   * Updated translations

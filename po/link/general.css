@@ -91,7 +91,13 @@ a
 .warning
 {
 	color: red;
-	font-size: 14px;
+	font-size: 18px;
 	padding: 20px;
 }
 
+.alert
+{
+	color: #0F538F;
+	font-size: 18px;
+	padding: 20px;
+}

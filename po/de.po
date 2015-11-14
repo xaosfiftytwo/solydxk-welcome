@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-03 16:54+0100\n"
+"POT-Creation-Date: 2015-11-13 10:22+0100\n"
 "PO-Revision-Date: 2015-10-24 16:26+0000\n"
 "Last-Translator: pitfd <pitfd@openmailbox.org>\n"
 "Language-Team: German (http://www.transifex.com/solydxk/solydxk-welcome/"
@@ -1088,6 +1088,10 @@ msgid "Welcome to SolydXK"
 msgstr "Willkommen zu SolydXK"
 
 #: en/welcome.html+html.body.div.div.p:13
+msgid "Thank you for using SolydXK"
+msgstr ""
+
+#: en/welcome.html+html.body.div.div.p:14
 msgid ""
 "SolydXK is an open source desktop operating system for businesses, "
 "organizations and home users. Both SolydX and SolydK are based on Debian "
@@ -1097,16 +1101,20 @@ msgstr ""
 "Organisationen und private Anwender. Sowohl SolydX und SolydK basieren auf "
 "Debian stable, um die größte Stabilität und Sicherheit zu gewährleisten."
 
-#: en/welcome.html+html.body.div.div.p.table.tr.td.p:17
+#: en/welcome.html+html.body.div.div.p.table.tr.td.p:18
+#, fuzzy
+#| msgid ""
+#| "SolydXK is absolutely free to use. However, your donation is very much "
+#| "appreciated, and ensures that we can continue improving SolydXK."
 msgid ""
-"SolydXK is absolutely free to use. However, your donation is very much "
-"appreciated, and ensures that we can continue improving SolydXK."
+"Please, consider a donation. Your donation is very much appreciated, and "
+"ensures that we can continue improving SolydXK."
 msgstr ""
 "SolydXK ist absolut kostenlos zu benutzen. Allerdings ist Ihre Spende sehr "
 "geschätzt, und stellt sicher, dass wir auch weiterhin die Verbesserung von "
 "SolydXK vorantreiben können."
 
-#: en/welcome.html+html.body.div.div.p:22
+#: en/welcome.html+html.body.div.div.p:23
 msgid ""
 "We have created a list of recommended software for businesses and home users "
 "which you can install in the next couple of pages."
@@ -1114,16 +1122,16 @@ msgstr ""
 "Wir haben eine Liste empfohlener Software für Unternehmen und Heimanwender "
 "erstellt, die Sie während der nächsten paar Seiten installieren können."
 
-#: en/welcome.html+html.body.div.div.p:23
+#: en/welcome.html+html.body.div.div.p:24
 msgid "Click on the <strong>Next</strong> button to get started."
 msgstr ""
 "Klicken Sie auf die <strong>nächste</strong> Schaltfläche, um zu beginnen."
 
-#: en/welcome.html+html.body.div.div.table.tr.td:25
+#: en/welcome.html+html.body.div.div.table.tr.td:26
 msgid "Software"
 msgstr "Software"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.p:27
+#: en/welcome.html+html.body.div.div.table.tr.td.p:28
 msgid ""
 "All software is built, maintained and checked by the community. Software "
 "databases called \"repositories\" are used to offer and maintain over 60,000 "
@@ -1138,15 +1146,15 @@ msgstr ""
 "Sie suchen und installieren einfach die benötigte Software mit der Software-"
 "Manager."
 
-#: en/welcome.html+html.body.div.div.table.tr.td:28
+#: en/welcome.html+html.body.div.div.table.tr.td:29
 msgid "softwaremanager"
 msgstr "softwaremanager"
 
-#: en/welcome.html+html.body.div.div.table.tr.td:33
+#: en/welcome.html+html.body.div.div.table.tr.td:34
 msgid "Support"
 msgstr "Hilfe"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.p:35
+#: en/welcome.html+html.body.div.div.table.tr.td.p:36
 msgid ""
 "If you're new to SolydXK or whenever you get stuck, there is the SolydXK "
 "community to help you solve your problem. You can search the forum to find "
@@ -1157,11 +1165,11 @@ msgstr ""
 "können die Forum-Suche nutzen, um herauszufinden, ob Ihr Problem bereits "
 "gelöst ist oder Sie starten ein neues Thema, um Hilfe zu erhalten."
 
-#: en/welcome.html+html.body.div.div.table.tr.td:36
+#: en/welcome.html+html.body.div.div.table.tr.td:37
 msgid "forum"
 msgstr "forum"
 
-#: en/welcome.html+html.body.div.div.table.tr.td:39
+#: en/welcome.html+html.body.div.div.table.tr.td:40
 msgid ""
 "Forum: <a href=\"http://forums.solydxk.com/\" target=\"_blank\">http://"
 "forums.solydxk.com</a>"
@@ -1169,7 +1177,7 @@ msgstr ""
 "Forum: <a href=\"http://forums.solydxk.com/\" target=\"_blank\">http://"
 "forums.solydxk.com</a>"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.p:43
+#: en/welcome.html+html.body.div.div.table.tr.td.p:44
 msgid ""
 "The following channels are used to communicate to the SolydX and SolydK "
 "users:"
@@ -1177,31 +1185,31 @@ msgstr ""
 "Folgende Kanäle werden verwendet, um auf mit den SolydX und SolydK "
 "Mitglieder Kontakt aufzunehmen:"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:45
-msgid ""
-"E-mail : <a href=\"http://solydxk.com/news\" target=\"_blank\">http://"
-"solydxk.com/news</a>"
-msgstr ""
-"E-mail : <a href=\"http://solydxk.com/news\" target=\"_blank\">http://"
-"solydxk.com/news</a>"
-
 #: en/welcome.html+html.body.div.div.table.tr.td.ul.li:46
 msgid ""
-"RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
-"com/feed</a>"
+"E-mail : <a href=\"http://solydxk.com/news\" target=\"_blank\">http://"
+"solydxk.com/news</a>"
 msgstr ""
-"RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
-"com/feed</a>"
+"E-mail : <a href=\"http://solydxk.com/news\" target=\"_blank\">http://"
+"solydxk.com/news</a>"
 
 #: en/welcome.html+html.body.div.div.table.tr.td.ul.li:47
 msgid ""
+"RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
+"com/feed</a>"
+msgstr ""
+"RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
+"com/feed</a>"
+
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:48
+msgid ""
 "Facebook: <a href=\"http://www.facebook.com/solyd.xk\" target=\"_blank"
 "\">http://www.facebook.com/solyd.xk</a>"
 msgstr ""
 "Facebook: <a href=\"http://www.facebook.com/solyd.xk\" target=\"_blank"
 "\">http://www.facebook.com/solyd.xk</a>"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:48
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:49
 msgid ""
 "Twitter: <a href=\"https://twitter.com/solydxk\" target=\"_blank\">https://"
 "twitter.com/solydxk</a>"
@@ -1209,7 +1217,7 @@ msgstr ""
 "Twitter: <a href=\"https://twitter.com/solydxk\" target=\"_blank\">https://"
 "twitter.com/solydxk</a>"
 
-#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:49
+#: en/welcome.html+html.body.div.div.table.tr.td.ul.li:50
 msgid ""
 "Google+: <a href=\"https://plus.google.com/+Solydxk\" target=\"_blank"
 "\">https://plus.google.com/+Solydxk</a>"
@@ -1218,6 +1226,9 @@ msgstr ""
 "\">https://plus.google.com/+Solydxk</a>"
 
 #: en/wine.html+html.body.h1:10
+#, fuzzy
+#| msgctxt "en/wine.html html.body.h1:10"
+#| msgid "PlayOnLinux"
 msgctxt "en/wine.html html.body.h1:10"
 msgid "PlayOnLinux"
 msgstr "PlayOnLinux"
@@ -1283,3 +1294,12 @@ msgid ""
 msgstr ""
 "Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
 "www.playonlinux.com</a>"
+
+#, fuzzy
+#~| msgid ""
+#~| "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://"
+#~| "solydxk.com/feed</a>"
+#~ msgid "<a href=\"http://solydxk.com/contribute/donate/\" target=\"_blank\">"
+#~ msgstr ""
+#~ "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
+#~ "com/feed</a>"
