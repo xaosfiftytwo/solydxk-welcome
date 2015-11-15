@@ -1,8 +1,10 @@
-solydxk-welcome (1.1.2) solydxk; urgency=low
+solydxk-welcome (1.1.3) solydxk; urgency=low
 
   * Improved visibility of the donation button
+  * Resolve bug with several backports lines in sources.list
+  * New translations
 
- -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 13 Nov 2015 10:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 15 Nov 2015 11:00:00 +0100
 
 solydxk-welcome (1.1.1) solydxk; urgency=low
 

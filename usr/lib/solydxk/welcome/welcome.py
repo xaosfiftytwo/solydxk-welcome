@@ -92,11 +92,13 @@ class SolydXKWelcome(object):
 
         # Check for backports
         self.isBackportsEnabled = False
-        bp = getoutput("grep backports /etc/apt/sources.list | grep -v ^#")
-        if bp.strip() == "":
-            bp = getoutput("grep backports /etc/apt/sources.list.d/*.list | grep -v ^#")
-        if bp.strip() != "":
+        output = getoutput("grep backports /etc/apt/sources.list | grep -v ^#")
+        if output:
             self.isBackportsEnabled = True
+        else:
+            output = getoutput("grep backports /etc/apt/sources.list.d/*.list | grep -v ^#")
+            if output:
+                self.isBackportsEnabled = True
 
         # Load first HTML page
         self.loadHtml(self.pages[0][1])

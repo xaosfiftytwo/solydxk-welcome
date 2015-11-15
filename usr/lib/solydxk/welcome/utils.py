@@ -22,12 +22,9 @@ def shell_exec(command):
 def getoutput(command):
     #return shell_exec(command).stdout.read().strip()
     try:
-        output = subprocess.check_output(command, stderr=subprocess.STDOUT, shell=True).decode('utf-8').strip().split('\n')
+        output = subprocess.check_output(command, shell=True).decode('utf-8').strip().split('\n')
     except:
-        output = ['']
-    if len(output) == 1:
-        # Single line: return as string
-        output = output[0]
+        output = []
     return output
 
 
