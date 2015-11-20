@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-13 10:22+0100\n"
-"PO-Revision-Date: 2015-10-24 16:26+0000\n"
+"POT-Creation-Date: 2015-11-20 13:45+0100\n"
+"PO-Revision-Date: 2015-11-19 09:25+0000\n"
 "Last-Translator: pitfd <pitfd@openmailbox.org>\n"
 "Language-Team: German (http://www.transifex.com/solydxk/solydxk-welcome/"
 "language/de/)\n"
@@ -18,34 +18,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:64
+#: ../usr/lib/solydxk/welcome/welcome.py:78
 #: ../usr/lib/solydxk/welcome/main.py:35
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
 msgstr "Willkommen zu SolydXK"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:65
+#: ../usr/lib/solydxk/welcome/welcome.py:79
 msgid "Install"
 msgstr "Installiere"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:66
+#: ../usr/lib/solydxk/welcome/welcome.py:80
 msgid "Quit"
 msgstr "Beenden"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:67
+#: ../usr/lib/solydxk/welcome/welcome.py:81
 msgid "Next"
 msgstr "Nächste"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:68
+#: ../usr/lib/solydxk/welcome/welcome.py:82
 msgid "Previous"
 msgstr "Vorherige"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:117
+#: ../usr/lib/solydxk/welcome/welcome.py:123
 msgid "No internet connection"
 msgstr "Keine Internet Verbindung"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:118
+#: ../usr/lib/solydxk/welcome/welcome.py:124
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -54,11 +54,11 @@ msgstr ""
 "Verbindung.\n"
 "Bitte verbinden Sie sich mit dem Internet und versuchen Sie es erneut."
 
-#: ../usr/lib/solydxk/welcome/welcome.py:126
+#: ../usr/lib/solydxk/welcome/welcome.py:132
 msgid "Please enter your password"
 msgstr "Bitte geben Sie Ihr Passwort ein"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:136
+#: ../usr/lib/solydxk/welcome/welcome.py:142
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -67,7 +67,7 @@ msgstr ""
 ":\n"
 "Das Skript wurde nicht gefunden: {}"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:202
+#: ../usr/lib/solydxk/welcome/welcome.py:203
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -77,7 +77,7 @@ msgstr ""
 "Bitte führen Sie den Befehl 'sudo apt-get -f install' im Terminal aus.\n"
 "Für Unterstützung besuchen Sie unser Forum: http://forums.solydxk.com"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:210
+#: ../usr/lib/solydxk/welcome/welcome.py:211
 msgid "The software has been successfully installed."
 msgstr "Die Software wurde erfolgreich installiert."
 
@@ -1089,7 +1089,7 @@ msgstr "Willkommen zu SolydXK"
 
 #: en/welcome.html+html.body.div.div.p:13
 msgid "Thank you for using SolydXK"
-msgstr ""
+msgstr "Danke, dass Sie SolydXK benutzen."
 
 #: en/welcome.html+html.body.div.div.p:14
 msgid ""
@@ -1102,17 +1102,13 @@ msgstr ""
 "Debian stable, um die größte Stabilität und Sicherheit zu gewährleisten."
 
 #: en/welcome.html+html.body.div.div.p.table.tr.td.p:18
-#, fuzzy
-#| msgid ""
-#| "SolydXK is absolutely free to use. However, your donation is very much "
-#| "appreciated, and ensures that we can continue improving SolydXK."
 msgid ""
 "Please, consider a donation. Your donation is very much appreciated, and "
 "ensures that we can continue improving SolydXK."
 msgstr ""
-"SolydXK ist absolut kostenlos zu benutzen. Allerdings ist Ihre Spende sehr "
-"geschätzt, und stellt sicher, dass wir auch weiterhin die Verbesserung von "
-"SolydXK vorantreiben können."
+"Bitte ziehen Sie eine Spende in Betracht. Ihre Spende ist uns in höchstem "
+"Maße willkommen und stellt sicher, dass wir weiter daran arbeiten können, "
+"SolydXK zu verbessern."
 
 #: en/welcome.html+html.body.div.div.p:23
 msgid ""
@@ -1226,9 +1222,6 @@ msgstr ""
 "\">https://plus.google.com/+Solydxk</a>"
 
 #: en/wine.html+html.body.h1:10
-#, fuzzy
-#| msgctxt "en/wine.html html.body.h1:10"
-#| msgid "PlayOnLinux"
 msgctxt "en/wine.html html.body.h1:10"
 msgid "PlayOnLinux"
 msgstr "PlayOnLinux"
@@ -1294,12 +1287,3 @@ msgid ""
 msgstr ""
 "Homepage: <a href=\"http://www.playonlinux.com\" target=\"_blank\">http://"
 "www.playonlinux.com</a>"
-
-#, fuzzy
-#~| msgid ""
-#~| "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://"
-#~| "solydxk.com/feed</a>"
-#~ msgid "<a href=\"http://solydxk.com/contribute/donate/\" target=\"_blank\">"
-#~ msgstr ""
-#~ "RSS: <a href=\"http://solydxk.com/feed\" target=\"_blank\">http://solydxk."
-#~ "com/feed</a>"

@@ -94,12 +94,12 @@ def runningInVirtualBox():
     return True
 
 
-# Check if is 64-bit system
-def isAmd64():
-    machine = getoutput("uname -m")
-    if machine == "x86_64":
-        return True
-    return False
+# Get the kernel's architecture
+def get_architecture():
+    arch = getoutput("uname -m")
+    if arch:
+        return arch[0]
+    return ''
 
 
 # Need to initiate threads for Gtk

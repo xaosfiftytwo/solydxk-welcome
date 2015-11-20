@@ -2,8 +2,9 @@
 
 # from gi.repository import Gtk, GdkPixbuf, GObject, Pango, Gdk, GLib
 from gi.repository import Gtk, Gdk, GObject, GLib
-from os.path import join, abspath, dirname, basename, exists
-from utils import ExecuteThreadedCommands, hasInternetConnection, getoutput
+from os.path import join, abspath, dirname, basename, exists, isdir
+from utils import ExecuteThreadedCommands, hasInternetConnection, \
+                  getoutput, get_architecture
 from simplebrowser import SimpleBrowser
 import os
 from dialogs import MessageDialogSafe
@@ -23,24 +24,37 @@ class SolydXKWelcome(object):
 
     def __init__(self):
 
-        # ================================
+        # Check the system's architecture
+        self.architecture = get_architecture()
 
+        # Check for backports
+        self.isBackportsEnabled = False
+        output = getoutput("grep backports /etc/apt/sources.list | grep -v ^#")
+        if output:
+            self.isBackportsEnabled = True
+        else:
+            output = getoutput("grep backports /etc/apt/sources.list.d/*.list | grep -v ^#")
+            if output:
+                self.isBackportsEnabled = True
+
+        # ================================
         # Define html page array
         # 0 = no action (just show)
         # 1 = apt install
         # 2 = open external application
-        # 3 = backports
         self.pages = []
         self.pages.append([0, 'welcome'])
-        self.pages.append([2, 'drivers'])
-        self.pages.append([1, 'multimedia'])
-        self.pages.append([3, 'libreoffice'])
+        if not 'arm' in self.architecture:
+            self.pages.append([2, 'drivers'])
+            self.pages.append([1, 'multimedia'])
+        if self.isBackportsEnabled:
+            self.pages.append([1, 'libreoffice'])
         self.pages.append([1, 'business'])
         self.pages.append([1, 'home'])
         self.pages.append([1, 'system'])
         self.pages.append([1, 'games'])
-        self.pages.append([1, 'wine'])
-
+        if not 'arm' in self.architecture:
+            self.pages.append([1, 'wine'])
         # ================================
 
         # Load window and widgets
@@ -90,16 +104,6 @@ class SolydXKWelcome(object):
         self.nextSavedState = True
         self.prevSavedState = False
 
-        # Check for backports
-        self.isBackportsEnabled = False
-        output = getoutput("grep backports /etc/apt/sources.list | grep -v ^#")
-        if output:
-            self.isBackportsEnabled = True
-        else:
-            output = getoutput("grep backports /etc/apt/sources.list.d/*.list | grep -v ^#")
-            if output:
-                self.isBackportsEnabled = True
-
         # Load first HTML page
         self.loadHtml(self.pages[0][1])
 
@@ -129,7 +133,7 @@ class SolydXKWelcome(object):
             page = self.pages[self.currentPage][1]
             script = join(self.scriptDir, "scripts/{}".format(page))
             if exists(script):
-                if actionNr == 1 or actionNr == 3:
+                if actionNr == 1:
                     self.exec_command("gksudo -m \"{}\" \"/bin/sh -c {}\"".format(msg, script))
                 elif actionNr == 2:
                     os.system("/bin/sh -c \"{}\" &".format(script))
@@ -150,15 +154,6 @@ class SolydXKWelcome(object):
 
     def switchPage(self, count):
         self.currentPage += count
-
-        # Skip backport page if system is not enabled for backports
-        if self.pages[self.currentPage][0] == 3 and not self.isBackportsEnabled:
-            if count > 0:
-                self.switchPage(1)
-            else:
-                self.switchPage(-1)
-            return
-
         self.btnInstall.set_sensitive(self.pages[self.currentPage][0])
         self.btnPrevious.set_sensitive(self.currentPage)
         self.btnNext.set_sensitive(self.currentPage - self.lastPage)
@@ -185,19 +180,23 @@ class SolydXKWelcome(object):
     def get_language_dir(self):
         # First test if full locale directory exists, e.g. html/pt_BR,
         # otherwise perhaps at least the language is there, e.g. html/pt
+        # and if that doesn't work, try html/pt_PT
         lang = self.get_current_language()
-        path = os.path.join(self.htmlDir, lang)
-        if path != self.htmlDir:
-            if not os.path.isdir(path):
-                path = os.path.join(self.htmlDir, lang.split('_')[0].lower())
-                if not os.path.isdir(path):
-                    return os.path.join(self.htmlDir, 'en')
-            return path
-        # else, just return English slides
-        return os.path.join(self.htmlDir, 'en')
+        path = join(self.htmlDir, lang)
+        if not isdir(path):
+            base_lang = lang.split('_')[0].lower()
+            path = join(self.htmlDir, base_lang)
+            if not isdir(path):
+                path = join(self.htmlDir, "{}_{}".format(base_lang, base_lang.upper()))
+                if not isdir(path):
+                    path = join(self.htmlDir, 'en')
+        return path
 
     def get_current_language(self):
-        return os.environ.get('LANG', 'US').split('.')[0]
+        lang = os.environ.get('LANG', 'US').split('.')[0]
+        if lang == '':
+            lang = 'en'
+        return lang
 
     def show_message(self, cmdOutput, onlyOnError=False):
         try:
