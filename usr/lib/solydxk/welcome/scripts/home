@@ -5,9 +5,9 @@ KDE='gimp inkscape digikam amarok handbrake soundconverter kdenlive ktorrent'
 
 # =============================================
 
-PCK=$XFCE
-if [ "$(pidof kdeinit4)" ]; then
-  PCK=$KDE
+PCK=$KDE
+if [ "$(pidof xfce4-session)" ]; then
+  PCK=$XFCE
 fi
 
 apt-get update
