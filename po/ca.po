@@ -9,9 +9,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-20 13:45+0100\n"
-"PO-Revision-Date: 2015-11-14 09:47+0000\n"
-"Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
+"POT-Creation-Date: 2015-12-07 10:58+0100\n"
+"PO-Revision-Date: 2015-11-24 08:53+0000\n"
+"Last-Translator: Eduard Selma <selma@tinet.cat>\n"
 "Language-Team: Catalan (http://www.transifex.com/solydxk/solydxk-welcome/"
 "language/ca/)\n"
 "Language: ca\n"
@@ -20,34 +20,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:78
-#: ../usr/lib/solydxk/welcome/main.py:35
+#: ../usr/lib/solydxk/welcome/welcome.py:82
+#: ../usr/lib/solydxk/welcome/main.py:39
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
 msgstr "SolydXK Welcome"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:79
+#: ../usr/lib/solydxk/welcome/welcome.py:83
 msgid "Install"
 msgstr "Instal·la"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:80
+#: ../usr/lib/solydxk/welcome/welcome.py:84
 msgid "Quit"
 msgstr "Surt"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:81
+#: ../usr/lib/solydxk/welcome/welcome.py:85
 msgid "Next"
 msgstr "Següent"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:82
+#: ../usr/lib/solydxk/welcome/welcome.py:86
 msgid "Previous"
 msgstr "Anterior"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:123
+#: ../usr/lib/solydxk/welcome/welcome.py:127
 msgid "No internet connection"
 msgstr "Sense connexió a internet"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:124
+#: ../usr/lib/solydxk/welcome/welcome.py:128
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -55,11 +55,11 @@ msgstr ""
 "Cal una connexió a Internet per instal·lar programari addicional.\n"
 "Si us plau, connecteu-vos a Internet i torneu-ho a provar."
 
-#: ../usr/lib/solydxk/welcome/welcome.py:132
+#: ../usr/lib/solydxk/welcome/welcome.py:136
 msgid "Please enter your password"
 msgstr "Introduïu la vostra contrasenya"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:142
+#: ../usr/lib/solydxk/welcome/welcome.py:146
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -67,7 +67,7 @@ msgstr ""
 "No es pot instal·lar el programari demanat:\n"
 "No es troba l'script: {} "
 
-#: ../usr/lib/solydxk/welcome/welcome.py:203
+#: ../usr/lib/solydxk/welcome/welcome.py:207
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -77,11 +77,11 @@ msgstr ""
 "Executeu 'sudo apt-get -f install' en un terminal.\n"
 "Trobareu ajuda al nostre fòrum: http://forums.solydxk.com"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:211
+#: ../usr/lib/solydxk/welcome/welcome.py:215
 msgid "The software has been successfully installed."
 msgstr "El programari s'ha instal·lat amb èxit."
 
-#: ../usr/lib/solydxk/welcome/main.py:36
+#: ../usr/lib/solydxk/welcome/main.py:40
 msgid ""
 "SolydXK Welcome cannot be started in a live environment\n"
 "You can use the --force argument to start SolydXK Welcome in a live "
@@ -90,11 +90,11 @@ msgstr ""
 "No es pot engegar SolydXK Welcome en un entorn autònom\n"
 "Podeu usar l'argument --force per engegar-lo dins d'un entorn autònom."
 
-#: ../usr/lib/solydxk/welcome/main.py:92
+#: ../usr/lib/solydxk/welcome/main.py:96
 msgid "Unexpected error"
 msgstr "Error inesperat"
 
-#: ../usr/lib/solydxk/welcome/main.py:93
+#: ../usr/lib/solydxk/welcome/main.py:97
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"
@@ -1077,7 +1077,7 @@ msgstr "Benvinguts a SolydXK "
 
 #: en/welcome.html+html.body.div.div.p:13
 msgid "Thank you for using SolydXK"
-msgstr ""
+msgstr "Gràcies per usar SolydXK "
 
 #: en/welcome.html+html.body.div.div.p:14
 msgid ""
@@ -1094,6 +1094,8 @@ msgid ""
 "Please, consider a donation. Your donation is very much appreciated, and "
 "ensures that we can continue improving SolydXK."
 msgstr ""
+"Si us plau, considereu una donació. El vostre donatiu serà molt apreciat i "
+"permetrà que puguem continuar millorant SolydXK. "
 
 #: en/welcome.html+html.body.div.div.p:23
 msgid ""

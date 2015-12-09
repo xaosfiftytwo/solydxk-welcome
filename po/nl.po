@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-20 13:45+0100\n"
+"POT-Creation-Date: 2015-12-07 10:58+0100\n"
 "PO-Revision-Date: 2015-11-14 09:47+0000\n"
 "Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/solydxk/solydxk-welcome/"
@@ -20,34 +20,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:78
-#: ../usr/lib/solydxk/welcome/main.py:35
+#: ../usr/lib/solydxk/welcome/welcome.py:82
+#: ../usr/lib/solydxk/welcome/main.py:39
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
 msgstr "SolydXK Welkom"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:79
+#: ../usr/lib/solydxk/welcome/welcome.py:83
 msgid "Install"
 msgstr "Installeren"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:80
+#: ../usr/lib/solydxk/welcome/welcome.py:84
 msgid "Quit"
 msgstr "Afsluiten"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:81
+#: ../usr/lib/solydxk/welcome/welcome.py:85
 msgid "Next"
 msgstr "Volgende"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:82
+#: ../usr/lib/solydxk/welcome/welcome.py:86
 msgid "Previous"
 msgstr "Vorige"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:123
+#: ../usr/lib/solydxk/welcome/welcome.py:127
 msgid "No internet connection"
 msgstr "Geen internetverbinding"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:124
+#: ../usr/lib/solydxk/welcome/welcome.py:128
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
@@ -55,11 +55,11 @@ msgstr ""
 "U hebt een internetverbinding nodig om de extra software te installeren.\n"
 "Maak verbinding met het internet en probeer het opnieuw."
 
-#: ../usr/lib/solydxk/welcome/welcome.py:132
+#: ../usr/lib/solydxk/welcome/welcome.py:136
 msgid "Please enter your password"
 msgstr "Vul uw wachtwoord in"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:142
+#: ../usr/lib/solydxk/welcome/welcome.py:146
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -67,7 +67,7 @@ msgstr ""
 "Kan de gevraagde software niet installeren:\n"
 "Script niet gevonden: {}"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:203
+#: ../usr/lib/solydxk/welcome/welcome.py:207
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -77,11 +77,11 @@ msgstr ""
 "Voer de volgende opdracht uit in een terminal: 'sudo apt-get -f install'.\n"
 "Bezoek ons forum wanneer u hulp nodig heeft: http://forums.solydxk.com"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:211
+#: ../usr/lib/solydxk/welcome/welcome.py:215
 msgid "The software has been successfully installed."
 msgstr "De software is succesvol geïnstalleerd."
 
-#: ../usr/lib/solydxk/welcome/main.py:36
+#: ../usr/lib/solydxk/welcome/main.py:40
 msgid ""
 "SolydXK Welcome cannot be started in a live environment\n"
 "You can use the --force argument to start SolydXK Welcome in a live "
@@ -91,11 +91,11 @@ msgstr ""
 "U kunt het --force argument gebruiken om SolydXK in een live omgeving te "
 "starten"
 
-#: ../usr/lib/solydxk/welcome/main.py:92
+#: ../usr/lib/solydxk/welcome/main.py:96
 msgid "Unexpected error"
 msgstr "Onverwachte fout"
 
-#: ../usr/lib/solydxk/welcome/main.py:93
+#: ../usr/lib/solydxk/welcome/main.py:97
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"

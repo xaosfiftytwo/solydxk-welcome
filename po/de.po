@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# ilu lu, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-20 13:45+0100\n"
-"PO-Revision-Date: 2015-11-19 09:25+0000\n"
-"Last-Translator: pitfd <pitfd@openmailbox.org>\n"
+"POT-Creation-Date: 2015-12-07 10:58+0100\n"
+"PO-Revision-Date: 2015-12-07 05:55+0000\n"
+"Last-Translator: ilu lu\n"
 "Language-Team: German (http://www.transifex.com/solydxk/solydxk-welcome/"
 "language/de/)\n"
 "Language: de\n"
@@ -18,47 +19,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:78
-#: ../usr/lib/solydxk/welcome/main.py:35
+#: ../usr/lib/solydxk/welcome/welcome.py:82
+#: ../usr/lib/solydxk/welcome/main.py:39
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
-msgstr "Willkommen zu SolydXK"
+msgstr "SolydXK Willkommen"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:79
+#: ../usr/lib/solydxk/welcome/welcome.py:83
 msgid "Install"
 msgstr "Installiere"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:80
+#: ../usr/lib/solydxk/welcome/welcome.py:84
 msgid "Quit"
 msgstr "Beenden"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:81
+#: ../usr/lib/solydxk/welcome/welcome.py:85
 msgid "Next"
 msgstr "Nächste"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:82
+#: ../usr/lib/solydxk/welcome/welcome.py:86
 msgid "Previous"
 msgstr "Vorherige"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:123
+#: ../usr/lib/solydxk/welcome/welcome.py:127
 msgid "No internet connection"
 msgstr "Keine Internet Verbindung"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:124
+#: ../usr/lib/solydxk/welcome/welcome.py:128
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
-"Um zusätzliche Software zu installieren,benötigen Sie eine Internet "
-"Verbindung.\n"
-"Bitte verbinden Sie sich mit dem Internet und versuchen Sie es erneut."
+"Zusätzliche Software kann nur mit Internet-Verbindung installiert werden.\n"
+"Bitte mit dem Internet verbinden und erneut versuchen."
 
-#: ../usr/lib/solydxk/welcome/welcome.py:132
+#: ../usr/lib/solydxk/welcome/welcome.py:136
 msgid "Please enter your password"
 msgstr "Bitte geben Sie Ihr Passwort ein"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:142
+#: ../usr/lib/solydxk/welcome/welcome.py:146
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -67,7 +67,7 @@ msgstr ""
 ":\n"
 "Das Skript wurde nicht gefunden: {}"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:203
+#: ../usr/lib/solydxk/welcome/welcome.py:207
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -75,33 +75,32 @@ msgid ""
 msgstr ""
 "Ein Fehler ist während der Installation aufgetreten.\n"
 "Bitte führen Sie den Befehl 'sudo apt-get -f install' im Terminal aus.\n"
-"Für Unterstützung besuchen Sie unser Forum: http://forums.solydxk.com"
+"Hilfe gibt es in unserem Forum: http://forums.solydxk.com"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:211
+#: ../usr/lib/solydxk/welcome/welcome.py:215
 msgid "The software has been successfully installed."
 msgstr "Die Software wurde erfolgreich installiert."
 
-#: ../usr/lib/solydxk/welcome/main.py:36
+#: ../usr/lib/solydxk/welcome/main.py:40
 msgid ""
 "SolydXK Welcome cannot be started in a live environment\n"
 "You can use the --force argument to start SolydXK Welcome in a live "
 "environment"
 msgstr ""
-"SolydXK Willkommen kann in einer Live Umgebung nicht gestartet werden\n"
-"Sie können das --force Argument benutzen um SolydXK Willkommen in einer Live "
-"Umgebung zu starten"
+"SolydXK Willkommen kann nicht in einer Live-Umgebung gestartet werden.\n"
+"Ein Start mit dem Argument --force umgeht diese Beschränkung."
 
-#: ../usr/lib/solydxk/welcome/main.py:92
+#: ../usr/lib/solydxk/welcome/main.py:96
 msgid "Unexpected error"
 msgstr "Unerwarteter Fehler"
 
-#: ../usr/lib/solydxk/welcome/main.py:93
+#: ../usr/lib/solydxk/welcome/main.py:97
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"
 msgstr ""
-"SolydXK Willkommen hat den folgenden unerwarteten Fehler zurückgemeldet.\n"
-"Bitte reichen Sie einen Fehlerbericht ein!"
+"SolydXK Willkommen ist mit dem folgenden unerwarteten Fehler gescheitert. \n"
+"Bitte einen Fehler-Bericht erstellen!"
 
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:1
 msgid "Welcome"
@@ -109,15 +108,15 @@ msgstr "Willkommen"
 
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome Screen"
-msgstr "SolydXK Willkommen Bildschirm"
+msgstr "SolydXK Willkommens-Bildschirm"
 
 #: en/business.html+html.body.h1:10
 msgid "Business applications"
-msgstr "Business Anwendungen"
+msgstr "Geschäfts-Anwendungen"
 
 #: en/business.html+html.body.div.div.table.tr.td.p:18
 msgid "This is a list of recommended applications suited for businesses."
-msgstr "Das ist eine Aufzählung von geeigneten Business Anwendungen."
+msgstr "Das ist eine Liste von geeigneten Business Anwendungen."
 
 #: en/business.html+html.body.div.div.table.tr.td.p:19
 #: en/home.html+html.body.div.div.table.tr.td.p:18
@@ -129,9 +128,9 @@ msgid ""
 "installed on your system. You can use the software manager to install them "
 "separately."
 msgstr ""
-"Wenn Sie den Installationsschaltfläche anklicken, werden alle aufgeführten "
-"Programme auf Ihrem System installiert. Sie können den Software Manager "
-"benutzen, um diese gesondert zu installieren."
+"Wenn Sie \"Installieren\" auswählen, werden alle aufgeführten Programme auf "
+"Ihrem System installiert. Einzeln können sie mit dem Software Manager "
+"installiert werden."
 
 #: en/business.html+html.body.div.div.table.tr.td:22
 msgid "Gnucash"
@@ -150,12 +149,11 @@ msgid ""
 "use as a checkbook register, it is based on professional accounting "
 "principles to ensure balanced books and accurate reports."
 msgstr ""
-"Entwickelt mit dem Fokus auf einfache Handhabung ist die Software dennoch "
-"leistungsfähig und flexibel. GnuCash erlaubt es Ihnen Bankkonten, Aktien, "
-"Erträge und Aufwendungen im Auge zu behalten. So schnell und intuitiv zu "
-"bedienen wie ein Scheckheftregister basiert sie auf professionelle "
-"Buchhaltungsprinzipien um eine ausgewogene Buchhaltung und genaue Berichte "
-"zu gewährleisten. "
+"Komplettlösung zur Verwaltung der Finanzen von Privatanwendern und "
+"Kleinbetrieben, basierend auf dem Prinzip der doppelten Buchführung. "
+"Homebanking wird ebenso unterstützt wie die Verwaltung von Kunden, "
+"Lieferanten und Rechnungen, Import von OFX und QIF, zahlreiche Berichte und "
+"Grafiken und eine benutzerdefinierbare Oberfläche."
 
 #: en/business.html+html.body.div.div.table.tr.td:28
 msgid "gnucash"
@@ -179,16 +177,16 @@ msgid ""
 "business (contacts, invoices, orders, products, stocks, agenda, emailings, "
 "etc...)."
 msgstr ""
-"Dolibarr ERP- und CRM ist eine moderne und einfach zu bedienende Web-"
-"Verwaltungssoftware für Ihr Unternehmen (Kontakte, Rechnungen, Bestellungen, "
-"Produkte, Aktien, Tagesordnung, E-Mailings,etc...)."
+"Dolibarr ERP & CRM ist eine moderne und leicht zu bedienende webbasierte "
+"Software zur Verwaltung von Unternehmen oder Vereinen (Kontakte, Mitglieder, "
+"Rechnungen, Aufträge, Produkte, Lagerbestand, E-Mails usw.)."
 
 #: en/business.html+html.body.div.div.table.tr.td.p:37
 msgid ""
 "On first run, final configuration is started. You will need to fill in the "
 "following information:"
 msgstr ""
-"Beim ersten Durchlauf wird eine endgültige Konfiguration gestartet. Sie "
+"Beim ersten Durchlauf wird die endgültige Konfiguration gestartet. Sie "
 "müssen die folgenden Informationen angeben:"
 
 #: en/business.html+html.body.div.div.table.tr.td.ul.li:39
@@ -201,11 +199,11 @@ msgstr "Superuser Zugang: root / Ihr Root Passwort"
 
 #: en/business.html+html.body.div.div.table.tr.td.ul.li:41
 msgid "Dolibarr admin login : admin / admin"
-msgstr "Dolibarr admin login : admin / admin"
+msgstr "Dolibarr Administrator-Login : admin / admin"
 
 #: en/business.html+html.body.div.div.table.tr.td.p:43
 msgid "Replace \"your_root_password\" with your root password."
-msgstr "Ersetzen Sie Ihr \"your_root_password\" mit your root password."
+msgstr "Ersetzen Sie Ihr \"your_root_password\" mit Ihrem Root-Passwort."
 
 #: en/business.html+html.body.div.div.table.tr.td:45
 msgid "dolibarr"
@@ -229,10 +227,10 @@ msgid ""
 "written in PHP with a database backend. LetoDMS provides document meta-data, "
 "version control, security and easy access to your documents."
 msgstr ""
-"LetoDMS ist ein Open-Source-Web-basiertes Dokumentenmanagementsystem (DMS) "
-"in PHP mit einem Datenbank-Backend geschrieben. LetoDMS bietet Dokument-"
-"Metadaten, Versionskontrolle, Sicherheit und einfachen Zugriff auf Ihre "
-"Dokumente."
+"LetoDMS ist ein quelloffenes Web-basiertes Dokumentenmanagementsystem (DMS) "
+"mit einem Datenbank-Backend geschrieben, geschrieben in PHP. LetoDMS bietet "
+"Dokument-Metadaten, Versionskontrolle, Sicherheit und einfachen Zugriff auf "
+"Ihre Dokumente."
 
 #: en/business.html+html.body.div.div.table.tr.td.p:54
 msgid "Login with: admin / admin"
@@ -244,7 +242,7 @@ msgid ""
 "root / your_root_password)"
 msgstr ""
 "Sie können die Dolibarr und Letodms Datenbanken mit phpMyAdmin verwalten "
-"(Benutzername: root / your_root_password)"
+"(Benutzername: root / Root-Passwort)"
 
 #: en/business.html+html.body.div.div.table.tr.td:57
 msgid "letodms"
@@ -267,8 +265,8 @@ msgid ""
 "ProjectLibre is a project management software system. It intends to be a "
 "complete desktop replacement for Microsoft Project."
 msgstr ""
-"Projectlibre ist ein Projekt-Management-Software-System. Sie beabsichtigt, "
-"ein vollständiger Desktop-Ersatz für Microsoft Project zu sein."
+"ProjectLibre ist ein Projekt-Management-System, das anstrebt, ein "
+"vollständiger Desktop-Ersatz für Microsoft Project zu sein."
 
 #: en/business.html+html.body.div.div.table.tr.td:67
 msgid "projectlibre"
@@ -284,7 +282,7 @@ msgstr ""
 
 #: en/drivers.html+html.body.h1:9
 msgid "Hardware drivers"
-msgstr "Hardware Treiber"
+msgstr "Hardware-Treiber"
 
 #: en/drivers.html+html.body.div.div.p:13
 msgid ""
@@ -292,10 +290,9 @@ msgid ""
 "purposes these drivers suffice but in some cases better performance is "
 "provided by the proprietary drivers of the manufacturer."
 msgstr ""
-"SolydXK kommt mit einer Vielzahl von vorinstallierten Treibern. Für die "
-"meisten Zwecke sind diese Treiber ausreichend, aber in einigen Fällen kann "
-"eine bessere Leistung durch die proprietäre Treiber des Herstellers zur "
-"Verfügung erzielt werden."
+"SolydXK enthält eine Vielzahl von vorinstallierten Treibern, die für die "
+"meisten Zwecke ausreichen. In einigen Fällen können aber proprietäre Treiber "
+"des Herstellers eine bessere Leistung erzielen."
 
 #: en/drivers.html+html.body.div.div.p:14
 msgid ""
@@ -304,12 +301,11 @@ msgid ""
 "and list any available proprietary drivers you can install. You only need to "
 "select the recommended driver for your hardware and DDM will do the rest."
 msgstr ""
-"Ein Klick auf die Installation-Schaltfläche öffnet den Geräte-Treiber-"
-"Manager (DDM). Dieses Werkzeug soll dabei behilflich sein, Hardware-Treiber "
-"zu installieren. Es wird Ihre Hardware zu überprüfen und eine Liste alle "
-"verfügbaren und installierbaren proprietären Treiber ausgeben. Sie müssen "
-"nur die empfohlenen Treiber für Ihre Hardware auszuwählen und DDM wird den "
-"Rest erledigen."
+"Wenn Sie \"Installieren\" auswählen, startet der Device Driver Manager "
+"(DDM), der bei der Installation von Hardware-Treibern hilft. Er überprüft "
+"die Hardware und erzeugt eine Liste aller verfügbaren und geeigneten "
+"proprietären Treiber. Nach Auswahl der für Ihre Hardware empfohlenen Treiber "
+"erledig DDM den Rest."
 
 #: en/drivers.html+html.body.div.div.p:15
 msgid ""
@@ -317,9 +313,9 @@ msgid ""
 "<strong>Broadcom</strong> drivers can be installed. DDM also allows to "
 "install the <strong>PAE</strong> kernel for multi-core 32-bit systems."
 msgstr ""
-"Derzeit können <strong>Nvidia</strong>, <strong>ATI</strong> and "
+"Derzeit können <strong>Nvidia</strong>, <strong>ATI</strong> und "
 "<strong>Broadcom</strong> Treiber installiert werden. DDM erlaubt es auch, "
-"den<strong> PAE </ strong> Kernel für Multi-Core 32-Bit-Systemen zu "
+"den<strong> PAE </ strong> Kernel für Multi-Core 32-Bit-Systeme zu "
 "installieren."
 
 #: en/games.html+html.body.h1:10
@@ -328,16 +324,16 @@ msgstr "Spiele"
 
 #: en/games.html+html.body.div.div.table.tr.td.p:17
 msgid "All work and no play..."
-msgstr "Alle funktionieren und kein Spiel..."
+msgstr "Nur Arbeit und kein Spiel..."
 
 #: en/games.html+html.body.div.div.table.tr.td.p:18
 msgid ""
 "When you click the install button all listed games are going to be installed "
 "on your system. You can use the software manager to install them separately."
 msgstr ""
-"Wenn Sie den Installationsschaltfläche anklicken, werden alle "
-"aufgeführtenSpiele auf Ihrem System installiert. Sie können den Software "
-"Manager benutzen, um diese gesondert zu installieren."
+"Wenn Sie \"Installieren\" auswählen, werden alle aufgeführten Spiele auf "
+"Ihrem System installiert. Einzeln können sie mit dem Software Manager "
+"installiert werden."
 
 #: en/games.html+html.body.div.div.table.tr.td:21
 msgid "Steam"
@@ -349,9 +345,9 @@ msgid ""
 "(DRM), multiplayer, and social networking platform developed by Valve "
 "Corporation."
 msgstr ""
-"Steam ist eine internetbasierte digitale Distribution, Verwaltung digitaler "
-"Rechte (DRM), Multiplayer-und Social-Networking-Plattform, die von der Valve "
-"Corporation entwickelt wurde."
+"Steam ist eine internetbasierte digitale Spiele-Plattform der Valve "
+"Corporation für Distribution, Verwaltung digitaler Rechte (DRM-), "
+"Multiplayer und Soziale Vernetzung."
 
 #: en/games.html+html.body.div.div.table.tr.td:26
 msgid "steam"
@@ -378,8 +374,8 @@ msgid ""
 "Minetest is an infinite-world block sandbox game and a game engine, inspired "
 "by InfiniMiner, Minecraft and the like."
 msgstr ""
-"Minetest ist eine unendliche Welt Block Sandbox-Spiel und ein Spiel-Engine, "
-"inspiriert von InfiniMiner, Minecraft und dergleichen."
+"Minetest ist ein Sandbox-Spiel mit einer unendlichen Welt aus Blöcken und "
+"eine Spiel-Engine, inspiriert von InfiniMiner, Minecraft und ahnlichem."
 
 #: en/games.html+html.body.div.div.table.tr.td:39
 msgid "minetest"
@@ -409,12 +405,11 @@ msgid ""
 "civilization, you must gather the resources you need to raise a military "
 "force and dominate your enemies."
 msgstr ""
-"0 AD (ausgesprochen \"zero-ey-dee\") ist ein freies, Open-Source, "
-"historische Echtzeit-Strategie (RTS) Spiel derzeit in der Entwicklung von "
+"0 AD (ausgesprochen \"zero-ey-dee\") ist ein freies, quelloffenes "
+"historisches Echtzeit-Strategie-Spiel (RTS), derzeit in der Entwicklung von "
 "Wildfire Games, einer weltweiten Gruppe von freiwilligen Spiele-Entwicklern. "
-"Als Anführer einer antiken Zivilisation, müssen Sie die Ressourcen sammeln, "
-"die Sie benötigen, um eine Militärmacht zu begründen und Ihre Feinde zu "
-"beherrschen."
+"Als Anführer einer antiken Zivilisation müssen Sie die nötigen Ressourcen "
+"sammeln, um eine Militärmacht zu begründen und Ihre Feinde zu beherrschen."
 
 #: en/games.html+html.body.div.div.table.tr.td:52
 msgid "0ad"
@@ -441,8 +436,8 @@ msgid ""
 "The Battle for Wesnoth is a turn-based tactical strategy game with a high "
 "fantasy theme."
 msgstr ""
-"Die Schlacht um Wesnoth ist ein rundenbasierte taktische Strategie-Spiel mit "
-"hohem Fantasy-Thema."
+"Die Schlacht um Wesnoth ist ein rundenbasiertes taktisches Strategie-Spiel "
+"mit Fantasy-Thema."
 
 #: en/games.html+html.body.div.div.table.tr.td.p:64
 msgid ""
@@ -452,12 +447,12 @@ msgid ""
 "specialists, and hand-pick a force with the right strengths to fight well on "
 "different terrains against all manner of opposition."
 msgstr ""
-"Bauen Sie eine große Armee, indem Sie nach und nach Rekruten in erprobten "
-"Veteranen verwandeln. In späteren Spielen, sammeln Sie Ihre härtesten "
-"Krieger und bilden eine tödliche Heer, dem sich niemand entgegenstellen "
-"kann! Wählen Sie Einheiten aus einem großen Pool von Spezialisten und "
-"stellen Sie eine handverlesene Truppe mit den richtigen Stärken zusammen, um "
-"gut auf verschiedenen Terrains gegen alle Arten von Opposition zu kämpfen."
+"Bauen Sie eine große Armee, in der Rekruten zu erprobte Veteranen werden. In "
+"späteren Spielen sammeln Sie Ihre härtesten Krieger und bilden ein tödliches "
+"Heer, dem sich niemand entgegenstellen kann! Wählen Sie Einheiten aus einem "
+"großen Angebot von Spezialisten und stellen Sie eine handverlesene Truppe "
+"mit den richtigen Stärken zusammen, um gut auf verschiedenen Terrains gegen "
+"alle Arten von Gegnern zu kämpfen."
 
 #: en/games.html+html.body.div.div.table.tr.td:66
 msgid "wesnoth"
@@ -493,9 +488,9 @@ msgid ""
 "deathmatch gameplay and also to allow map/geometry editing to be done "
 "cooperatively in-game."
 msgstr ""
-"Ähnlich wie beim ursprünglichen Cube läßt sich Spiels als Spaß- und "
-"Todesspielsystem alter Schule begreifen. Darüberhinaus erlaubt es eine "
-"kooperative Karten/Geometrie Bearbeitung."
+"Ähnlich wie das ursprüngliche Cube handelt es sich um ein Deathmatch alter "
+"Schule. Darüberhinaus erlaubt es eine kooperative Karten/Geometrie-"
+"Bearbeitung im Spiel."
 
 #: en/games.html+html.body.div.div.table.tr.td:80
 msgid "sauerbraten"
@@ -523,9 +518,9 @@ msgid ""
 "out. Neverball is part puzzle game, part action game, and entirely a test of "
 "skill."
 msgstr ""
-"Neigen Sie den Boden um einen Ball durch einen Hindernislauf zu rollen, "
-"bevor die Zeit abläuft. Neverball ist Teil Puzzle-Spiel, Teil-Action-Spiel, "
-"und im Ganzen ein Test Ihrer Geschicklichkeit."
+"Neigen Sie den Boden, um einen Ball durch einen Hindernislauf zu rollen, "
+"bevor die Zeit abläuft. Neverball ist teils Puzzle-Spiel, teils Action-"
+"Spiel, und testet Ihre Geschicklichkeit."
 
 #: en/games.html+html.body.div.div.table.tr.td:93
 msgid "neverball"
@@ -552,8 +547,8 @@ msgid ""
 "SuperTuxKart is a Free 3D kart racing game, with many tracks, characters and "
 "items for you to try. Have fun!"
 msgstr ""
-"SuperTuxKart ist ein kostenloses 3D-Kart-Rennspiel, bei dennen Sie viele "
-"Rennparcours, Figuren und Einzelteile ausprobieren können. Viel Spaß!"
+"SuperTuxKart ist ein quelloffenes 3D-Kart-Rennspiel, mit vielen "
+"Rennparcours, Figuren und Einzelteilen. Viel Spaß!"
 
 #: en/games.html+html.body.div.div.table.tr.td:106
 msgid "supertuxkart"
@@ -577,7 +572,7 @@ msgstr "Heimanwendungen"
 
 #: en/home.html+html.body.div.div.table.tr.td.p:17
 msgid "This is a list of recommended applications suited for home users."
-msgstr "Dies ist eine Liste der empfohlenen Anwendungen für Heimanwender."
+msgstr "Dies ist eine Liste geeigneter Anwendungen für Heimanwender."
 
 #: en/home.html+html.body.div.div.table.tr.td:21
 msgid "Gimp"
@@ -590,7 +585,7 @@ msgid ""
 "and image authoring."
 msgstr ""
 "GIMP ist ein Akronym für GNU Image Manipulation Program. Es ist ein frei "
-"verteilbared Programm für Aufgaben wie Foto-Retusche, Bildkomposition und "
+"verteilbares Programm für Aufgaben wie Foto-Retusche, Bildkomposition und "
 "Bildbearbeitung."
 
 #: en/home.html+html.body.div.div.table.tr.td.p:25
@@ -601,7 +596,7 @@ msgid ""
 msgstr ""
 "Es hat viele Funktionen. Es kann als ein einfaches Malprogramm, als hoch "
 "qualitatives Foto-Retusche-Programm, als Online-Batch-Verarbeitungssystem, "
-"als Massenproduktion Bild-Renderer, ein Bild-Format-Konverter, etc. "
+"als Bild-Renderer in Massenproduktion, als Bild-Format-Konverter, usw. "
 "verwendet werden"
 
 #: en/home.html+html.body.div.div.table.tr.td:27
@@ -627,10 +622,10 @@ msgid ""
 "its use of Scalable Vector Graphics (SVG), an open XML-based W3C standard, "
 "as the native format."
 msgstr ""
-"Inkscape ist ein Open-Source-Vektorgrafikeditor ähnlich wie Adobe "
+"Inkscape ist ein quelloffener Vektorgrafikeditor ähnlich wie Adobe "
 "Illustrator, Corel Draw, Freehand oder Xara X. Was Inkscape  von allen "
 "anderen unterscheide, ist die Verwendung von Scalable Vector Graphics (SVG), "
-"eine offene XML-basierte W3C-Standard, als das native Format ."
+"einem offenen XML-basierte W3C-Standard."
 
 #: en/home.html+html.body.div.div.table.tr.td:37
 msgid "inkscape"
@@ -652,7 +647,7 @@ msgstr "Shotwell / Digikam"
 msgid ""
 "Shotwell is an image organizer designed to provide personal photo management."
 msgstr ""
-"Shotwell ist ein Bildorganisationsprogramm,  entwickelt für Ihr persönliche "
+"Shotwell ist ein Bildorganisationsprogramm für Ihr persönliches "
 "Fotomanagement."
 
 #: en/home.html+html.body.div.div.table.tr.td.p:46
@@ -662,18 +657,18 @@ msgid ""
 "tagging. Its image editing features allow users to straighten, crop, "
 "eliminate red eye, and adjust levels and color balance."
 msgstr ""
-"Mit Shotwell können Sie Fotos und Videos von einer Digitalkamera direkt "
-"importieren. Shotwell sortiert automatisch Fotos und Videos nach Datum, und "
-"unterstützt Tagging. Seine Bildbearbeitungsfunktionen ermöglicht Benutzern "
-"Begradigungen, Zuschneidungen, sowie die Beseitigung roter Augen "
-"durchzuführen. Darüberhinaus lassen sich Ebenen und Farbbalance einstellen."
+"Shotwell kann Fotos und Videos von einer Digitalkamera direkt importieren. "
+"Es sortiert automatisch Fotos und Videos nach Datum, und unterstützt "
+"Tagging. Seine Bildbearbeitungsfunktionen ermöglichen Begradigungen, "
+"Zuschneiden, die Beseitigung roter Augen sowie die Einstellung von Ebenen "
+"und Farbbalance."
 
 #: en/home.html+html.body.div.div.table.tr.td.p:47
 msgid ""
 "For SolydK Digikam is installed. It has the same functionality as Shotwell"
 msgstr ""
-"Bei SolydK ist das Programm Digikam installiert. Es hat die gleiche "
-"Funktionalität wie Shotwell"
+"Bei SolydK ist Digikam installiert. Es hat die gleiche Funktionalität wie "
+"Shotwell"
 
 #: en/home.html+html.body.div.div.table.tr.td:49
 msgid "shotwell"
@@ -702,8 +697,7 @@ msgstr "Clementine / Amarok"
 #: en/home.html+html.body.div.div.table.tr.td.p:60
 msgid "Clementine is a modern music player and library organizer."
 msgstr ""
-"Clementine ist ein moderner Musikplayer und ein Organisationsprogramm für "
-"Musikdateien"
+"Clementine ist ein Musikplayer und Organisationsprogramm für Musikdateien."
 
 #: en/home.html+html.body.div.div.table.tr.td.p:61
 msgid ""
@@ -711,9 +705,9 @@ msgid ""
 "focusing on a fast and easy-to-use interface for searching and playing your "
 "music."
 msgstr ""
-"Clementine ist eine Multiplattform-Musik-Player. Es wird von Amarok 1.4 "
-"inspiriert, die sich auf eine schnelle und einfach zu bedienende "
-"Benutzeroberfläche für die Suche und Wiedergabe Ihrer Musik fokussierte."
+"Clementine ist ein Multiplattform-Musik-Player. Es ist von Amarok 1.4 "
+"inspiriert und konzentriert sich auf eine schnelle und einfach zu bedienende "
+"Benutzeroberfläche für die Suche und Wiedergabe Ihrer Musik."
 
 #: en/home.html+html.body.div.div.table.tr.td.p:62
 msgid ""
@@ -752,7 +746,7 @@ msgid ""
 "selection of modern, widely supported codecs."
 msgstr ""
 "Handbrake ist ein Werkzeug zum Konvertieren von Videos nahezu jeden Formates "
-"in eine eine Auswahl von modernen, weit unterstützten Codecs."
+"in eine eine Auswahl von modernen, weit verbreiteten Codecs."
 
 #: en/home.html+html.body.div.div.table.tr.td:77
 msgid "handbrake"
@@ -777,10 +771,10 @@ msgid ""
 "AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc...), and writes to "
 "Opus, Ogg Vorbis, FLAC, WAV, AAC, and MP3 files."
 msgstr ""
-"Soundconverter ist die führende Audio-Datei-Konverter. Er liest alles was "
+"Soundconverter ist der führende Audio-Datei-Konverter. Er liest alles was "
 "GStreamer lesen kann (Ogg Vorbis, AAC, MP3, FLAC, WAV, AVI, MPEG, MOV, M4A, "
-"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, etc ... ), und "
-"schreibt in Opus, Ogg Vorbis, FLAC, WAV, AAC und MP3-Dateien."
+"AC3, DTS, ALAC, MPC, Shorten, APE, SID, MOD, XM, S3M, usw.), und schreibt "
+"die Formate Opus, Ogg Vorbis, FLAC, WAV, AAC und MP3."
 
 #: en/home.html+html.body.div.div.table.tr.td:87
 msgid "soundconverter"
@@ -804,7 +798,7 @@ msgid ""
 "a clean codebase and a fantastic community."
 msgstr ""
 "Pitivi ist ein kostenloser Video-Editor mit einer schönen und intuitiven "
-"Benutzerschnittstelle, einer sauberen Codebasis und einer fantastische "
+"Benutzerschnittstelle, einer sauberen Codebasis und einer fantastischen "
 "Community."
 
 #: en/home.html+html.body.div.div.table.tr.td.p:96
@@ -843,8 +837,8 @@ msgid ""
 "Transmission is a BitTorrent client which features a simple interface on top "
 "of a cross-platform back-end."
 msgstr ""
-"Transmission ist ein BitTorrent-Client, der eine einfache Schnittstelle auf "
-"einem Cross-Plattform-Back-End anbietet."
+"Transmission ist ein BitTorrent-Client mit einer einfachen Schnittstelle auf "
+"einem Cross-Plattform-Back-End."
 
 #: en/home.html+html.body.div.div.table.tr.td.p:110
 msgid ""
@@ -889,11 +883,11 @@ msgid ""
 "if you are missing some features or you want LibreOffice to stay updated you "
 "can install LibreOffice from the backports repository."
 msgstr ""
-"SolydXK kommt mit der Libreoffice-Suite vorinstalliert. Ihre Stabilität und "
+"Die Libreoffice-Suiteiost in SolydXK vorinstalliert. Ihre Stabilität und "
 "Ausstattung ist für die meisten Menschen und vor allem für Unternehmen gut "
-"geeignet. Sollten Sie allerdingseinige Funktionen vermissen oder jeweils die "
-"aktuelleste Version vonLibreoffice verwenden, können Sie Libreoffice aus dem "
-"Backports-Repository installieren."
+"geeignet. Sollten Sie einige Funktionen vermissen oder jeweils die "
+"aktuelleste Version von Libreoffice verwenden wollen, können Sie Libreoffice "
+"aus den Backports-Paketquellen installieren."
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td.p:24
 msgid ""
@@ -908,9 +902,9 @@ msgid ""
 "Although you can run more up to date software using the backports "
 "repository, you introduce a greater risk of breakage doing so."
 msgstr ""
-"Sie können zwar auch darüberhinaus die jeweils neueste Software aus dem "
-"Backports-Repository installieren, jeoch erhöht sich dadurch das Risiko von "
-"Inkompatiblitäten."
+"Sie können zwar auch darüberhinaus die jeweils neueste Software aus den "
+"Backports-Paketquellen installieren, jeoch erhöht sich dadurch das Risiko "
+"von Inkompatiblitäten."
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td:30
 msgid ""
@@ -929,8 +923,8 @@ msgid ""
 "These multimedia codecs are not included by default for legal or security "
 "reasons."
 msgstr ""
-"Diese folgenden Multimedia-Codecs sind aus rechtlichen oder aus Gründen der "
-"Sicherheit nicht enthalten."
+"Die folgenden Multimedia-Codecs sind aus rechtlichen oder aus Gründen der "
+"Sicherheit nicht vorinstalliert."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td:18
 msgid "Flash"
@@ -957,7 +951,7 @@ msgid ""
 "Be aware that Flash is not Open Source. Some Flash content may harm your "
 "system."
 msgstr ""
-"Beachten Sie, dass Flash nicht Open Source ist. Einige Flash-Inhalte könnten "
+"Beachten Sie, dass Flash nicht quelloffen ist. Einige Flash-Inhalte könnten "
 "Ihr System beschädigen."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td:33
@@ -969,25 +963,25 @@ msgid ""
 "Most commercial DVDs are encrypted with CSS (the Content Scramble System), "
 "which attempts to restrict the software that can play a DVD."
 msgstr ""
-"Die meisten kommerziellen DVDs sind mit CSS (das Content Scramble System) "
-"verschlüsselt. um die Software welche für die  Wiedergabe einer DVD "
-"verantwortlich ist, in ihrem Funktionsumfang einzuschränken. "
+"Die meisten kommerziellen DVDs sind mit CSS (Content Scramble System) "
+"verschlüsselt. um die Software, die DVDs wiedergeben, in ihrem "
+"Funktionsumfang einzuschränken. "
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:37
 msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
 msgstr ""
-"In SolydXK sind die für das Abspielen dieser verschlüsselte DVDs notwendigen "
-"Pakete nicht vorinstalliert."
+"In SolydXK sind die für das Abspielen dieser verschlüsselten DVDs "
+"notwendigen Pakete nicht vorinstalliert."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:38
 msgid ""
 "By clicking the install button below the following packages will be "
 "installed on your system:"
 msgstr ""
-"Durch Anklicken der Installationschaltfläche unten werden die folgenden "
-"Pakete auf Ihrem System installiert werden:"
+"Wenn Sie \"Installieren\" auswählen, werden die folgenden Pakete auf Ihrem "
+"System installiert:"
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.ul.li:40
 msgid "libdvdcss2"
@@ -1006,8 +1000,8 @@ msgid ""
 "Check with your local laws to make sure usage of libdvdcss2 would be legal "
 "in your area."
 msgstr ""
-"Konsultieen Sie Ihre lokalen Gesetze, um sicherzustellen, dass die Nutzung "
-"von libdvdcss2 rechtmäßig ist."
+"Beachten Sie die lokalen Gesetze, um sicherzustellen, dass die Nutzung von "
+"libdvdcss2 bei Ihnen rechtmäßig ist."
 
 #: en/system.html+html.body.h1:10
 msgid "System applications"
@@ -1025,7 +1019,7 @@ msgid ""
 msgstr ""
 "GParted ist ein freier Partitioneditor zur grafischen Verwaltung Ihrer "
 "Festplattenpartitionen. Mit GParted können Sie Partitionen ohne Datenverlust "
-"kopieren und verschieben, sowie die Größe der Partitionen ändern."
+"kopieren und verschieben sowie ihre Größe ändern."
 
 #: en/system.html+html.body.div.div.table.tr.td:28
 msgid ""
@@ -1047,11 +1041,11 @@ msgid ""
 "allows additional guest operating systems, each known as a Guest OS, to load "
 "and run, each with its own virtual environment."
 msgstr ""
-"VirtualBox ist eine Allzweckvirtualisierer für x86-Hardware und ist auf "
-"Server-, Desktop- und Embedded-Einsatz ausgerichtet. Die VirtualBox Paket "
-"installiert sich auf einem vorhandenen Host-Betriebssystem als Anwendung. "
-"Diese Host-Anwendung ermöglicht den Start und die Ausführung zusätzlicher "
-"Gastbetriebssysteme, jedes mit seiner eigenen virtuellen Umgebung."
+"VirtualBox ist eine Virtualisierungsumgebung für x86-Hardware und ist auf "
+"Server-, Desktop- und Embedded-Einsatz ausgerichtet. Das Paket installiert "
+"sich auf einem vorhandenen Host-Betriebssystem als Anwendung, die dann den "
+"Start und die Ausführung zusätzlicher Gastbetriebssysteme ermöglicht, jedes "
+"mit seiner eigenen virtuellen Umgebung."
 
 #: en/system.html+html.body.div.div.table.tr.td:38
 msgid ""
@@ -1085,7 +1079,7 @@ msgstr ""
 
 #: en/welcome.html+html.body.h1:9
 msgid "Welcome to SolydXK"
-msgstr "Willkommen zu SolydXK"
+msgstr "Willkommen bei SolydXK"
 
 #: en/welcome.html+html.body.div.div.p:13
 msgid "Thank you for using SolydXK"
@@ -1097,7 +1091,7 @@ msgid ""
 "organizations and home users. Both SolydX and SolydK are based on Debian "
 "stable to ensure the greatest stability and security."
 msgstr ""
-"SolydXK ist ein Open Source Desktop-Betriebssystem für Unternehmen, "
+"SolydXK ist ein quelloffenes Desktop-Betriebssystem für Unternehmen, "
 "Organisationen und private Anwender. Sowohl SolydX und SolydK basieren auf "
 "Debian stable, um die größte Stabilität und Sicherheit zu gewährleisten."
 
@@ -1106,9 +1100,9 @@ msgid ""
 "Please, consider a donation. Your donation is very much appreciated, and "
 "ensures that we can continue improving SolydXK."
 msgstr ""
-"Bitte ziehen Sie eine Spende in Betracht. Ihre Spende ist uns in höchstem "
-"Maße willkommen und stellt sicher, dass wir weiter daran arbeiten können, "
-"SolydXK zu verbessern."
+"Bitte ziehen Sie eine Spende in Betracht. Ihre Spende ist Ausdruck Ihrer "
+"Wertschätzung für unsere Arbeit und stellt sicher, dass wir weiter daran "
+"arbeiten können, SolydXK zu verbessern."
 
 #: en/welcome.html+html.body.div.div.p:23
 msgid ""
@@ -1116,12 +1110,12 @@ msgid ""
 "which you can install in the next couple of pages."
 msgstr ""
 "Wir haben eine Liste empfohlener Software für Unternehmen und Heimanwender "
-"erstellt, die Sie während der nächsten paar Seiten installieren können."
+"erstellt, die Sie auf den nächsten Seiten installieren können."
 
 #: en/welcome.html+html.body.div.div.p:24
 msgid "Click on the <strong>Next</strong> button to get started."
 msgstr ""
-"Klicken Sie auf die <strong>nächste</strong> Schaltfläche, um zu beginnen."
+"Klicken Sie auf die <strong>Nächste</strong> Schaltfläche, um zu beginnen."
 
 #: en/welcome.html+html.body.div.div.table.tr.td:26
 msgid "Software"
@@ -1135,12 +1129,11 @@ msgid ""
 "web sites. You simply search and install the software you need with the "
 "Software Manager."
 msgstr ""
-"Die gesamte Software wird gebaut, gewartet und von der Gemeinschaft "
-"überprüft. Software Datenbanken namens \"Repositories\" werden verwendet, um "
-"mehr als 60.000 Software-Pakete anzubieten und zu pflegen. Insofern gibt es "
-"keine Notwendigkeit, Software von zweifelhaften Websites herunterzuladen. "
-"Sie suchen und installieren einfach die benötigte Software mit der Software-"
-"Manager."
+"All diese Software wird von einer Gemeinschaft engagierter Menschen erstellt "
+"und gewartet. Software-Datenbanken namens \"Repositories\" enthalten die "
+"Paketquellen für mehr als 60.000 Software-Pakete. Deshalb ist es nicht "
+"notwendig, Software von zweifelhaften Websites herunterzuladen. Sie suchen "
+"und installieren einfach die benötigte Software mit der Software-Manager."
 
 #: en/welcome.html+html.body.div.div.table.tr.td:29
 msgid "softwaremanager"
@@ -1157,9 +1150,9 @@ msgid ""
 "if your issue has already been solved or start a new topic to get help."
 msgstr ""
 "Wenn Sie neu bei SolydXK sind oder wenn Sie nicht weiterkommen, gibt es die "
-"SolydXK Community. Diese kann Ihnen dabei helfen, Ihr Problem zu lösen. Sie "
-"können die Forum-Suche nutzen, um herauszufinden, ob Ihr Problem bereits "
-"gelöst ist oder Sie starten ein neues Thema, um Hilfe zu erhalten."
+"SolydXK Community, die Ihnen helfen kann, Ihr Problem zu lösen. Sie können "
+"die Forum-Suche nutzen, um herauszufinden, ob Ihr Problem bereits gelöst ist "
+"oder Sie starten ein neues Thema mit der Bitte um Hilfe."
 
 #: en/welcome.html+html.body.div.div.table.tr.td:37
 msgid "forum"
@@ -1178,8 +1171,8 @@ msgid ""
 "The following channels are used to communicate to the SolydX and SolydK "
 "users:"
 msgstr ""
-"Folgende Kanäle werden verwendet, um auf mit den SolydX und SolydK "
-"Mitglieder Kontakt aufzunehmen:"
+"Es gibt folgende Möglichkeiten, um mit anderen SolydX- und SolydK-Benutzern "
+"Kontakt aufzunehmen:"
 
 #: en/welcome.html+html.body.div.div.table.tr.td.ul.li:46
 msgid ""
@@ -1238,12 +1231,11 @@ msgid ""
 "software, you can install it using PlayOnLinux. Not all software can run "
 "this way, but a large number of software is already supported."
 msgstr ""
-"SolydXK kommt mit einer Vielzahl von Softwareprogrammen. Sollten Sie jedoch "
-"die richtige Software in unserem Repository nicht finden können und Sie MS "
-"Windows-Software verwenden müssen, dann können Sie diese Programmen mit "
-"PlayOnLinux installieren. Nicht alle Software kann auf diese Weise "
-"ausgeführt werden, aber eine große Anzahl von Software wird bereits "
-"unterstützt."
+"SolydXK enthält eine Vielzahl von Programmen. Sollten Sie jedoch in den "
+"Paketquellen nicht das richtige finden, können Sie auch MS Windows-Software "
+"mit Hilfe von Wine und PlayOnLinux installieren. Eine große Anzahl von "
+"Software wird bereits unterstützt, aber dennoch funktioniert das nicht "
+"immer.."
 
 #: en/wine.html+html.body.div.div.table.tr.td.p:24
 msgid ""
@@ -1251,9 +1243,9 @@ msgid ""
 "#msoffice\" target=\"_blank\">installing MS Office 2010 with PlayOnLinux</a> "
 "on our web site."
 msgstr ""
-"Sie können sich eine Anleitung auf <a href=\"http://solydxk.com/get-support/"
-"tutorials/#msoffice\" target=\"_blank\">mit dem Namen Installation von MS "
-"Office 2010 mit PlayOnLinux</a> auf unserer Webseite ansehen."
+"Sie können sich eine Anleitung zur <a href=\"http://solydxk.com/get-support/"
+"tutorials/#msoffice\" target=\"_blank\">Installation von MS Office 2010 mit "
+"PlayOnLinux</a> auf unserer Webseite ansehen."
 
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:26
 msgid ""
@@ -1262,13 +1254,13 @@ msgid ""
 "MS Windows."
 msgstr ""
 "Durch die Nutzung dieser Software können Sie Ihr System anfällig für MS "
-"Windows Viren und Malware zu machen. Das Infektionsrisiko ist nicht höher "
-"als das unter einem nativen MS Windows."
+"Windows Viren und Malware zu machen. Das Infektionsrisiko ist aber nicht "
+"höher als das unter einem nativen MS Windows."
 
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:27
 msgid "Make sure you install software from trusted parties only."
 msgstr ""
-"Stellen Sie sicher, dass Sie Software nur von vertrauenswürdigen Quellen "
+"Stellen Sie sicher, dass Sie Software nur aus vertrauenswürdigen Quellen "
 "installieren."
 
 #: en/wine.html+html.body.div.div.table.tr.td.div.p:28
