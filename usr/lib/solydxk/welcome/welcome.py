@@ -5,7 +5,7 @@ import gi
 gi.require_version('Gtk', '3.0')
 
 # from gi.repository import Gtk, GdkPixbuf, GObject, Pango, Gdk, GLib
-from gi.repository import Gtk, Gdk, GObject, GLib
+from gi.repository import Gtk, Gdk, GObject
 from os.path import join, abspath, dirname, basename, exists, isdir
 from utils import ExecuteThreadedCommands, hasInternetConnection, \
                   getoutput, get_architecture
@@ -18,9 +18,6 @@ from queue import Queue
 import gettext
 from gettext import gettext as _
 gettext.textdomain('solydxk-welcome')
-
-# Need to initiate threads for Gtk
-GObject.threads_init()
 
 
 #class for the main window
@@ -227,7 +224,7 @@ class SolydXKWelcome(object):
             t.daemon = True
             t.start()
             self.queue.join()
-            GLib.timeout_add(250, self.check_thread, name)
+            GObject.timeout_add(250, self.check_thread, name)
 
         except Exception as detail:
             MessageDialogSafe(self.btnInstall.get_label(), detail, Gtk.MessageType.ERROR, self.window).show()

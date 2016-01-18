@@ -6,7 +6,7 @@ gi.require_version('Gtk', '3.0')
 
 import sys
 sys.path.insert(1, '/usr/lib/solydxk/welcome')
-from gi.repository import Gtk
+from gi.repository import Gtk, GObject
 from welcome import SolydXKWelcome
 from utils import getoutput
 import os
@@ -105,6 +105,11 @@ sys.excepthook = uncaught_excepthook
 if __name__ == "__main__":
     # Create an instance of our GTK application
     try:
+        # Calling GObject.threads_init() is not needed for PyGObject 3.10.2+
+        # Check with print (sys.version)
+        # Debian Jessie: 3.4.2
+        GObject.threads_init()
+
         SolydXKWelcome()
         Gtk.main()
     except KeyboardInterrupt:

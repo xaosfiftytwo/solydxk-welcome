@@ -5,7 +5,6 @@ import urllib.request
 import urllib.error
 import re
 import threading
-from gi.repository import GObject
 
 
 def shell_exec_popen(command, kwargs={}):
@@ -102,23 +101,26 @@ def get_architecture():
     return ''
 
 
-# Need to initiate threads for Gtk
-GObject.threads_init()
-
-
 # Class to run commands in a thread and return the output in a queue
 class ExecuteThreadedCommands(threading.Thread):
 
-    def __init__(self, commandList, theQueue, returnOutput=False):
+    def __init__(self, commandList, theQueue=None, returnOutput=False):
         super(ExecuteThreadedCommands, self).__init__()
         self.commands = commandList
         self.queue = theQueue
         self.returnOutput = returnOutput
 
     def run(self):
-        for cmd in self.commands:
-            if self.returnOutput:
-                ret = getoutput(cmd)
-            else:
-                ret = shell_exec(cmd)
+        if isinstance(self.commands, (list, tuple)):
+            for cmd in self.commands:
+                self.exec_cmd(cmd)
+        else:
+            self.exec_cmd(self.commands)
+
+    def exec_cmd(self, cmd):
+        if self.returnOutput:
+            ret = getoutput(cmd)
+        else:
+            ret = shell_exec(cmd)
+        if self.queue is not None:
             self.queue.put(ret)

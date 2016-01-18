@@ -6,9 +6,11 @@ Build-Depends: debhelper (>= 9)
   , python3 (>= 3.2)
   , po4a
   , intltool
+  , transifex-client
+  , translate-toolkit
 X-Python3-Version: >= 3.2
-Standards-Version: 3.9.5
-Vcs-Git: git://github.com/solydxk/solydxk-welcome.git
+Standards-Version: 3.9.6
+Vcs-Git: git@github.com:SolydXK/solydxk-welcome.git
 Vcs-Browser: https://github.com/solydxk/solydxk-welcome
 
 Package: solydxk-welcome

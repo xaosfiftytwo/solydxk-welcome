@@ -1,3 +1,15 @@
+solydxk-welcome (1.1.7) solydxk; urgency=low
+
+  * Updated translations
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 18 Jan 2016 18:00:00 +0100
+
+solydxk-welcome (1.1.6) solydxk; urgency=low
+
+  * Updated translations
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 11 Dec 2015 10:00:00 +0100
+
 solydxk-welcome (1.1.4) solydxk; urgency=low
 
   * Skip some pages for armhf architecture

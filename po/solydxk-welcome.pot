@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-07 10:58+0100\n"
+"POT-Creation-Date: 2016-01-18 17:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,57 +17,57 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:82
+#: ../usr/lib/solydxk/welcome/welcome.py:79
 #: ../usr/lib/solydxk/welcome/main.py:39
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:83
+#: ../usr/lib/solydxk/welcome/welcome.py:80
 msgid "Install"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:84
+#: ../usr/lib/solydxk/welcome/welcome.py:81
 msgid "Quit"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:85
+#: ../usr/lib/solydxk/welcome/welcome.py:82
 msgid "Next"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:86
+#: ../usr/lib/solydxk/welcome/welcome.py:83
 msgid "Previous"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:127
+#: ../usr/lib/solydxk/welcome/welcome.py:124
 msgid "No internet connection"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:128
+#: ../usr/lib/solydxk/welcome/welcome.py:125
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:136
+#: ../usr/lib/solydxk/welcome/welcome.py:133
 msgid "Please enter your password"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:146
+#: ../usr/lib/solydxk/welcome/welcome.py:143
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:207
+#: ../usr/lib/solydxk/welcome/welcome.py:204
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
 "Visit our forum for support: http://forums.solydxk.com"
 msgstr ""
 
-#: ../usr/lib/solydxk/welcome/welcome.py:215
+#: ../usr/lib/solydxk/welcome/welcome.py:212
 msgid "The software has been successfully installed."
 msgstr ""
 

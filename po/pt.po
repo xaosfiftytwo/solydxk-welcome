@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-07 10:58+0100\n"
-"PO-Revision-Date: 2015-11-19 22:17+0000\n"
+"POT-Creation-Date: 2016-01-18 17:48+0100\n"
+"PO-Revision-Date: 2015-12-14 15:42+0000\n"
 "Last-Translator: Luis Filipe Teixeira <lufilte@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/solydxk/solydxk-welcome/"
 "language/pt/)\n"
@@ -20,47 +20,47 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:82
+#: ../usr/lib/solydxk/welcome/welcome.py:79
 #: ../usr/lib/solydxk/welcome/main.py:39
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:2
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:1
 msgid "SolydXK Welcome"
 msgstr "Bem-vindo ao SolydXK"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:83
+#: ../usr/lib/solydxk/welcome/welcome.py:80
 msgid "Install"
 msgstr "Instalar"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:84
+#: ../usr/lib/solydxk/welcome/welcome.py:81
 msgid "Quit"
 msgstr "Sair"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:85
+#: ../usr/lib/solydxk/welcome/welcome.py:82
 msgid "Next"
 msgstr "Seguinte"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:86
+#: ../usr/lib/solydxk/welcome/welcome.py:83
 msgid "Previous"
 msgstr "Anterior"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:127
+#: ../usr/lib/solydxk/welcome/welcome.py:124
 msgid "No internet connection"
 msgstr "Sem ligação à Internet"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:128
+#: ../usr/lib/solydxk/welcome/welcome.py:125
 msgid ""
 "You need an internet connection to install the additional software.\n"
 "Please, connect to the internet and try again."
 msgstr ""
 "Você vai precisar de uma ligação à Internet, para instalar o software "
 "adicional.\n"
-"Por favor, ligue-se à internet e tente novamente."
+"Por favor, ligue a internet e tente novamente."
 
-#: ../usr/lib/solydxk/welcome/welcome.py:136
+#: ../usr/lib/solydxk/welcome/welcome.py:133
 msgid "Please enter your password"
 msgstr "Por favor introduza a sua senha"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:146
+#: ../usr/lib/solydxk/welcome/welcome.py:143
 msgid ""
 "Cannot install the requested software:\n"
 "Script not found: {}"
@@ -68,7 +68,7 @@ msgstr ""
 "Não é possível instalar o software solicitado:\n"
 "O script não foi encontrado: {}"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:207
+#: ../usr/lib/solydxk/welcome/welcome.py:204
 msgid ""
 "There was an error during the installation.\n"
 "Please, run 'sudo apt-get -f install' in a terminal.\n"
@@ -78,7 +78,7 @@ msgstr ""
 "Por favor, execute 'sudo apt-get -f install' num terminal.\n"
 "Visite o nosso fórum para suporte: http://forums.solydxk.com"
 
-#: ../usr/lib/solydxk/welcome/welcome.py:215
+#: ../usr/lib/solydxk/welcome/welcome.py:212
 msgid "The software has been successfully installed."
 msgstr "O software foi instalado com sucesso."
 
@@ -88,9 +88,9 @@ msgid ""
 "You can use the --force argument to start SolydXK Welcome in a live "
 "environment"
 msgstr ""
-"As boas-vindas do SolydXK não pode ser iniciado num ambiente em Live\n"
-"Você pode usar o argumento --force para começar as Boas-vindas do SolydXK "
-"num ambiente em Live"
+"O Bem-vindo do SolydXK não pode ser iniciado num ambiente em Live\n"
+"Você pode usar o argumento --force para começar o Bem-vindo do SolydXK num "
+"ambiente em Live"
 
 #: ../usr/lib/solydxk/welcome/main.py:96
 msgid "Unexpected error"
@@ -101,7 +101,7 @@ msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"
 msgstr ""
-"As Boas-vindas ao SolydXK falhou com o seguinte erro inesperado.\n"
+"O Bem-vindo do SolydXK falhou com o seguinte erro inesperado.\n"
 "Por favor envie um relatório de erro!"
 
 #: ../usr/share/applications/solydxk-welcome.desktop.in.h:1
@@ -110,7 +110,7 @@ msgstr "Bem-vindo"
 
 #: ../etc/xdg/autostart/solydxk-welcome.desktop.in.h:2
 msgid "SolydXK Welcome Screen"
-msgstr "Tela de boas vindas do Solydxk"
+msgstr "Ecrã de Bem-vindo do Solydxk"
 
 #: en/business.html+html.body.h1:10
 msgid "Business applications"
@@ -119,7 +119,7 @@ msgstr "Aplicativos de negócios"
 #: en/business.html+html.body.div.div.table.tr.td.p:18
 msgid "This is a list of recommended applications suited for businesses."
 msgstr ""
-"Esta é uma lista de aplicativos recomendados adequados para as empresas."
+"Esta é uma lista de aplicativos recomendados e adequados para as empresas."
 
 #: en/business.html+html.body.div.div.table.tr.td.p:19
 #: en/home.html+html.body.div.div.table.tr.td.p:18
@@ -131,7 +131,7 @@ msgid ""
 "installed on your system. You can use the software manager to install them "
 "separately."
 msgstr ""
-"Quando você clica no botão instalar todos os aplicativos listados serão "
+"Quando você clica no botão instalar, todos os aplicativos listados serão "
 "instalados no seu sistema. Você pode usar o gestor de software para instalá-"
 "los separadamente."
 
@@ -180,9 +180,8 @@ msgid ""
 "business (contacts, invoices, orders, products, stocks, agenda, emailings, "
 "etc...)."
 msgstr ""
-"Dolibarr ERP e CRM é um software moderno e fácil de usar web para gerar os "
-"seus negócios (contatos, faturas, encomendas, produtos, stocks, agenda, "
-"emailings, etc ...)."
+"Dolibarr ERP & CRM é um programa da Web moderno e fácil de utilizar para a "
+"sua empresa (contactos, faturas, encomendas, stocks, agenda, etc...)."
 
 #: en/business.html+html.body.div.div.table.tr.td.p:37
 msgid ""
@@ -194,7 +193,7 @@ msgstr ""
 
 #: en/business.html+html.body.div.div.table.tr.td.ul.li:39
 msgid "Password for Dolibarr database owner: dolibarr"
-msgstr "Senha para o proprietário da base de dados Dolibarr: Dolibarr"
+msgstr "Senha para o proprietário da base de dados Dolibarr: dolibarr"
 
 #: en/business.html+html.body.div.div.table.tr.td.ul.li:40
 msgid "Superuser access: root / your_root_password"
@@ -202,7 +201,7 @@ msgstr "Acesso de super-utilizador: root / your_root_password"
 
 #: en/business.html+html.body.div.div.table.tr.td.ul.li:41
 msgid "Dolibarr admin login : admin / admin"
-msgstr "Dolibarr administrador login : admin / admin"
+msgstr "Dolibarr login de administrador : admin / admin"
 
 #: en/business.html+html.body.div.div.table.tr.td.p:43
 msgid "Replace \"your_root_password\" with your root password."
@@ -218,7 +217,7 @@ msgid ""
 "dolibarr.org</a>"
 msgstr ""
 "Página inicial: <a href=\"http://www.dolibarr.org/\" target=\"_blank"
-"\">http://www.dolibarr.org</a>"
+"\">http://www.dolibarr.pt</a>"
 
 #: en/business.html+html.body.div.div.table.tr.td:50
 msgid "Letodms"
@@ -268,8 +267,8 @@ msgid ""
 "ProjectLibre is a project management software system. It intends to be a "
 "complete desktop replacement for Microsoft Project."
 msgstr ""
-"Projectlibre é um sistema de software de gestão de projetos. Ele pretende "
-"ser um substituto de desktop completo para Microsoft Project."
+"ProjectLibre é um sistema de software de gestão de projetos. Ele pretende "
+"ser um substituto completo em área de trabalho para Microsoft Project."
 
 #: en/business.html+html.body.div.div.table.tr.td:67
 msgid "projectlibre"
@@ -304,11 +303,11 @@ msgid ""
 "and list any available proprietary drivers you can install. You only need to "
 "select the recommended driver for your hardware and DDM will do the rest."
 msgstr ""
-"O botão de instalação irá abrir o Gestor de drivers de dispositivo (DDM). "
+"O botão de instalação irá abrir o Gestor de Drivers de Dispositivo (GDD). "
 "Esta é uma ferramenta para ajudar você a instalar esses drivers de hardware. "
 "Ele irá verificar o seu hardware e lista todos os drivers proprietários "
 "disponíveis que você pode instalar. Você só precisa selecionar o driver "
-"recomendado para seu hardware e DDM fará o resto."
+"recomendado para seu hardware e GDD fará o resto."
 
 #: en/drivers.html+html.body.div.div.p:15
 msgid ""
@@ -317,7 +316,7 @@ msgid ""
 "install the <strong>PAE</strong> kernel for multi-core 32-bit systems."
 msgstr ""
 "Actualmente <strong> Nvidia </ strong>, <strong> ATI </ strong> e <strong> "
-"Broadcom </ strong> drivers podem ser instalados. DDM também permite "
+"Broadcom </ strong> drivers podem ser instalados. GDD também permite "
 "instalar o <strong> PAE </ strong> kernel para sistemas multi-core de 32 "
 "bits."
 
@@ -327,7 +326,7 @@ msgstr "Jogos"
 
 #: en/games.html+html.body.div.div.table.tr.td.p:17
 msgid "All work and no play..."
-msgstr "Todo o trabalho e nenhum jogo ..."
+msgstr "Só trabalho e nenhuma diversão..."
 
 #: en/games.html+html.body.div.div.table.tr.td.p:18
 msgid ""
@@ -377,8 +376,8 @@ msgid ""
 "Minetest is an infinite-world block sandbox game and a game engine, inspired "
 "by InfiniMiner, Minecraft and the like."
 msgstr ""
-"Minetest é um jogo sandbox fechado de um mundo infinito e um motor de jogo, "
-"inspirado por Infiniminer, Minecraft e similares."
+"Minetest é um jogo de sandbox bloco infinito-mundo e um motor de jogo, "
+"inspirado por InfiniMiner, Minecraft e afins."
 
 #: en/games.html+html.body.div.div.table.tr.td:39
 msgid "minetest"
@@ -408,10 +407,10 @@ msgid ""
 "civilization, you must gather the resources you need to raise a military "
 "force and dominate your enemies."
 msgstr ""
-"0 AD (pronuncia-se \"zero-ey dee\") é um jogo histórico gratuito, open-"
-"source, Real Time Strategy (RTS), atualmente em desenvolvimento pela "
-"Wildfire Games, um grupo global de desenvolvedores de jogos voluntário. Como "
-"o líder de uma civilização antiga, você deve reunir os recursos necessários "
+"0 AD (pronuncia-se \"zero-ey dee\") é um jogo histórico gratuito, código-"
+"aberto, Estratégia em Tempo Real (RTS), atualmente em desenvolvimento pela "
+"Wildfire Games, um grupo global de programadores de jogos voluntário. Como o "
+"líder de uma civilização antiga, você deve reunir os recursos necessários "
 "para levantar uma força militar e dominar seus inimigos."
 
 #: en/games.html+html.body.div.div.table.tr.td:52
@@ -439,8 +438,8 @@ msgid ""
 "The Battle for Wesnoth is a turn-based tactical strategy game with a high "
 "fantasy theme."
 msgstr ""
-"The Battle for Wesnoth é um jogo tático de estratégia baseado em turnos com "
-"um tema de alta fantasia."
+"The Battle for Wesnoth é um jogo tático de estratégia com base em um tema de "
+"alta fantasia."
 
 #: en/games.html+html.body.div.div.table.tr.td.p:64
 msgid ""
@@ -662,7 +661,7 @@ msgid ""
 "tagging. Its image editing features allow users to straighten, crop, "
 "eliminate red eye, and adjust levels and color balance."
 msgstr ""
-"Shotwell pode importar fotos e vídeos de uma câmera digital diretamente. "
+"Shotwell pode importar fotos e vídeos diretamente de uma câmera digital. "
 "Shotwell agrupa automaticamente as fotos e vídeos por data, e suporta "
 "etiquetagem. Seus recursos de edição de imagens permitem aos utilizadores "
 "endireitar, cortar, eliminar olhos vermelhos e ajustar os níveis e "
@@ -692,7 +691,7 @@ msgid ""
 "Homepage Digikamm: <a href=\"https://www.digikam.org/\" target=\"_blank"
 "\">https://www.digikam.org</a>"
 msgstr ""
-"Página inicial do Digikamm: <a href=\"https://www.digikam.org/\" target="
+"Página inicial do Digikam: <a href=\"https://www.digikam.org/\" target="
 "\"_blank\">https://www.digikam.org</a>"
 
 #: en/home.html+html.body.div.div.table.tr.td:57
@@ -888,7 +887,7 @@ msgid ""
 msgstr ""
 "SolydXK vem com a suíte LibreOffice pré-instalada. A sua estabilidade e "
 "características funciona muito bem para a maioria das pessoas e "
-"especialmente, para as empresas. No entanto, se você está faltando alguns "
+"especialmente, para as empresas. No entanto, se lhe está faltando alguns "
 "recursos ou você quer o LibreOffice para se manter atualizado você pode "
 "instalar o LibreOffice a partir do repositório backports."
 
@@ -906,7 +905,8 @@ msgid ""
 "repository, you introduce a greater risk of breakage doing so."
 msgstr ""
 "Embora você possa executar mais atualizações de software usando o "
-"repositório backports, você introduzir um maior risco de quebra ao fazê-lo."
+"repositório backports, você irá introduzir um maior risco de quebra ao fazê-"
+"lo."
 
 #: en/libreoffice.html+html.body.div.div.table.tr.td:30
 msgid ""
@@ -941,8 +941,8 @@ msgid ""
 "Youtube and other sites are already providing their content using HTML5. "
 "However, there are still sites using Flash."
 msgstr ""
-"Youtube e outros sites já estão fornecendo seu conteúdo usando HTML5. No "
-"entanto, ainda existem sites que usam Flash."
+"Youtube e outros sitios já estão a fornecer conteúdo usando HTML5. No "
+"entanto, ainda existem sitios que usam Flash."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.div.p:28
 msgid "Warning:"
@@ -953,7 +953,7 @@ msgid ""
 "Be aware that Flash is not Open Source. Some Flash content may harm your "
 "system."
 msgstr ""
-"Esteja ciente de que o Flash não é Open Source. Alguns conteúdos em Flash "
+"Esteja ciente de que o Flash não é Código Aberto. Alguns conteúdos em Flash "
 "podem danificar o seu sistema."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td:33
@@ -973,8 +973,8 @@ msgid ""
 "SolydXK does not come with the necessary packages pre-installed to play "
 "these encrypted DVDs."
 msgstr ""
-"Não SolydXK não vêm com os pacotes necessários pré-instalados para "
-"reproduzir esses DVDs encriptados."
+"SolydXK não vêm com os pacotes necessários pré-instalados para reproduzir "
+"esses DVDs encriptados."
 
 #: en/multimedia.html+html.body.div.div.table.tr.td.p:38
 msgid ""
@@ -1006,7 +1006,7 @@ msgstr ""
 
 #: en/system.html+html.body.h1:10
 msgid "System applications"
-msgstr "Aplicações do sistema"
+msgstr "Aplicações de sistema"
 
 #: en/system.html+html.body.div.div.table.tr.td:20
 msgid "Gparted"
@@ -1042,12 +1042,12 @@ msgid ""
 "allows additional guest operating systems, each known as a Guest OS, to load "
 "and run, each with its own virtual environment."
 msgstr ""
-"VirtualBox é um virtualizer completo de propósito geral para hardware x86, "
-"voltado para servidor, desktop e uso embutido. O pacote VirtualBox instala  "
-"num sistema operacional de host existente como um aplicativo; este "
-"aplicativo host permite que os sistemas operacionais convidados adicionais, "
-"cada um conhecido como um sistema operacional do cliente, para carregar e "
-"executar, cada um com seu próprio ambiente virtual."
+"VirtualBox é um virtualizador completo de proposta geral para hardware x86 e "
+"x64, voltado para servidor, ambiente de trabalho e uso embutido. O pacote "
+"VirtualBox instala-se  num sistema operativo anfitrião existente como um "
+"aplicativo; este aplicativo anfitrião permite que os adicionais sistemas "
+"operativos convidados, cada um conhecido como um sistema operativo cliente, "
+"para carregar e executar, cada um com seu próprio ambiente virtual."
 
 #: en/system.html+html.body.div.div.table.tr.td:38
 msgid ""
@@ -1067,9 +1067,9 @@ msgid ""
 "client with lots of useful features and an intuitive graphical user "
 "interface."
 msgstr ""
-"FileZilla FTP Client é um cross-plataforma rápida e confiável, FTPS e SFTP "
-"cliente com bastantes características úteis e uma interface de utilizador "
-"gráfica intuitiva."
+"FileZilla é um cliente FTP, FTPS e SFTP, multi-plataforma rápido e confiável "
+"com bastantes características úteis e uma interface de utilizador gráfica "
+"intuitiva."
 
 #: en/system.html+html.body.div.div.table.tr.td:48
 msgid ""
@@ -1094,15 +1094,16 @@ msgid ""
 "stable to ensure the greatest stability and security."
 msgstr ""
 "SolydXK é um sistema operativo de código aberto de ambiente de trabalho para "
-"empresas, organizações e utilizadores domésticos."
+"empresas, organizações e utilizadores domésticos. Ambos SolydX e SolydK são "
+"baseados em Debian estável o que garante uma grande estabilidade e segurança."
 
 #: en/welcome.html+html.body.div.div.p.table.tr.td.p:18
 msgid ""
 "Please, consider a donation. Your donation is very much appreciated, and "
 "ensures that we can continue improving SolydXK."
 msgstr ""
-"Por favor, considere uma doação. Sua doação é muito apreciada e assegura que "
-"possamos continuar a melhorar SolydXK."
+"Por favor, considere em fazer uma doação. A sua doação será muito apreciada "
+"e assegura que possamos continuar a melhorar SolydXK."
 
 #: en/welcome.html+html.body.div.div.p:23
 msgid ""
@@ -1114,7 +1115,7 @@ msgstr ""
 
 #: en/welcome.html+html.body.div.div.p:24
 msgid "Click on the <strong>Next</strong> button to get started."
-msgstr "Clique no butão <strong>Seguinte</strong> para começar."
+msgstr "Clique no botão <strong>Seguinte</strong> para começar."
 
 #: en/welcome.html+html.body.div.div.table.tr.td:26
 msgid "Software"
@@ -1129,14 +1130,14 @@ msgid ""
 "Software Manager."
 msgstr ""
 "Todo o software é construído, mantido e controlado pela comunidade. Base de "
-"dados de software chamados \"repositórios\" são usados para oferecer e "
+"dados de software chamados de \"repositórios\" são usados para oferecer e "
 "manter mais de 60.000 pacotes de software. Assim, não há necessidade de "
-"descarregar software a partir de sites duvidosos. Você simplesmente procura "
-"e instala o software que você precisa com o Gestor de Software."
+"descarregar software a partir de sitios duvidosos. Você simplesmente procura "
+"e instala o software que precisa com o Gestor de Software."
 
 #: en/welcome.html+html.body.div.div.table.tr.td:29
 msgid "softwaremanager"
-msgstr "Gestor de software"
+msgstr "gestordesoftware"
 
 #: en/welcome.html+html.body.div.div.table.tr.td:34
 msgid "Support"
@@ -1148,21 +1149,21 @@ msgid ""
 "community to help you solve your problem. You can search the forum to find "
 "if your issue has already been solved or start a new topic to get help."
 msgstr ""
-"Se você é novo para o SolydXK ou sempre que você ficar bloqueado, há a "
+"Se você é novo no SolydXK ou sempre que você ficar bloqueado, há a "
 "comunidade SolydXK para ajudá-lo a resolver o seu problema. Você pode "
 "procurar o fórum para descobrir se o problema já foi resolvido ou iniciar um "
 "novo tópico para obter ajuda."
 
 #: en/welcome.html+html.body.div.div.table.tr.td:37
 msgid "forum"
-msgstr "forum"
+msgstr "fórum"
 
 #: en/welcome.html+html.body.div.div.table.tr.td:40
 msgid ""
 "Forum: <a href=\"http://forums.solydxk.com/\" target=\"_blank\">http://"
 "forums.solydxk.com</a>"
 msgstr ""
-"Forum: <a href=\"http://forums.solydxk.com/\" target=\"_blank\">http://"
+"Fórum: <a href=\"http://forums.solydxk.com/\" target=\"_blank\">http://"
 "forums.solydxk.com</a>"
 
 #: en/welcome.html+html.body.div.div.table.tr.td.p:44
