@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Arjen Balfoort <schoelje@solydxk.com>, 2015
+# Arjen Balfoort <schoelje@solydxk.com>, 2015-2016
 # root <arjenbalfoort@solydxk.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-01-31 22:31+0100\n"
-"PO-Revision-Date: 2015-11-14 09:47+0000\n"
+"POT-Creation-Date: 2016-03-07 07:33+0100\n"
+"PO-Revision-Date: 2016-03-07 06:29+0000\n"
 "Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/solydxk/solydxk-welcome/"
 "language/nl/)\n"
@@ -399,7 +399,7 @@ msgstr "0 A.D."
 
 #: en/games.html+html.body.div.div.table.tr.td.p:50
 msgid ""
-"0 A.D. (pronounced “zero-ey-dee”) is a free, open-source, historical Real "
+"0 A.D. (pronounced \"zero-ey-dee\") is a free, open-source, historical Real "
 "Time Strategy (RTS) game currently under development by Wildfire Games, a "
 "global group of volunteer game developers. As the leader of an ancient "
 "civilization, you must gather the resources you need to raise a military "
