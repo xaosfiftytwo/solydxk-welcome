@@ -4,6 +4,13 @@ PCK='dolibarr phpmyadmin letodms projectlibre gnucash'
 
 # ====================================================
 
+# --force-yes is deprecated in stretch
+FORCE='--force-yes'
+VER=$(head -c 1 /etc/debian_version | sed 's/[a-zA-Z]/0/' 2>/dev/null || echo 0)
+if [ "$VER" -eq 0 ] || [ "$VER" -gt 8 ]; then
+  FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
+fi
+
 echo "Fix database when needed."
 # Fix before continuing
 if [ -f /usr/share/debconf/fix_db.pl ]; then
@@ -108,7 +115,7 @@ apt-get update
 echo
 echo "Start installing: $PCK"
 export DEBIAN_FRONTEND=gnome
-apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold --force-yes $PCK
+apt-get install --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $FORCE $PCK
 
 echo "Copy business software information to localhost..."
 IND='/var/www/html/index.html'

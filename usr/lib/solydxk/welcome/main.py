@@ -51,9 +51,18 @@ def isRunningLive():
     return False
 
 
+def isOEM():
+    if force:
+        return False
+    logged_user = getoutput("logname")[0]
+    if logged_user[-4:] == "-oem":
+        return True
+    return False
+
+
 # Check if we can start
 if autostart:
-    if os.path.isfile(flagPath) or isRunningLive():
+    if os.path.isfile(flagPath) or isRunningLive() or isOEM():
         sys.exit()
 
 

@@ -4,15 +4,15 @@
 #
 # Translators:
 # Arjen Balfoort <schoelje@solydxk.com>, 2016
-# Luis Filipe Teixeira <lufilte@gmail.com>, 2015
+# Luis Filipe Teixeira <lufilte@gmail.com>, 2015-2016
 # Nuno Duarte <inactive+nuno.passiano@transifex.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-07 07:33+0100\n"
-"PO-Revision-Date: 2016-03-07 06:32+0000\n"
-"Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
+"POT-Creation-Date: 2016-06-09 11:29+0200\n"
+"PO-Revision-Date: 2016-05-27 11:16+0000\n"
+"Last-Translator: Luis Filipe Teixeira <lufilte@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/solydxk/solydxk-welcome/"
 "language/pt/)\n"
 "Language: pt\n"
@@ -93,11 +93,11 @@ msgstr ""
 "Você pode usar o argumento --force para começar o Bem-vindo do SolydXK num "
 "ambiente em Live"
 
-#: ../usr/lib/solydxk/welcome/main.py:96
+#: ../usr/lib/solydxk/welcome/main.py:105
 msgid "Unexpected error"
 msgstr "Erro inesperado"
 
-#: ../usr/lib/solydxk/welcome/main.py:97
+#: ../usr/lib/solydxk/welcome/main.py:106
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"
@@ -408,10 +408,10 @@ msgid ""
 "civilization, you must gather the resources you need to raise a military "
 "force and dominate your enemies."
 msgstr ""
-"0 AD (pronuncia-se \"zero-ey dee\") é um jogo histórico gratuito, código-"
+"0 AD (pronuncia-se \"zero-ey dee\") é um jogo histórico gratuito, de código-"
 "aberto, Estratégia em Tempo Real (RTS), atualmente em desenvolvimento pela "
-"Wildfire Games, um grupo global de programadores de jogos voluntário. Como o "
-"líder de uma civilização antiga, você deve reunir os recursos necessários "
+"Wildfire Games, um grupo voluntário global de programadores de jogos. Como "
+"um líder de uma civilização antiga, você deve reunir os recursos necessários "
 "para levantar uma força militar e dominar seus inimigos."
 
 #: en/games.html+html.body.div.div.table.tr.td:52

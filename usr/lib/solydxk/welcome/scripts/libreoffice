@@ -4,6 +4,13 @@ PCK='libreoffice'
 
 # ===============================================================
 
+# --force-yes is deprecated in stretch
+FORCE='--force-yes'
+VER=$(head -c 1 /etc/debian_version | sed 's/[a-zA-Z]/0/' 2>/dev/null || echo 0)
+if [ "$VER" -eq 0 ] || [ "$VER" -gt 8 ]; then
+  FORCE='--allow-downgrades --allow-remove-essential --allow-change-held-packages'
+fi
+
 # Check if backports is enabled
 BP=$(grep backports /etc/apt/sources.list | grep -v ^# | awk '{print $3}')
 if [ "$BP" == "" ]; then
@@ -18,5 +25,5 @@ apt-get update
 echo
 echo "Start installing: $PCK"
 export DEBIAN_FRONTEND=gnome
-apt-get install -t $BP --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold --force-yes $PCK
+apt-get install -t $BP --assume-yes -o Dpkg::Options::=--force-confdef -o Dpkg::Options::=--force-confold $FORCE $PCK
 echo "Done"

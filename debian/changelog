@@ -1,3 +1,27 @@
+solydxk-welcome (1.2.5) solydxk; urgency=low
+
+  * Fix install scripts for Stretch
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 08 Jun 2016 11:33:59 +0200
+
+solydxk-welcome (1.2.4) solydxk; urgency=low
+
+  * Added libcups2:i386 to wine script
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sat, 28 May 2016 08:04:11 +0200
+
+solydxk-welcome (1.2.3) solydxk; urgency=low
+
+  * Updated wine script with libxft2:i386
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 10 Apr 2016 00:30:48 +0200
+
+solydxk-welcome (1.2.2) solydxk; urgency=low
+
+  * Skip auto-startup when running as OEM user
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 15 Mar 2016 10:21:17 +0100
+
 solydxk-welcome (1.2.1) solydxk; urgency=low
 
   * Flat logo in background information pages
