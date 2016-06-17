@@ -8,7 +8,7 @@ import sys
 sys.path.insert(1, '/usr/lib/solydxk/welcome')
 from gi.repository import Gtk, GObject
 from welcome import SolydXKWelcome
-from utils import getoutput
+from utils import getUserLoginName
 import os
 import getopt
 
@@ -54,9 +54,10 @@ def isRunningLive():
 def isOEM():
     if force:
         return False
-    logged_user = getoutput("logname")[0]
-    if logged_user[-4:] == "-oem":
-        return True
+    logged_user = getUserLoginName()
+    if len(logged_user) > 4:
+        if logged_user[-4:] == "-oem":
+            return True
     return False
 
 

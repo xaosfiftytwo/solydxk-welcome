@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-09 11:29+0200\n"
+"POT-Creation-Date: 2016-06-15 20:35+0200\n"
 "PO-Revision-Date: 2016-03-07 06:29+0000\n"
 "Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
 "Language-Team: Catalan (http://www.transifex.com/solydxk/solydxk-welcome/"
@@ -91,11 +91,11 @@ msgstr ""
 "No es pot engegar SolydXK Welcome en un entorn autònom\n"
 "Podeu usar l'argument --force per engegar-lo dins d'un entorn autònom."
 
-#: ../usr/lib/solydxk/welcome/main.py:105
+#: ../usr/lib/solydxk/welcome/main.py:106
 msgid "Unexpected error"
 msgstr "Error inesperat"
 
-#: ../usr/lib/solydxk/welcome/main.py:106
+#: ../usr/lib/solydxk/welcome/main.py:107
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"

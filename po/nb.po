@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: solydxk-welcome\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-09 11:29+0200\n"
+"POT-Creation-Date: 2016-06-15 20:35+0200\n"
 "PO-Revision-Date: 2016-03-07 06:31+0000\n"
 "Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/solydxk/solydxk-"
@@ -91,11 +91,11 @@ msgstr ""
 "Du kan bruke --force variabelen for å starte SolydXK Velkommen i et live-"
 "miljø"
 
-#: ../usr/lib/solydxk/welcome/main.py:105
+#: ../usr/lib/solydxk/welcome/main.py:106
 msgid "Unexpected error"
 msgstr "Uventet feil"
 
-#: ../usr/lib/solydxk/welcome/main.py:106
+#: ../usr/lib/solydxk/welcome/main.py:107
 msgid ""
 "SolydXK Welcome has failed with the following unexpected error.\n"
 "Please submit a bug report!"

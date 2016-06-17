@@ -5,6 +5,8 @@ import urllib.request
 import urllib.error
 import re
 import threading
+import os
+import pwd
 
 
 def shell_exec_popen(command, kwargs={}):
@@ -99,6 +101,16 @@ def get_architecture():
     if arch:
         return arch[0]
     return ''
+
+
+# Get the login name of the current user
+def getUserLoginName():
+    p = os.popen('logname', 'r')
+    userName = p.readline().strip()
+    p.close()
+    if userName == "":
+        userName = pwd.getpwuid(os.getuid()).pw_name
+    return userName
 
 
 # Class to run commands in a thread and return the output in a queue
